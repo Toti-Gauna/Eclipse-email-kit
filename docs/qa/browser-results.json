@@ -6,7 +6,7 @@
     "mode": "normal",
     "scroll": 320,
     "images": true,
-    "title": "\"Big Shoulders Display\", \"Arial Narrow\", Impact, Arial, sans-serif",
+    "title": "\"Instrument Serif\", Georgia, \"Times New Roman\", serif",
     "errors": []
   },
   {
@@ -16,7 +16,7 @@
     "mode": "normal",
     "scroll": 390,
     "images": true,
-    "title": "\"Big Shoulders Display\", \"Arial Narrow\", Impact, Arial, sans-serif",
+    "title": "\"Instrument Serif\", Georgia, \"Times New Roman\", serif",
     "errors": []
   },
   {
@@ -33,7 +33,7 @@
     "mode": "normal",
     "scroll": 1440,
     "images": true,
-    "title": "\"Big Shoulders Display\", \"Arial Narrow\", Impact, Arial, sans-serif",
+    "title": "\"Instrument Serif\", Georgia, \"Times New Roman\", serif",
     "errors": []
   },
   {
@@ -43,7 +43,7 @@
     "mode": "normal",
     "scroll": 320,
     "images": true,
-    "title": "Fraunces, Georgia, \"Times New Roman\", serif",
+    "title": "\"Instrument Serif\", Georgia, \"Times New Roman\", serif",
     "errors": []
   },
   {
@@ -53,7 +53,7 @@
     "mode": "normal",
     "scroll": 390,
     "images": true,
-    "title": "Fraunces, Georgia, \"Times New Roman\", serif",
+    "title": "\"Instrument Serif\", Georgia, \"Times New Roman\", serif",
     "errors": []
   },
   {
@@ -70,7 +70,7 @@
     "mode": "normal",
     "scroll": 1440,
     "images": true,
-    "title": "Fraunces, Georgia, \"Times New Roman\", serif",
+    "title": "\"Instrument Serif\", Georgia, \"Times New Roman\", serif",
     "errors": []
   },
   {
@@ -80,7 +80,7 @@
     "mode": "normal",
     "scroll": 320,
     "images": true,
-    "title": "Newsreader, Georgia, \"Times New Roman\", serif",
+    "title": "\"Instrument Serif\", Georgia, \"Times New Roman\", serif",
     "errors": []
   },
   {
@@ -90,7 +90,7 @@
     "mode": "normal",
     "scroll": 390,
     "images": true,
-    "title": "Newsreader, Georgia, \"Times New Roman\", serif",
+    "title": "\"Instrument Serif\", Georgia, \"Times New Roman\", serif",
     "errors": []
   },
   {
@@ -107,7 +107,7 @@
     "mode": "normal",
     "scroll": 1440,
     "images": true,
-    "title": "Newsreader, Georgia, \"Times New Roman\", serif",
+    "title": "\"Instrument Serif\", Georgia, \"Times New Roman\", serif",
     "errors": []
   },
   {
@@ -122,123 +122,7 @@
   },
   {
     "browser": "firefox",
-    "product": "volta",
-    "width": 320,
-    "mode": "normal",
-    "scroll": 320,
-    "images": true,
-    "title": "\"Big Shoulders Display\", Arial Narrow, Impact, Arial, sans-serif",
-    "errors": []
-  },
-  {
-    "browser": "firefox",
-    "product": "volta",
-    "width": 390,
-    "mode": "normal",
-    "scroll": 390,
-    "images": true,
-    "title": "\"Big Shoulders Display\", Arial Narrow, Impact, Arial, sans-serif",
-    "errors": []
-  },
-  {
-    "browser": "firefox",
-    "product": "volta",
-    "width": 390,
-    "mode": "images-blocked-font-fallback",
-    "passed": true
-  },
-  {
-    "browser": "firefox",
-    "product": "volta",
-    "width": 1440,
-    "mode": "normal",
-    "scroll": 1440,
-    "images": true,
-    "title": "\"Big Shoulders Display\", Arial Narrow, Impact, Arial, sans-serif",
-    "errors": []
-  },
-  {
-    "browser": "firefox",
-    "product": "tableflow",
-    "width": 320,
-    "mode": "normal",
-    "scroll": 320,
-    "images": true,
-    "title": "\"Fraunces\", Georgia, Times New Roman, serif",
-    "errors": []
-  },
-  {
-    "browser": "firefox",
-    "product": "tableflow",
-    "width": 390,
-    "mode": "normal",
-    "scroll": 390,
-    "images": true,
-    "title": "\"Fraunces\", Georgia, Times New Roman, serif",
-    "errors": []
-  },
-  {
-    "browser": "firefox",
-    "product": "tableflow",
-    "width": 390,
-    "mode": "images-blocked-font-fallback",
-    "passed": true
-  },
-  {
-    "browser": "firefox",
-    "product": "tableflow",
-    "width": 1440,
-    "mode": "normal",
-    "scroll": 1440,
-    "images": true,
-    "title": "\"Fraunces\", Georgia, Times New Roman, serif",
-    "errors": []
-  },
-  {
-    "browser": "firefox",
-    "product": "dentalos",
-    "width": 320,
-    "mode": "normal",
-    "scroll": 320,
-    "images": true,
-    "title": "\"Newsreader\", Georgia, Times New Roman, serif",
-    "errors": []
-  },
-  {
-    "browser": "firefox",
-    "product": "dentalos",
-    "width": 390,
-    "mode": "normal",
-    "scroll": 390,
-    "images": true,
-    "title": "\"Newsreader\", Georgia, Times New Roman, serif",
-    "errors": []
-  },
-  {
-    "browser": "firefox",
-    "product": "dentalos",
-    "width": 390,
-    "mode": "images-blocked-font-fallback",
-    "passed": true
-  },
-  {
-    "browser": "firefox",
-    "product": "dentalos",
-    "width": 1440,
-    "mode": "normal",
-    "scroll": 1440,
-    "images": true,
-    "title": "\"Newsreader\", Georgia, Times New Roman, serif",
-    "errors": []
-  },
-  {
-    "browser": "firefox",
-    "mode": "gallery",
-    "switching": true,
-    "remembered": true,
-    "escapeRestoresFocus": true,
-    "downloadMatches": true,
-    "mobile": true,
-    "short": true
+    "status": "unavailable",
+    "error": "browserType.launch: Executable doesn't exist at /opt/pw-browsers/firefox-1495/firefox/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
   }
 ]

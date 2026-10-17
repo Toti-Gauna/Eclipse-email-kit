@@ -1,51 +1,76 @@
-Asunto: Volta: catálogo y consultas para tu tienda
-Preheader: Una base adaptable a tu marca, con catálogo, consulta y fidelización estándar.
-
+Asunto: Volta: tu catálogo online, con tu marca
+Preheader: Probá la demo antes de hablar: catálogo, consultas y un club que hace volver.
 
 ECLIPSE
-Volta
+Primer contacto · Volta
 
+01
+Comercio · tienda online
 
-
-COMERCIO · VOLTA
-
-
-Tu catálogo.
-El próximo paso, más claro.
+Que elegir
+sea fácil.
 
 Hola, equipo de Tienda Horizonte.
 
-En una tienda de suplementos, encontrar una opción y saber cómo consultar son parte
-del mismo recorrido. Preparamos una propuesta para ordenar ese camino con tu marca y
-tus contenidos.
+Tenemos una propuesta para mejorar la experiencia de tu tienda: un catálogo claro,
+consultas sin vueltas y un club que hace volver.
 
-Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
+Muestra  Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
 
+02
+El trailer
 
-Volta propone ordenar el recorrido del catálogo a la consulta. Adaptación comercial
-del catálogo y consulta manual, con hasta 25 productos aportados, marca y contenido
-acordados. Cobro online, pedidos persistentes y administración conectada requieren
-alcance adicional.
+Volta, en 60 segundos.
 
-Adaptación desde USD 500. Definimos alcance antes del anticipo.
+Un trailer en motion graphics que recorre cada parte del negocio: lo que ve tu
+cliente, lo que ve tu equipo y cómo se conectan. Con música, para verlo en el celular
+o en la compu.
 
-Ver presentación completa [volta-volta-example-full.html]
+TRAILER · 60 S
+MOTION GRAPHICS · CON MÚSICA
 
+Trailer pendiente de incorporar · el póster es una vista previa estática.
 
+Ver cómo funciona · enlace disponible al incorporar el trailer.
 
+03
+En corto
 
-Conversemos sobre
-tu próximo paso.
+La propuesta,
+en tres líneas.
 
-Contanos qué necesitás resolver primero. Definimos un alcance útil y te compartimos
-las condiciones antes de avanzar.
+La demo
+Volta, con datos ficticios
+ABRIR ↗ [https://toti-gauna.github.io/supplements-ecommerce/]
+Adaptación de producto
+Tu marca y tu contenido sobre Volta
+desde USD 500
+Plan mensual
+3 meses de Esencial bonificados
+desde USD 30/mes
 
-Definamos tu alcance · pendiente
+Ver la propuesta completa  → [volta-volta-example-full.html]
 
-Eclipse Agency · remitente pendiente de confirmar
+Alcance, precio, plan mensual y condiciones, en una sola página.
 
-Conocé Eclipse [https://toti-gauna.github.io/Eclipse-Web/es/]
+04
+Próximo paso
 
-Si preferís no recibir más propuestas, respondé “No recibir más”.
+El próximo paso
+es tuyo.
 
+Contanos qué querés resolver primero. Te respondemos con alcance, precio y plazos por
+escrito, antes de cualquier seña.
 
+Hablemos de tu proyecto · PENDIENTE
+
+Eclipse · remitente pendiente de confirmar
+
+ECLIPSE
+
+Desarrollo, IA y automatización para negocios que no pueden esperar.
+
+Conocé Eclipse [https://toti-gauna.github.io/Eclipse-Web/es/] ↗
+
+Los negocios que ves en las demos son ficticios. Si preferís no recibir más
+propuestas, respondé «No recibir más».

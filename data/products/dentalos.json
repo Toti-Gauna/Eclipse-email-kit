@@ -1,4 +1,74 @@
 {
+  "id": "dentalos",
+  "name": "DentalOS",
+  "label": "DentalOS",
+  "sector": "Consultorio odontológico",
+  "subject": "DentalOS: turnos en orden para tu consultorio",
+  "preheader": "Probá la demo: el paciente pide turno y recepción lo sigue en una sola agenda.",
+  "eyebrow": "Salud · consultorio odontológico",
+  "headline": "Cada turno,\ncon su *próximo paso*.",
+  "brief": "Tenemos una propuesta para mejorar la experiencia de tu consultorio: turnos claros para el paciente y una agenda en orden para el equipo.",
+  "intro": "En un consultorio, pedir un turno y darle seguimiento involucra al paciente y a recepción. DentalOS ordena ese recorrido: información clara, una solicitud simple y una agenda compartida.",
+  "accent": "#1e5c55",
+  "accentInk": "#ffffff",
+  "headingFont": "Newsreader",
+  "headingFallback": "Georgia, Times New Roman, serif",
+  "headingFile": "newsreader.woff2",
+  "headingWeight": 400,
+  "benefits": [
+    {
+      "title": "Pedir turno, sin vueltas",
+      "text": "El paciente encuentra la información del consultorio y solicita su turno en pocos pasos."
+    },
+    {
+      "title": "Recepción con contexto",
+      "text": "Agenda, solicitudes y próximos pasos en una sola vista, para todo el equipo."
+    },
+    {
+      "title": "Seguimiento en orden",
+      "text": "Tareas administrativas a la vista, para que nada dependa de la memoria. Sin diagnósticos ni indicaciones clínicas."
+    }
+  ],
+  "journey": [
+    "El paciente pide su turno",
+    "Recepción lo ordena en la agenda",
+    "El equipo sigue cada tarea"
+  ],
+  "recommends": [
+    "whatsapp",
+    "voice"
+  ],
+  "includes": [
+    "Tu marca e información del consultorio sobre DentalOS",
+    "Recorrido de solicitud de turno",
+    "Exploración educativa y progreso estándar, sin incentivar tratamientos"
+  ],
+  "apart": "Agenda persistente, datos de pacientes e integraciones se definen con alcance y validación propios. El contenido clínico queda sujeto a revisión profesional.",
+  "demoNote": "Clínica Brisa es ficticia. La demo no tiene autenticación, mensajes, llamadas, pagos ni historia clínica real: los roles son vistas de muestra.",
+  "customer": {
+    "url": "https://toti-gauna.github.io/DentalOS/#/",
+    "label": "Vista del paciente",
+    "verified": true,
+    "evidence": "docs/sources/live; inspección web 2026-10-17"
+  },
+  "admin": {
+    "url": "https://toti-gauna.github.io/DentalOS/#/admin",
+    "label": "Vista del profesional",
+    "verified": true,
+    "evidence": "docs/sources/live; inspección web 2026-10-17"
+  },
+  "screens": [
+    {
+      "file": "dentalos.jpg",
+      "alt": "DentalOS: portal del paciente de Clínica Brisa ficticia",
+      "caption": "Clínica Brisa: información del consultorio y acceso a pedir turno."
+    },
+    {
+      "file": "dentalos-admin.jpg",
+      "alt": "DentalOS: agenda administrativa con datos sintéticos",
+      "caption": "Agenda de recepción, con datos sintéticos."
+    }
+  ],
   "trailer": {
     "enabled": true,
     "state": "pending",
@@ -9,72 +79,5 @@
   },
   "gifts": [],
   "presentationUrl": "",
-  "presentationVerified": false,
-  "extraContext": "La asesoría ayuda a definir mensajes, marca y retención. La gestión económica puede complementar la decisión sobre costos y márgenes; se ofrece únicamente con responsable confirmado.",
-  "id": "dentalos",
-  "name": "DentalOS",
-  "label": "DentalOS",
-  "sector": "consultorio odontológico",
-  "subject": "DentalOS: turnos y continuidad administrativa",
-  "preheader": "Un recorrido claro para pacientes, recepción y profesionales.",
-  "eyebrow": "ODONTOLOGÍA · DENTALOS",
-  "headline": "Cada turno,\ncon un próximo paso claro.",
-  "intro": "En un consultorio, pedir un turno y continuar la atención administrativa involucra a pacientes y recepción. Preparamos una propuesta para hacer ese recorrido más claro, con información y responsabilidades acordadas.",
-  "improvement": "ordenar la solicitud de turnos y la continuidad administrativa",
-  "accent": "#1e5c55",
-  "accentInk": "#ffffff",
-  "headingFont": "Newsreader",
-  "bodyFont": "Source Sans 3",
-  "headingFallback": "Georgia, Times New Roman, serif",
-  "bodyFallback": "Segoe UI, Arial, sans-serif",
-  "headingFile": "newsreader.woff2",
-  "bodyFile": "source-sans.woff2",
-  "headingWeight": 400,
-  "surface": "#f6f1e8",
-  "benefits": [
-    {
-      "title": "Llegar mejor orientado",
-      "text": "Información del consultorio y un recorrido de solicitud de turno para el paciente."
-    },
-    {
-      "title": "Recepción con contexto",
-      "text": "Agenda, solicitudes y próximos pasos se pueden explorar con datos ficticios."
-    },
-    {
-      "title": "Continuidad administrativa",
-      "text": "La demo permite revisar tareas y seguimiento. No ofrece diagnósticos, tratamientos sugeridos ni resultados clínicos."
-    }
-  ],
-  "journey": [
-    "Paciente solicita un turno",
-    "Recepción organiza la solicitud",
-    "Profesional y recepción siguen tareas"
-  ],
-  "scope": "Adaptación de marca, información del consultorio y recorrido de consulta sobre la base existente. Agenda persistente, datos de pacientes e integraciones productivas requieren alcance y validación propios.",
-  "gamification": "Exploración educativa voluntaria y progreso estándar, sin condicionar atención ni incentivar tratamientos. Contenido clínico sujeto a revisión profesional.",
-  "demoNote": "Clínica Brisa es ficticia. La demo es frontend: sin autenticación, mensajes, llamadas, pagos ni historia clínica productiva. Los roles son vistas de muestra.",
-  "customer": {
-    "url": "https://toti-gauna.github.io/DentalOS/#/",
-    "label": "Ver experiencia del paciente",
-    "verified": true,
-    "evidence": "docs/sources/live; inspección web 2026-10-17"
-  },
-  "admin": {
-    "url": "https://toti-gauna.github.io/DentalOS/#/admin",
-    "label": "Ver panel de recepción",
-    "verified": true,
-    "evidence": "docs/sources/live; inspección web 2026-10-17"
-  },
-  "screens": [
-    {
-      "file": "dentalos.jpg",
-      "alt": "DentalOS: portal del paciente de Clínica Brisa ficticia",
-      "caption": "Portal público de muestra: información y acceso a la solicitud de turno."
-    },
-    {
-      "file": "dentalos-admin.jpg",
-      "alt": "DentalOS: agenda administrativa con datos sintéticos",
-      "caption": "Agenda demostrativa: contexto compartido para conversar sobre recepción y seguimiento."
-    }
-  ]
+  "presentationVerified": false
 }

@@ -1,51 +1,76 @@
-Asunto: TableFlow: de la carta a la atención de tu salón
-Preheader: Carta, reservas y una operación de muestra para definir un alcance concreto.
-
+Asunto: TableFlow: tu carta y tus reservas, con tu marca
+Preheader: Mirá la demo de Mesa Clara: carta, reservas y el panel del salón.
 
 ECLIPSE
-TableFlow
+Primer contacto · TableFlow
 
+01
+Gastronomía · carta y reservas
 
-
-GASTRONOMÍA · TABLEFLOW
-
-
-De la carta
-a una mesa bien atendida.
+La cena empieza
+antes de llegar.
 
 Hola, equipo de Mesa del Sur.
 
-En un restaurante, la experiencia empieza antes de que llegue el primer plato.
-Preparamos una propuesta para conectar la carta, la consulta de reserva y la atención
-de tu equipo.
+Tenemos una propuesta para mejorar la experiencia de tu restaurante: la carta, la
+reserva y el salón, conectados.
 
-Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
+Muestra  Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
 
+02
+El trailer
 
-TableFlow propone conectar la carta y la consulta de reserva con la atención del
-equipo. Adaptación de la presentación, carta y recorrido de consulta sobre la base
-existente. Pedidos, reservas persistentes, salón y cocina productivos se delimitan
-como módulos operativos.
+TableFlow, en 60 segundos.
 
-Adaptación desde USD 500. Definimos alcance antes del anticipo.
+Un trailer en motion graphics que recorre cada parte del negocio: lo que ve tu
+cliente, lo que ve tu equipo y cómo se conectan. Con música, para verlo en el celular
+o en la compu.
 
-Ver presentación completa [tableflow-tableflow-example-full.html]
+TRAILER · 60 S
+MOTION GRAPHICS · CON MÚSICA
 
+Trailer pendiente de incorporar · el póster es una vista previa estática.
 
+Ver cómo funciona · enlace disponible al incorporar el trailer.
 
+03
+En corto
 
-Conversemos sobre
-tu próximo paso.
+La propuesta,
+en tres líneas.
 
-Contanos qué necesitás resolver primero. Definimos un alcance útil y te compartimos
-las condiciones antes de avanzar.
+La demo
+TableFlow, con datos ficticios
+ABRIR ↗ [https://toti-gauna.github.io/Tableflow/#/mesa-clara]
+Adaptación de producto
+Tu marca y tu identidad sobre TableFlow
+desde USD 500
+Plan mensual
+3 meses de Esencial bonificados
+desde USD 30/mes
 
-Definamos tu alcance · pendiente
+Ver la propuesta completa  → [tableflow-tableflow-example-full.html]
 
-Eclipse Agency · remitente pendiente de confirmar
+Alcance, precio, plan mensual y condiciones, en una sola página.
 
-Conocé Eclipse [https://toti-gauna.github.io/Eclipse-Web/es/]
+04
+Próximo paso
 
-Si preferís no recibir más propuestas, respondé “No recibir más”.
+El próximo paso
+es tuyo.
 
+Contanos qué querés resolver primero. Te respondemos con alcance, precio y plazos por
+escrito, antes de cualquier seña.
 
+Hablemos de tu proyecto · PENDIENTE
+
+Eclipse · remitente pendiente de confirmar
+
+ECLIPSE
+
+Desarrollo, IA y automatización para negocios que no pueden esperar.
+
+Conocé Eclipse [https://toti-gauna.github.io/Eclipse-Web/es/] ↗
+
+Los negocios que ves en las demos son ficticios. Si preferís no recibir más
+propuestas, respondé «No recibir más».

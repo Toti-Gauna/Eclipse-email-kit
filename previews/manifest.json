@@ -3,29 +3,30 @@
     "id": "volta",
     "label": "Ecommerce (Volta)",
     "format": "full",
-    "subject": "Volta: catálogo y consultas para tu tienda",
-    "preheader": "Una base adaptable a tu marca, con catálogo, consulta y fidelización estándar.",
+    "subject": "Volta: tu catálogo online, con tu marca",
+    "preheader": "Probá la demo antes de hablar: catálogo, consultas y un club que hace volver.",
     "html": "../dist/emails/drafts/volta-volta-example-full.html",
     "text": "../dist/emails/drafts/volta-volta-example-full.txt",
-    "bytes": 27468,
+    "bytes": 77334,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
       "Remitente real sin confirmar",
       "Contacto real pendiente",
       "Condiciones accesibles por HTTPS pendientes",
-      "Assets HTTPS pendientes de publicación autorizada"
+      "Assets HTTPS pendientes de publicación autorizada",
+      "Asesoría económica sin responsable/capacidad confirmados"
     ]
   },
   {
     "id": "volta",
     "label": "Ecommerce (Volta)",
     "format": "short",
-    "subject": "Volta: catálogo y consultas para tu tienda",
-    "preheader": "Una base adaptable a tu marca, con catálogo, consulta y fidelización estándar.",
+    "subject": "Volta: tu catálogo online, con tu marca",
+    "preheader": "Probá la demo antes de hablar: catálogo, consultas y un club que hace volver.",
     "html": "../dist/emails/drafts/volta-volta-example-short.html",
     "text": "../dist/emails/drafts/volta-volta-example-short.txt",
-    "bytes": 7672,
+    "bytes": 23159,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -33,36 +34,38 @@
       "Contacto real pendiente",
       "Condiciones accesibles por HTTPS pendientes",
       "Assets HTTPS pendientes de publicación autorizada",
-      "Presentación completa HTTPS pendiente"
+      "Presentación completa HTTPS pendiente",
+      "Asesoría económica sin responsable/capacidad confirmados"
     ]
   },
   {
     "id": "tableflow",
     "label": "TableFlow",
     "format": "full",
-    "subject": "TableFlow: de la carta a la atención de tu salón",
-    "preheader": "Carta, reservas y una operación de muestra para definir un alcance concreto.",
+    "subject": "TableFlow: tu carta y tus reservas, con tu marca",
+    "preheader": "Mirá la demo de Mesa Clara: carta, reservas y el panel del salón.",
     "html": "../dist/emails/drafts/tableflow-tableflow-example-full.html",
     "text": "../dist/emails/drafts/tableflow-tableflow-example-full.txt",
-    "bytes": 24672,
+    "bytes": 72343,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
       "Remitente real sin confirmar",
       "Contacto real pendiente",
       "Condiciones accesibles por HTTPS pendientes",
-      "Assets HTTPS pendientes de publicación autorizada"
+      "Assets HTTPS pendientes de publicación autorizada",
+      "Asesoría económica sin responsable/capacidad confirmados"
     ]
   },
   {
     "id": "tableflow",
     "label": "TableFlow",
     "format": "short",
-    "subject": "TableFlow: de la carta a la atención de tu salón",
-    "preheader": "Carta, reservas y una operación de muestra para definir un alcance concreto.",
+    "subject": "TableFlow: tu carta y tus reservas, con tu marca",
+    "preheader": "Mirá la demo de Mesa Clara: carta, reservas y el panel del salón.",
     "html": "../dist/emails/drafts/tableflow-tableflow-example-short.html",
     "text": "../dist/emails/drafts/tableflow-tableflow-example-short.txt",
-    "bytes": 7623,
+    "bytes": 23182,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -70,36 +73,19 @@
       "Contacto real pendiente",
       "Condiciones accesibles por HTTPS pendientes",
       "Assets HTTPS pendientes de publicación autorizada",
-      "Presentación completa HTTPS pendiente"
+      "Presentación completa HTTPS pendiente",
+      "Asesoría económica sin responsable/capacidad confirmados"
     ]
   },
   {
     "id": "dentalos",
     "label": "DentalOS",
     "format": "full",
-    "subject": "DentalOS: turnos y continuidad administrativa",
-    "preheader": "Un recorrido claro para pacientes, recepción y profesionales.",
+    "subject": "DentalOS: turnos en orden para tu consultorio",
+    "preheader": "Probá la demo: el paciente pide turno y recepción lo sigue en una sola agenda.",
     "html": "../dist/emails/drafts/dentalos-dentalos-example-full.html",
     "text": "../dist/emails/drafts/dentalos-dentalos-example-full.txt",
-    "bytes": 24799,
-    "status": "draft",
-    "errors": [
-      "Prospecto ficticio",
-      "Remitente real sin confirmar",
-      "Contacto real pendiente",
-      "Condiciones accesibles por HTTPS pendientes",
-      "Assets HTTPS pendientes de publicación autorizada"
-    ]
-  },
-  {
-    "id": "dentalos",
-    "label": "DentalOS",
-    "format": "short",
-    "subject": "DentalOS: turnos y continuidad administrativa",
-    "preheader": "Un recorrido claro para pacientes, recepción y profesionales.",
-    "html": "../dist/emails/drafts/dentalos-dentalos-example-short.html",
-    "text": "../dist/emails/drafts/dentalos-dentalos-example-short.txt",
-    "bytes": 7686,
+    "bytes": 72495,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -107,7 +93,27 @@
       "Contacto real pendiente",
       "Condiciones accesibles por HTTPS pendientes",
       "Assets HTTPS pendientes de publicación autorizada",
-      "Presentación completa HTTPS pendiente"
+      "Asesoría económica sin responsable/capacidad confirmados"
+    ]
+  },
+  {
+    "id": "dentalos",
+    "label": "DentalOS",
+    "format": "short",
+    "subject": "DentalOS: turnos en orden para tu consultorio",
+    "preheader": "Probá la demo: el paciente pide turno y recepción lo sigue en una sola agenda.",
+    "html": "../dist/emails/drafts/dentalos-dentalos-example-short.html",
+    "text": "../dist/emails/drafts/dentalos-dentalos-example-short.txt",
+    "bytes": 23225,
+    "status": "draft",
+    "errors": [
+      "Prospecto ficticio",
+      "Remitente real sin confirmar",
+      "Contacto real pendiente",
+      "Condiciones accesibles por HTTPS pendientes",
+      "Assets HTTPS pendientes de publicación autorizada",
+      "Presentación completa HTTPS pendiente",
+      "Asesoría económica sin responsable/capacidad confirmados"
     ]
   }
 ]

@@ -1,215 +1,302 @@
-Asunto: TableFlow: de la carta a la atención de tu salón
-Preheader: Carta, reservas y una operación de muestra para definir un alcance concreto.
-
+Asunto: TableFlow: tu carta y tus reservas, con tu marca
+Preheader: Mirá la demo de Mesa Clara: carta, reservas y el panel del salón.
 
 ECLIPSE
-TableFlow
+Propuesta · TableFlow
 
+01
+Gastronomía · carta y reservas
 
-
-GASTRONOMÍA · TABLEFLOW
-
-
-De la carta
-a una mesa bien atendida.
+La cena empieza
+antes de llegar.
 
 Hola, equipo de Mesa del Sur.
 
-En un restaurante, la experiencia empieza antes de que llegue el primer plato.
-Preparamos una propuesta para conectar la carta, la consulta de reserva y la atención
-de tu equipo.
+Tenemos una propuesta para mejorar la experiencia de tu restaurante: la carta, la
+reserva y el salón, conectados.
 
-Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
+Muestra  Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
 
+02
+El trailer
 
-▷
+TableFlow, en 60 segundos.
 
+Un trailer en motion graphics que recorre cada parte del negocio: lo que ve tu
+cliente, lo que ve tu equipo y cómo se conectan. Con música, para verlo en el celular
+o en la compu.
 
-Trailer pendiente de incorporar
+TRAILER · 60 S
+MOTION GRAPHICS · CON MÚSICA
 
-60 segundos · vista previa estática
-
+Trailer pendiente de incorporar · el póster es una vista previa estática.
 
 Ver cómo funciona · enlace disponible al incorporar el trailer.
 
+03
+La solución
 
-01 / LA EXPERIENCIA
+Un producto que ya funciona,
+con tu marca.
 
+  TableFlow
+Restaurante
 
-Una base para trabajar mejor.
+En un restaurante, la experiencia empieza en la carta. TableFlow la conecta con la
+reserva y con el trabajo del salón, con tu identidad y tu forma de atender.
+
+Fig. 01 — Vista del cliente
+Demo
+
+Mesa Clara: carta, reserva y consulta en un mismo recorrido.
+
+Qué resuelve
 
 01
 
 Una carta que orienta
 
-Platos, opciones y detalles ayudan a preparar el pedido o la consulta.
-
+Platos, opciones y detalles a la vista: el pedido o la reserva llegan mejor
+preparados.
 
 02
 
-Del salón al equipo
+Del salón a la cocina
 
-La demo conecta reservas, pedidos y cocina en vistas de muestra. Su implementación se
-acuerda por módulos.
-
+Reservas, pedidos y cocina en un mismo panel de muestra. Implementás solo los módulos
+que necesitás.
 
 03
 
-Continuidad después de la visita
+Un motivo para volver
 
-El pasaporte de sabores ofrece exploración y progreso voluntario; cada incentivo
-requiere reglas del negocio.
+Un pasaporte de sabores invita a recorrer la carta, con las reglas que defina tu
+negocio.
 
+Fig. 02 — Vista del dueño
+Demo
 
-Cliente mira la carta o reserva → Equipo recibe y organiza → Seguimiento del pedido o
-la visita
+Panel de reservas: la vista del equipo, para decidir qué módulos implementar.
 
+El recorrido
 
-Demo frontend de Mesa Clara, negocio ficticio. Reservas, pedidos, caja, WhatsApp y
-llamadas son simulaciones locales, sin integraciones productivas.
+PASO 1  El cliente mira la carta o reserva
+PASO 2  El salón recibe y organiza
+PASO 3  El pasaporte invita a volver
 
+Además del software
 
-EL RECORRIDO DEL CLIENTE
+Te acompañamos
+en el negocio.
 
-Experiencia pública verificada: carta, reserva y consulta en un mismo recorrido.
+Asesorías puntuales para que la herramienta rinda. Cada una tiene su precio en «Piezas
+extra».
 
+01
 
-LA VISTA DEL EQUIPO
+Growth marketing
 
-La vista del equipo permite definir qué parte de la operación conviene implementar.
+Ordenamos tu propuesta, tus mensajes y una acción concreta para conseguir clientes,
+con una métrica para medirla.
 
+02
 
-Ver experiencia del cliente [https://toti-gauna.github.io/Tableflow/#/mesa-clara]
+Retención de clientes
 
+La gamificación estándar de TableFlow ya viene incluida; definimos con vos una acción
+para que tus clientes vuelvan.
 
-Ver panel del dueño [https://toti-gauna.github.io/Tableflow/#/admin/reservas]
+03
 
+Finanzas
 
-Accesos de demostración con datos ficticios.
+Sujeta a validación
 
+Revisamos costos, márgenes y escenarios con tus datos, para decidir con números. Sin
+asesoramiento contable, tributario ni de inversiones.
 
-02 / TU PUNTO DE PARTIDA
+Probalo vos
 
+Vista del cliente  ↗ [https://toti-gauna.github.io/Tableflow/#/mesa-clara]
 
-Adaptamos TableFlow a tu negocio desde USD 500
+Vista del dueño  ↗ [https://toti-gauna.github.io/Tableflow/#/admin/reservas]
 
-Adaptación de la presentación, carta y recorrido de consulta sobre la base existente.
-Pedidos, reservas persistentes, salón y cocina productivos se delimitan como módulos
-operativos.
+Datos ficticios · sin registro
 
-Gamificación estándar incluida. Exploración y pasaporte de sabores estándar, con
-reglas acordadas. Beneficios reales, premios y campañas aparte.
+Demo  Mesa Clara es un negocio ficticio. Reservas, pedidos, caja, WhatsApp y llamadas
+son simulaciones en el navegador, sin integraciones reales.
 
-Implementación USD 500
+04
+Precio
 
-Anticipo 50 %: USD 250
-Saldo: USD 250 al aprobar la entrega.
+Cuánto cuesta
+y cómo se paga.
 
+Precios en dólares, sin letra chica. El número final te lo confirmamos por escrito,
+con el alcance acordado.
 
-Primero definimos alcance, entregables y factibilidad. El precio corresponde a adaptar
-una base existente.
+A1  OFERTA
 
-Definamos tu alcance · pendiente
+Adaptación de producto
 
+Un plan y un software a la medida de Mesa del Sur, sobre TableFlow: tu marca, tu
+contenido y tu configuración.
 
-CONDICIÓN DE ESTA CAMPAÑA
+Desde · implementación
 
+USD 500
 
-3 meses de Esencial bonificados.
+Qué incluye
 
-Desde la publicación, bonificamos el equivalente al plan Esencial. Plan elegido:
-Esencial, USD 0/mes durante los primeros 3 meses; desde el mes 4, USD 30/mes.
+Tu marca y tu identidad sobre TableFlow
+Carta completa y recorrido de consulta
+Pasaporte de sabores estándar, con tus reglas
 
-Si elegís Conectado: USD 45/mes durante la promoción y luego USD 75/mes.
-Automatización/IA: USD 120 y luego USD 150/mes.
+Pedidos, reservas guardadas, salón y cocina productivos son módulos operativos aparte.
+Beneficios reales y premios, también.
 
+Cómo se paga
 
-03 / COMPLEMENTOS CON SENTIDO
+Seña 50 %
+Para empezar: plan y software a medida
+USD 250
+Saldo 50 %
+A la entrega aprobada
+USD 250
+Mantenimiento Esencial
+Bonificado · meses 1 a 3 desde la publicación
+USD 0
 
+Hablemos de tu proyecto · PENDIENTE
 
-Software, marca y crecimiento.
+El proyecto empieza con la seña. Antes, definimos juntos alcance, entregables y
+factibilidad: el precio corresponde a adaptar un producto que ya funciona; las
+funciones nuevas se cotizan aparte.
 
-La asesoría ayuda a definir mensajes, marca y retención. La gestión económica puede
-complementar la decisión sobre costos y márgenes; se ofrece únicamente con responsable
-confirmado.
+05
+Piezas extra
 
-Asesoría puntual de growth y marca · USD 150
+Para ir
+más lejos.
 
-Revisamos propuesta, mensajes y una acción de captación o retención; acordamos
-prioridades y una métrica. No incluye identidad completa ni gestión continua.
+Lo que te recomendamos sumar a tu plan. Sobre esta propuesta, cada pieza va a precio
+de complemento y se cobra una sola vez.
 
-OPCIONAL · NO INCLUIDO
-
-
-Landing premium adicional · USD 200
-
+WhatsApp estándar (sin IA)
+Un flujo de aviso o seguimiento. Sin agente IA ni envíos masivos. Su operación entra
+en el plan Conectado.
+RECOMENDADO · OPCIONAL
++ USD 100
+Agente de voz con IA
+Un caso de uso, guion y pase a una persona. Telefonía a validar. Su operación entra en
+el plan Automatización/IA.
+RECOMENDADO · OPCIONAL
++ USD 250
+Las dos asesorías
+Growth, marketing y marca + gestión económica. Reemplaza a las dos sueltas. Cada una
+suelta: USD 150. Gestión económica sujeta a validación.
+RECOMENDADO · OPCIONAL
++ USD 250
+Landing premium adicional
 Una landing compatible para presentar tu propuesta. Solo si no está incluida en el
 alcance.
+RECOMENDADO · OPCIONAL
++ USD 200
 
-OPCIONAL · NO INCLUIDO
+BORRADOR · Asesoría económica pendiente de responsable y capacidad. Esta oferta no se
+puede exportar para envío.
 
+06
+Mantenimiento
 
-Migración Excel/PDF: USD 100–300 por única vez, tras revisar muestra y carga. Módulos
-operativos fuera de la adaptación: desde USD 750, sujetos a alcance.
+Un plan mensual.
+Uno solo.
 
+Mantenimiento, alojamiento y lo que tu producto necesita para seguir andando. Elegís
+el nivel según lo que construimos; no se paga uno por canal.
 
-04 / CONTINUIDAD
+Condición de esta campaña
 
+3 meses de Esencial, bonificados.
 
-Una sola mensualidad.
-El plan que necesitás.
+Desde la publicación, bonificamos el equivalente a Esencial. Si elegís otro plan,
+pagás solo la diferencia; desde el mes 4, el precio normal.
 
-PLAN ELEGIDO
+Plan
+Esencial  Elegido
 
-Esencial · USD 30/mes
+Mantenimiento de tu producto y configuración priorizada.
 
-Mantenimiento de tu producto y configuración priorizada. Presupuesto total de terceros
-incluido: hasta USD 5/mes.
+USD 0/mes · meses 1–3
+USD 30/mes · desde el mes 4
 
+Terceros hasta USD 5/mes, dentro del precio
 
-ALTERNATIVA
+Conectado
 
-Conectado · USD 75/mes
+Una integración estándar, sujeta a factibilidad.
 
-Una integración estándar, sujeta a factibilidad. Presupuesto total de terceros
-incluido: hasta USD 15/mes.
+USD 45/mes · meses 1–3
+USD 75/mes · desde el mes 4
 
+Terceros hasta USD 15/mes, dentro del precio
 
-ALTERNATIVA
+Automatización/IA
 
-Automatización/IA · USD 150/mes
+Hasta dos flujos estándar totales; uno puede usar IA.
 
-Hasta dos flujos estándar totales; uno puede usar IA. Presupuesto total de terceros
-incluido: hasta USD 40/mes.
+USD 120/mes · meses 1–3
+USD 150/mes · desde el mes 4
 
+Terceros hasta USD 40/mes, dentro del precio
 
-Hasta 2 horas mensuales TOTALES, no acumulables, para mantenimiento, configuración y
-mejoras priorizadas. Los planes son alternativas, no se suman.
+Los planes son alternativas: elegís uno, no se suman.
 
-Los cupos incluyen alojamiento/datos compatibles y consumos; no se agregan al precio
-mensual. Proveedor y factibilidad por cuenta a validar. Aviso al 80 % y sin
-sobrecargos automáticos.
+07
+Condiciones
 
-Si se agota el cupo, acordamos la ampliación y qué automatización se pausa,
-preservando acceso al producto y los datos. Dominio y renovación aparte salvo
-inclusión validada.
+Condiciones,
+a la vista.
 
-Leé las condiciones completas antes del anticipo → [../../../previews/conditions.html]
+a.
+Todos los planes incluyen hasta 2 h humanas por mes en total (no se acumulan) para
+mantenimiento, configuración y mejoras priorizadas.
+b.
+Lo de terceros (alojamiento, datos y consumos compatibles) ya está dentro del precio.
+Te avisamos al 80 % y no hay recargos automáticos.
+c.
+Si el cupo no alcanza, acordamos cómo ampliarlo y qué automatización se pausa. Tu
+producto y tus datos siguen disponibles.
+d.
+Proveedor y factibilidad se validan por cuenta, antes de empezar.
+e.
+Migración desde Excel o PDF: USD 100–300, por única vez, después de revisar una
+muestra.
+f.
+Módulos operativos fuera de la adaptación: desde USD 750, según alcance.
+g.
+El dominio y su renovación van aparte, salvo que la propuesta los incluya.
 
+Leé las condiciones completas antes de la seña [../../../previews/conditions.html] →
 
+08
+Próximo paso
 
-Conversemos sobre
-tu próximo paso.
+El próximo paso
+es tuyo.
 
-Contanos qué necesitás resolver primero. Definimos un alcance útil y te compartimos
-las condiciones antes de avanzar.
+Contanos qué querés resolver primero. Te respondemos con alcance, precio y plazos por
+escrito, antes de cualquier seña.
 
-Definamos tu alcance · pendiente
+Hablemos de tu proyecto · PENDIENTE
 
-Eclipse Agency · remitente pendiente de confirmar
+Eclipse · remitente pendiente de confirmar
 
-Conocé Eclipse [https://toti-gauna.github.io/Eclipse-Web/es/]
+ECLIPSE
 
-Si preferís no recibir más propuestas, respondé “No recibir más”.
+Desarrollo, IA y automatización para negocios que no pueden esperar.
 
+Conocé Eclipse [https://toti-gauna.github.io/Eclipse-Web/es/] ↗
 
+Los negocios que ves en las demos son ficticios. Si preferís no recibir más
+propuestas, respondé «No recibir más».

@@ -2,7 +2,7 @@
   {
     "product": "volta",
     "format": "full",
-    "bytes": 27468,
+    "bytes": 77334,
     "checks": "schema, assets, estructura, trailer opcional, tamaño",
     "sendReady": false,
     "blockers": [
@@ -10,13 +10,14 @@
       "Remitente real sin confirmar",
       "Contacto real pendiente",
       "Condiciones accesibles por HTTPS pendientes",
-      "Assets HTTPS pendientes de publicación autorizada"
+      "Assets HTTPS pendientes de publicación autorizada",
+      "Asesoría económica sin responsable/capacidad confirmados"
     ]
   },
   {
     "product": "volta",
     "format": "short",
-    "bytes": 7672,
+    "bytes": 23159,
     "checks": "schema, assets, estructura, trailer opcional, tamaño",
     "sendReady": false,
     "blockers": [
@@ -25,13 +26,14 @@
       "Contacto real pendiente",
       "Condiciones accesibles por HTTPS pendientes",
       "Assets HTTPS pendientes de publicación autorizada",
-      "Presentación completa HTTPS pendiente"
+      "Presentación completa HTTPS pendiente",
+      "Asesoría económica sin responsable/capacidad confirmados"
     ]
   },
   {
     "product": "tableflow",
     "format": "full",
-    "bytes": 24672,
+    "bytes": 72343,
     "checks": "schema, assets, estructura, trailer opcional, tamaño",
     "sendReady": false,
     "blockers": [
@@ -39,13 +41,14 @@
       "Remitente real sin confirmar",
       "Contacto real pendiente",
       "Condiciones accesibles por HTTPS pendientes",
-      "Assets HTTPS pendientes de publicación autorizada"
+      "Assets HTTPS pendientes de publicación autorizada",
+      "Asesoría económica sin responsable/capacidad confirmados"
     ]
   },
   {
     "product": "tableflow",
     "format": "short",
-    "bytes": 7623,
+    "bytes": 23182,
     "checks": "schema, assets, estructura, trailer opcional, tamaño",
     "sendReady": false,
     "blockers": [
@@ -54,27 +57,14 @@
       "Contacto real pendiente",
       "Condiciones accesibles por HTTPS pendientes",
       "Assets HTTPS pendientes de publicación autorizada",
-      "Presentación completa HTTPS pendiente"
+      "Presentación completa HTTPS pendiente",
+      "Asesoría económica sin responsable/capacidad confirmados"
     ]
   },
   {
     "product": "dentalos",
     "format": "full",
-    "bytes": 24799,
-    "checks": "schema, assets, estructura, trailer opcional, tamaño",
-    "sendReady": false,
-    "blockers": [
-      "Prospecto ficticio",
-      "Remitente real sin confirmar",
-      "Contacto real pendiente",
-      "Condiciones accesibles por HTTPS pendientes",
-      "Assets HTTPS pendientes de publicación autorizada"
-    ]
-  },
-  {
-    "product": "dentalos",
-    "format": "short",
-    "bytes": 7686,
+    "bytes": 72495,
     "checks": "schema, assets, estructura, trailer opcional, tamaño",
     "sendReady": false,
     "blockers": [
@@ -83,7 +73,23 @@
       "Contacto real pendiente",
       "Condiciones accesibles por HTTPS pendientes",
       "Assets HTTPS pendientes de publicación autorizada",
-      "Presentación completa HTTPS pendiente"
+      "Asesoría económica sin responsable/capacidad confirmados"
+    ]
+  },
+  {
+    "product": "dentalos",
+    "format": "short",
+    "bytes": 23225,
+    "checks": "schema, assets, estructura, trailer opcional, tamaño",
+    "sendReady": false,
+    "blockers": [
+      "Prospecto ficticio",
+      "Remitente real sin confirmar",
+      "Contacto real pendiente",
+      "Condiciones accesibles por HTTPS pendientes",
+      "Assets HTTPS pendientes de publicación autorizada",
+      "Presentación completa HTTPS pendiente",
+      "Asesoría económica sin responsable/capacidad confirmados"
     ]
   }
 ]
