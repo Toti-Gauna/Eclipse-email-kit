@@ -1,11 +1,11 @@
-// Captures the email artwork from the Eclipse site itself (hero eclipse + dial and the risen
+// Captures the email artwork from the Eclipse site itself (hero eclipse, without its dial, and the risen
 // sun), so the email shows the same light as the web. Needs the site:
 // published by default, or a local `next dev` with --url http://localhost:3200/es/.
 import {chromium} from 'playwright';import sharp from 'sharp';import fs from 'node:fs/promises';
 const args=process.argv.slice(2),i=args.indexOf('--url'),url=i<0?'https://toti-gauna.github.io/Eclipse-Web/es/':args[i+1];
 const b=await chromium.launch({proxy:process.env.HTTPS_PROXY&&!/localhost|127\.0\.0\.1/.test(url)?{server:process.env.HTTPS_PROXY}:undefined,args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']});
 // Only the artwork: no copy, header, page index or framework overlays.
-const open=async(width,height)=>{const page=await b.newPage({viewport:{width,height},deviceScaleFactor:2,reducedMotion:'reduce'});await page.goto(url,{waitUntil:'networkidle',timeout:90000});await page.waitForTimeout(3000);await page.addStyleTag({content:'.hero-copy-cell,.site-header,header,.eph-rail,nextjs-portal,.agent-dawn-type{visibility:hidden!important}.agent-dawn-sun{left:50%!important}'});return page};
+const open=async(width,height)=>{const page=await b.newPage({viewport:{width,height},deviceScaleFactor:2,reducedMotion:'reduce'});await page.goto(url,{waitUntil:'networkidle',timeout:90000});await page.waitForTimeout(3000);await page.addStyleTag({content:'.hero-copy-cell,.site-header,header,.eph-rail,nextjs-portal,.agent-dawn-type,[data-hero-dial]{visibility:hidden!important}.agent-dawn-sun{left:50%!important}'});return page};
 // Seams: the sun melts into the flat color of the email sections around them.
 const dawnColor='#fbf9f6';
 const fade=(w,h,stops,dir='v')=>Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}"><defs><linearGradient id="g" x1="0" y1="0" x2="${dir==='h'?1:0}" y2="${dir==='v'?1:0}">${stops.map(([o,c,a])=>`<stop offset="${o}" stop-color="${c}" stop-opacity="${a}"/>`).join('')}</linearGradient></defs><rect width="100%" height="100%" fill="url(#g)"/></svg>`);

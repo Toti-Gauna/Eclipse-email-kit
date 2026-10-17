@@ -9,7 +9,7 @@ export function masthead(c,kind='Propuesta'){
 export function hero(c,n,total){
  const {product:d,prospect:q}=c,t=THEME.void;
  const brief=q.reviewed?`Vimos ${q.publicFact}. ${d.brief}`:d.brief;
- const art=bleed(image(asset(c,'art-hero.jpg'),'Eclipse total: la luna cubre el sol y deja ver la corona, dentro del dial de Eclipse.',640,440,{bg:t.bg}),t.bg);
+ const art=bleed(image(asset(c,'art-hero.jpg'),'Eclipse total: la luna cubre el sol y deja ver la corona.',640,440,{bg:t.bg}),t.bg);
  let html=mark(c,n,total,d.eyebrow,t)+heading(d.headline,t,{level:1,size:60,mb:28})+p(`Hola, equipo de ${e(q.businessName)}.`,t,{size:18,lh:28,mb:12})+p(e(brief),t,{size:18,lh:29,color:'__ECLIPSE_DIM__',mb:0});
  if(q.fictional)html+=p(`${badge('Muestra','__ECLIPSE_ASH__','__ECLIPSE_MIST__')}&nbsp; Ejemplo ficticio · apertura sectorial, sin investigación del negocio.`,t,{size:12,lh:20,color:t.muted,mb:0,style:'padding-top:28px'});
  return art+section(html,t,'padding-top:8px;padding-bottom:64px');
