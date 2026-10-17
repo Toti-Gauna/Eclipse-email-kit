@@ -23,6 +23,10 @@ TableFlow: Fraunces + Manrope, papel #f7f3ea y verde #355443, tomando el recorri
 
 DentalOS: Newsreader + Source Sans 3, papel #f6f1e8 y verde #1e5c55. La fuente editorial se usa para títulos comerciales, y Source Sans para lectura. Los fallbacks Georgia/Arial o Arial Narrow/Impact mantienen la jerarquía sin rasterizar títulos, párrafos o precios.
 
+## Arte y tipografías del rediseño (17/10/2026)
+
+Eclipse-Web en `e335533` (rama main), servida con `next dev` local porque el proxy del entorno no permitía GitHub Pages. `scripts/capture-art.mjs` captura con Chromium, sin textos ni índice de página: el eclipse con dial del hero (`components/hero`), la franja de amanecer (`components/sections/SkyTransition.tsx`) y el sol de cierre (`components/sections/agent/Dawn.tsx`); funde los bordes con el color plano de la sección del email. `scripts/render-glyphs.mjs` reproduce la geometría de `components/ui/PhaseGlyph.tsx` (siete fases, ámbar sobre noche y ámbar profundo sobre amanecer) y de `components/layout/MiniEclipse.tsx` (totalidad sobre oscuro, sol salido sobre claro). Instrument Serif itálica y Geist Mono se copiaron de `app/fonts` con su licencia OFL. El copy reutiliza frases aprobadas de la web («Mirá un negocio como el tuyo funcionando», «Cuánto cuesta y cómo se paga», «Un plan mensual. Uno solo.», «sin letra chica»).
+
 ## Verificación publicada y capturas
 
 - https://toti-gauna.github.io/Eclipse-Web/es/

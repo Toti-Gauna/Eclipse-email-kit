@@ -1,6 +1,6 @@
 {
-  "subject": "DentalOS: turnos y continuidad administrativa",
-  "preheader": "Un recorrido claro para pacientes, recepción y profesionales.",
+  "subject": "DentalOS: turnos en orden para tu consultorio",
+  "preheader": "Probá la demo: el paciente pide turno y recepción lo sigue en una sola agenda.",
   "status": "draft",
   "errors": [
     "Prospecto ficticio",
@@ -9,6 +9,6 @@
     "Condiciones accesibles por HTTPS pendientes",
     "Assets HTTPS pendientes de publicación autorizada"
   ],
-  "bytes": 24799,
+  "bytes": 62803,
   "priceVersion": "2026-10-16.aprobado"
 }

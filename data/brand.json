@@ -24,8 +24,16 @@
     "flare": "#ffe8b0",
     "dawn": "#f4efe6",
     "ink": "#111114",
+    "mist": "#9a97a6",
     "muted": "#5b5866",
-    "radius": 24
+    "deep": "#8a5a00",
+    "dim": "#c9c4bc",
+    "soft": "#ebe4d8",
+    "paper": "#faf7f1",
+    "hairdark": "#1f1f28",
+    "ruledark": "#34333b",
+    "hairlight": "#ddd7cd",
+    "rulelight": "#c4beb4"
   },
-  "source": "Eclipse-Web/app/globals.css; components/layout/MiniEclipse.tsx; app/fonts"
+  "source": "Eclipse-Web/app/globals.css (tokens, corona-deep, mist-ink, dawn-soft; líneas = --line/--line-strong resueltas sobre su fondo); components/ui/PhaseGlyph.tsx; components/layout/MiniEclipse.tsx; app/fonts"
 }

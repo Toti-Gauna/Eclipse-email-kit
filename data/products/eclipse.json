@@ -1,4 +1,58 @@
 {
+  "id": "eclipse",
+  "name": "Eclipse",
+  "label": "Eclipse base",
+  "sector": "Producto base",
+  "subject": "Una propuesta de Eclipse para tu negocio",
+  "preheader": "Un producto que ya funciona, adaptado a tu marca.",
+  "eyebrow": "Desarrollo · IA · automatización",
+  "headline": "Tu negocio,\n*funcionando*.",
+  "intro": "Partimos de un producto que ya funciona y lo adaptamos a tu marca, tu contenido y tu forma de trabajar.",
+  "accent": "#f5b942",
+  "accentInk": "#111114",
+  "headingFont": "Instrument Serif",
+  "headingFallback": "Georgia, Times New Roman, serif",
+  "headingFile": "instrument.woff2",
+  "headingWeight": 500,
+  "benefits": [
+    {
+      "title": "Orientar al cliente",
+      "text": "Explicá el resultado concreto del producto."
+    },
+    {
+      "title": "Ordenar la operación",
+      "text": "Documentá el flujo que muestra la demo."
+    },
+    {
+      "title": "Dar continuidad",
+      "text": "Definí el próximo paso verificable."
+    }
+  ],
+  "journey": [
+    "El cliente consulta",
+    "El equipo organiza",
+    "El seguimiento acordado"
+  ],
+  "includes": [
+    "Tu marca y tu contenido sobre un producto existente",
+    "Configuración acordada",
+    "Gamificación estándar del producto"
+  ],
+  "apart": "Las funciones nuevas se cotizan aparte.",
+  "demoNote": "Base para configurar un nuevo producto; demo y evidencia pendientes.",
+  "customer": {
+    "url": "",
+    "label": "Experiencia del cliente",
+    "verified": false,
+    "evidence": ""
+  },
+  "admin": {
+    "url": "",
+    "label": "Panel del dueño",
+    "verified": false,
+    "evidence": ""
+  },
+  "screens": [],
   "trailer": {
     "enabled": true,
     "state": "pending",
@@ -10,61 +64,6 @@
   "gifts": [],
   "presentationUrl": "",
   "presentationVerified": false,
-  "extraContext": "La asesoría ayuda a definir mensajes, marca y retención. La gestión económica puede complementar la decisión sobre costos y márgenes; se ofrece únicamente con responsable confirmado.",
-  "id": "eclipse",
-  "name": "Eclipse",
-  "label": "Eclipse base",
-  "sector": "negocio",
-  "subject": "Una propuesta digital para tu negocio",
-  "preheader": "Una base adaptable para definir el recorrido de atención de tu negocio.",
-  "eyebrow": "ECLIPSE · PRODUCTO",
-  "headline": "Una base digital.\nTu forma de trabajar.",
-  "intro": "Cada negocio necesita un recorrido claro para sus clientes. Preparamos una base adaptable para definir juntos ese recorrido.",
-  "improvement": "ordenar un recorrido de atención con alcance acordado",
-  "accent": "#f5b942",
-  "accentInk": "#111114",
-  "headingFont": "Instrument Serif",
-  "bodyFont": "Geist",
-  "headingFallback": "Georgia, Times New Roman, serif",
-  "bodyFallback": "Arial, Helvetica, sans-serif",
-  "headingFile": "instrument.woff2",
-  "bodyFile": "geist.woff2",
-  "headingWeight": 500,
-  "surface": "#f4efe6",
-  "benefits": [
-    {
-      "title": "Orientar al cliente",
-      "text": "Explicá el resultado concreto del producto."
-    },
-    {
-      "title": "Organizar la operación",
-      "text": "Documentá el flujo demostrado."
-    },
-    {
-      "title": "Dar continuidad",
-      "text": "Definí el próximo paso verificable."
-    }
-  ],
-  "journey": [
-    "Cliente consulta",
-    "Equipo organiza",
-    "Seguimiento acordado"
-  ],
-  "scope": "Marca, contenido y alcance acordado sobre un producto existente.",
-  "gamification": "Definir la mecánica estándar del nuevo vertical antes de ofrecerlo.",
-  "demoNote": "Base para configurar un nuevo producto; demo y evidencia pendientes.",
-  "customer": {
-    "url": "",
-    "label": "Ver experiencia del cliente",
-    "verified": false,
-    "evidence": ""
-  },
-  "admin": {
-    "url": "",
-    "label": "Ver panel del dueño",
-    "verified": false,
-    "evidence": ""
-  },
-  "screens": [],
+  "extraContext": "Una asesoría de growth y marca ordena mensajes, captación y retención. La de gestión económica revisa costos y márgenes con tus datos, y solo se ofrece con responsable confirmado.",
   "verticals": {}
 }

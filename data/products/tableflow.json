@@ -1,4 +1,69 @@
 {
+  "id": "tableflow",
+  "name": "TableFlow",
+  "label": "TableFlow",
+  "sector": "Restaurante",
+  "subject": "TableFlow: tu carta y tus reservas, con tu marca",
+  "preheader": "Mirá la demo de Mesa Clara: carta, reservas y el panel del salón.",
+  "eyebrow": "Gastronomía · carta y reservas",
+  "headline": "La cena empieza\n*antes* de llegar.",
+  "intro": "En un restaurante, la experiencia empieza en la carta. TableFlow la conecta con la reserva y con el trabajo del salón, con tu identidad y tu forma de atender.",
+  "accent": "#355443",
+  "accentInk": "#ffffff",
+  "headingFont": "Fraunces",
+  "headingFallback": "Georgia, Times New Roman, serif",
+  "headingFile": "fraunces.woff2",
+  "headingWeight": 500,
+  "benefits": [
+    {
+      "title": "Una carta que orienta",
+      "text": "Platos, opciones y detalles a la vista: el pedido o la reserva llegan mejor preparados."
+    },
+    {
+      "title": "Del salón a la cocina",
+      "text": "Reservas, pedidos y cocina en un mismo panel de muestra. Implementás solo los módulos que necesitás."
+    },
+    {
+      "title": "Un motivo para volver",
+      "text": "Un pasaporte de sabores invita a recorrer la carta, con las reglas que defina tu negocio."
+    }
+  ],
+  "journey": [
+    "El cliente mira la carta o reserva",
+    "El salón recibe y organiza",
+    "El pasaporte invita a volver"
+  ],
+  "includes": [
+    "Tu marca y tu identidad sobre TableFlow",
+    "Carta completa y recorrido de consulta",
+    "Pasaporte de sabores estándar, con tus reglas"
+  ],
+  "apart": "Pedidos, reservas guardadas, salón y cocina productivos son módulos operativos aparte. Beneficios reales y premios, también.",
+  "demoNote": "Mesa Clara es un negocio ficticio. Reservas, pedidos, caja, WhatsApp y llamadas son simulaciones en el navegador, sin integraciones reales.",
+  "customer": {
+    "url": "https://toti-gauna.github.io/Tableflow/#/mesa-clara",
+    "label": "Experiencia del cliente",
+    "verified": true,
+    "evidence": "docs/sources/live; inspección web 2026-10-17"
+  },
+  "admin": {
+    "url": "https://toti-gauna.github.io/Tableflow/#/admin/reservas",
+    "label": "Panel del salón",
+    "verified": true,
+    "evidence": "docs/sources/live; inspección web 2026-10-17"
+  },
+  "screens": [
+    {
+      "file": "tableflow.jpg",
+      "alt": "Mesa Clara: carta e inicio del restaurante ficticio",
+      "caption": "Mesa Clara: carta, reserva y consulta en un mismo recorrido."
+    },
+    {
+      "file": "tableflow-admin.jpg",
+      "alt": "TableFlow: panel demostrativo de reservas",
+      "caption": "Panel de reservas: la vista del equipo, para decidir qué módulos implementar."
+    }
+  ],
   "trailer": {
     "enabled": true,
     "state": "pending",
@@ -10,82 +75,16 @@
   "gifts": [],
   "presentationUrl": "",
   "presentationVerified": false,
-  "extraContext": "La asesoría ayuda a definir mensajes, marca y retención. La gestión económica puede complementar la decisión sobre costos y márgenes; se ofrece únicamente con responsable confirmado.",
-  "id": "tableflow",
-  "name": "TableFlow",
-  "label": "TableFlow",
-  "sector": "restaurante",
-  "subject": "TableFlow: de la carta a la atención de tu salón",
-  "preheader": "Carta, reservas y una operación de muestra para definir un alcance concreto.",
-  "eyebrow": "GASTRONOMÍA · TABLEFLOW",
-  "headline": "De la carta\na una mesa bien atendida.",
-  "intro": "En un restaurante, la experiencia empieza antes de que llegue el primer plato. Preparamos una propuesta para conectar la carta, la consulta de reserva y la atención de tu equipo.",
-  "improvement": "conectar la carta y la consulta de reserva con la atención del equipo",
-  "accent": "#355443",
-  "accentInk": "#ffffff",
-  "headingFont": "Fraunces",
-  "bodyFont": "Manrope",
-  "headingFallback": "Georgia, Times New Roman, serif",
-  "bodyFallback": "Arial, Helvetica, sans-serif",
-  "headingFile": "fraunces.woff2",
-  "bodyFile": "manrope.woff2",
-  "headingWeight": 500,
-  "surface": "#f7f3ea",
-  "benefits": [
-    {
-      "title": "Una carta que orienta",
-      "text": "Platos, opciones y detalles ayudan a preparar el pedido o la consulta."
-    },
-    {
-      "title": "Del salón al equipo",
-      "text": "La demo conecta reservas, pedidos y cocina en vistas de muestra. Su implementación se acuerda por módulos."
-    },
-    {
-      "title": "Continuidad después de la visita",
-      "text": "El pasaporte de sabores ofrece exploración y progreso voluntario; cada incentivo requiere reglas del negocio."
-    }
-  ],
-  "journey": [
-    "Cliente mira la carta o reserva",
-    "Equipo recibe y organiza",
-    "Seguimiento del pedido o la visita"
-  ],
-  "scope": "Adaptación de la presentación, carta y recorrido de consulta sobre la base existente. Pedidos, reservas persistentes, salón y cocina productivos se delimitan como módulos operativos.",
-  "gamification": "Exploración y pasaporte de sabores estándar, con reglas acordadas. Beneficios reales, premios y campañas aparte.",
-  "demoNote": "Demo frontend de Mesa Clara, negocio ficticio. Reservas, pedidos, caja, WhatsApp y llamadas son simulaciones locales, sin integraciones productivas.",
-  "customer": {
-    "url": "https://toti-gauna.github.io/Tableflow/#/mesa-clara",
-    "label": "Ver experiencia del cliente",
-    "verified": true,
-    "evidence": "docs/sources/live; inspección web 2026-10-17"
-  },
-  "admin": {
-    "url": "https://toti-gauna.github.io/Tableflow/#/admin/reservas",
-    "label": "Ver panel del dueño",
-    "verified": true,
-    "evidence": "docs/sources/live; inspección web 2026-10-17"
-  },
-  "screens": [
-    {
-      "file": "tableflow.jpg",
-      "alt": "Mesa Clara: carta e inicio del restaurante ficticio",
-      "caption": "Experiencia pública verificada: carta, reserva y consulta en un mismo recorrido."
-    },
-    {
-      "file": "tableflow-admin.jpg",
-      "alt": "TableFlow: panel demostrativo de reservas",
-      "caption": "La vista del equipo permite definir qué parte de la operación conviene implementar."
-    }
-  ],
+  "extraContext": "Una asesoría de growth y marca ordena mensajes, captación y retención. La de gestión económica revisa costos y márgenes con tus datos, y solo se ofrece con responsable confirmado.",
   "verticals": {
     "restaurant": {},
     "cafe": {
-      "sector": "cafetería",
-      "headline": "De la barra\nal próximo café.",
-      "intro": "En una cafetería, elegir la bebida y coordinar el retiro son parte de la misma experiencia. Preparamos una propuesta para ordenar la carta y la consulta con tu identidad.",
+      "sector": "Cafetería",
+      "headline": "Del primer sorbo\nal *próximo* café.",
+      "intro": "En una cafetería, elegir la bebida y coordinar el retiro son parte del mismo ritual. TableFlow ordena la carta y la consulta, con tu identidad.",
       "customer": {
         "url": "https://toti-gauna.github.io/Tableflow/#/ritual-cafe",
-        "label": "Ver experiencia del cliente",
+        "label": "Experiencia del cliente",
         "verified": true,
         "evidence": "docs/sources/live; inspección web 2026-10-17"
       },
@@ -93,12 +92,12 @@
         {
           "file": "tableflow-cafe.jpg",
           "alt": "Ritual Café: carta de la cafetería ficticia",
-          "caption": "Carta de Ritual Café en la demo publicada."
+          "caption": "Ritual Café: la carta de una cafetería, en la demo publicada."
         },
         {
           "file": "tableflow-admin.jpg",
           "alt": "Panel de muestra TableFlow",
-          "caption": "Operación de muestra, sujeta al módulo acordado."
+          "caption": "Panel de muestra: la operación se define por módulo."
         }
       ]
     }

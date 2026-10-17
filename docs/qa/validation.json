@@ -2,7 +2,7 @@
   {
     "product": "volta",
     "format": "full",
-    "bytes": 27468,
+    "bytes": 67140,
     "checks": "schema, assets, estructura, trailer opcional, tamaño",
     "sendReady": false,
     "blockers": [
@@ -16,7 +16,7 @@
   {
     "product": "volta",
     "format": "short",
-    "bytes": 7672,
+    "bytes": 19981,
     "checks": "schema, assets, estructura, trailer opcional, tamaño",
     "sendReady": false,
     "blockers": [
@@ -31,7 +31,7 @@
   {
     "product": "tableflow",
     "format": "full",
-    "bytes": 24672,
+    "bytes": 62701,
     "checks": "schema, assets, estructura, trailer opcional, tamaño",
     "sendReady": false,
     "blockers": [
@@ -45,7 +45,7 @@
   {
     "product": "tableflow",
     "format": "short",
-    "bytes": 7623,
+    "bytes": 19983,
     "checks": "schema, assets, estructura, trailer opcional, tamaño",
     "sendReady": false,
     "blockers": [
@@ -60,7 +60,7 @@
   {
     "product": "dentalos",
     "format": "full",
-    "bytes": 24799,
+    "bytes": 62803,
     "checks": "schema, assets, estructura, trailer opcional, tamaño",
     "sendReady": false,
     "blockers": [
@@ -74,7 +74,7 @@
   {
     "product": "dentalos",
     "format": "short",
-    "bytes": 7686,
+    "bytes": 20023,
     "checks": "schema, assets, estructura, trailer opcional, tamaño",
     "sendReady": false,
     "blockers": [

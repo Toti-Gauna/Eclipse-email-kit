@@ -1,6 +1,6 @@
 # Eclipse Email Kit
 
-Kit comercial local con identidad actual de Eclipse, tres productos y datos reutilizables. Incluye HTML de email con estilos críticos inline, texto plano, galería estática, capturas y condiciones. Estado: **borradores revisados, no listos para envío** por falta de remitente/contacto real y URLs autorizadas de assets/condiciones. Los ejemplos de prospectos son ficticios.
+Kit comercial local con la identidad visual de la web de Eclipse (dirección de arte «Efemérides»: eclipse del hero, marcas de sección en mono, serif display, libros de precios y amanecer al cierre), tres productos y datos reutilizables. Incluye HTML de email con estilos críticos inline, texto plano, galería estática, capturas y condiciones. Estado: **borradores revisados, no listos para envío** por falta de remitente/contacto real y URLs autorizadas de assets/condiciones. Los ejemplos de prospectos son ficticios.
 
 ## Galería publicada y despliegue
 
@@ -38,7 +38,7 @@ npm test
 
 1. Copiá un ejemplo de `data/prospects/` a `private-mi-prospecto.json`; cambiá `id`, nombre, notas y oferta. Los archivos `private-*` están ignorados por git.
 2. `fictional: false` solo para un negocio real. Si no lo investigaste, mantené `reviewed: false`: se usa una apertura sectorial honesta. Para `reviewed: true`, completá `publicFact` como fragmento (por ejemplo, “que publicaron su carta de temporada”), `sourceUrl` HTTPS y notas. El compilador escapa el texto; no admite HTML arbitrario.
-3. Elegí el contenido y enlaces en `data/products/<producto>.json`; cargá los enlaces públicos verificados de la demo y su evidencia. Las vistas no equivalen a autenticación.
+3. Elegí el contenido y enlaces en `data/products/<producto>.json`; cargá los enlaces públicos verificados de la demo y su evidencia. Las vistas no equivalen a autenticación. En `headline`, `*palabra*` marca la única palabra destacada (itálica ámbar) y `\n` el corte de línea; `includes` lista lo que trae la adaptación y `apart`, lo que se cotiza aparte.
 4. Definí la oferta en `data/offers/`. No edites precios en las plantillas: `prices.v2026-10-16.json` centraliza importes, pagos, cupos y procedencia. `base-campaign.json` contiene la extensión de la bonificación pedida por Ignacio. Podés cambiar el plan, los meses o desactivar `promotion.enabled` por oferta.
 5. Generá el borrador y revisá asunto, preheader, alcance, extras y capturas. Cambiar configuración requiere recompilar; no editar `dist/` a mano.
 
@@ -73,15 +73,17 @@ Al recibir miniatura y destino válidos, completá ambas URLs HTTPS, verificá l
 
 ## Organización
 
-- `src/email/components/`: marca, brief, trailer, beneficios, capturas, accesos, regalos, oferta, promoción, extras, planes y cierre.
-- `src/email/templates/eclipse.mjs`: composición compartida y versión breve.
+- `src/email/components/`: primitivas del lenguaje visual (marca de sección con glifo de fase, titulares serif, libro de precios, marcas de registro, figuras), cabecera, hero, demo (trailer, figuras, qué resuelve, recorrido, accesos, regalos), precio, plan mensual con la campaña, complementos, condiciones, cierre y pie.
+- `src/email/templates/eclipse.mjs`: recorrido noche → amanecer, numeración de secciones y versión breve.
 - `src/schema.mjs`, `src/offers.mjs`: validación y reglas comerciales.
 - `data/`: identidad, productos, precios, ofertas y prospectos.
-- `assets/`: logo PNG obtenido de la web, capturas JPEG optimizadas y fuentes con licencias.
+- `assets/`: arte capturado de la web (`art-hero.jpg`, `art-sunrise.jpg`, `art-dawn.jpg`, con `scripts/capture-art.mjs`), glifos de fase y logo en PNG (`scripts/render-glyphs.mjs`), capturas JPEG de las demos y fuentes con licencias (Instrument Serif, Geist y Geist Mono de Eclipse-Web; fuente de marca de cada producto).
 - `previews/`: galería sin framework, controles accesibles y condiciones.
 - `dist/emails/drafts/`: HTML, texto plano y metadatos por pieza.
 - `docs/sources/`: tarifario/manual consultados y evidencia web.
 - `docs/qa/`: resultados JSON, matriz y capturas.
+
+El arte se regenera solo si cambia la web: `node scripts/capture-art.mjs` (web publicada) o `node scripts/capture-art.mjs --url http://localhost:3200/es/` (Eclipse-Web en `next dev`), y `node scripts/render-glyphs.mjs` para glifos y logo. Ambos escriben en `assets/` y no forman parte del build.
 
 Se eligió un compilador pequeño en JavaScript con tablas e inline explícito, Zod para datos y html-to-text. Evita la transformación opaca de otra DSL para una composición de una columna. Los tokens compartidos de `data/brand.json` se resuelven a valores concretos mediante `src/theme.mjs`; no quedan variables CSS en el email. Lockfile, datos fijos y ausencia de timestamps en el build permiten compilación determinista. Los informes de inspección y QA se generan por separado.
 

@@ -1,225 +1,253 @@
-Asunto: Volta: catálogo y consultas para tu tienda
-Preheader: Una base adaptable a tu marca, con catálogo, consulta y fidelización estándar.
-
+Asunto: Volta: tu catálogo online, con tu marca
+Preheader: Probá la demo antes de hablar: catálogo, consultas y un club que hace volver.
 
 ECLIPSE
-Volta
+Propuesta · Volta
 
+01
+Comercio · tienda online
 
-
-COMERCIO · VOLTA
-
-
-Tu catálogo.
-El próximo paso, más claro.
+Que elegir
+sea fácil.
 
 Hola, equipo de Tienda Horizonte.
 
-En una tienda de suplementos, encontrar una opción y saber cómo consultar son parte
-del mismo recorrido. Preparamos una propuesta para ordenar ese camino con tu marca y
-tus contenidos.
+En una tienda de suplementos, la venta se decide entre sabores, tamaños y dudas. Volta
+ordena ese momento: catálogo claro, fichas completas y un camino directo a la
+consulta, con tu marca.
 
-Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
+Probá la demo de Volta  ↗ [https://toti-gauna.github.io/supplements-ecommerce/]
 
+Datos ficticios · sin registro
 
-▷
+Muestra  Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
 
+02
+La demo
+
+Mirá un negocio
+como el tuyo funcionando.
+
+  Volta
+Tienda de suplementos
+
+Volta es un producto que ya funciona. Probalo con datos ficticios: es la base que
+adaptamos a tu marca.
+
+TRAILER · 60 S
 
 Trailer pendiente de incorporar
 
-60 segundos · vista previa estática
-
-
 Ver cómo funciona · enlace disponible al incorporar el trailer.
 
+Fig. 01 — Vista del cliente
+Demo
 
-01 / LA EXPERIENCIA
+Catálogo de la demo: categorías y fichas para comparar antes de consultar.
 
-
-Una base para trabajar mejor.
+Qué resuelve
 
 01
 
-Elegir con contexto
+Fichas que responden
 
-Categorías y fichas reúnen variantes y datos del catálogo para preparar una consulta.
-
+Sabores, tamaños y variantes en una sola ficha. El cliente llega a la consulta
+sabiendo qué quiere.
 
 02
 
-Una operación visible
+Pedidos a la vista
 
-El panel de muestra permite recorrer pedidos y preparación. La operación productiva se
-delimita aparte.
-
+Un panel para seguir pedidos y preparación de un vistazo. La operación conectada se
+define según alcance.
 
 03
 
 Un motivo para volver
 
-Club, misiones y experiencias de regalo muestran posibilidades de fidelización con
-reglas visibles.
+Club, misiones y regalos con reglas claras: tu tienda también fideliza.
 
+Fig. 02 — Vista del equipo
+Demo
 
-Cliente explora y consulta → Comercio organiza la atención → Seguimiento según alcance
+Panel del dueño: pedidos y preparación, con datos ficticios.
 
+El recorrido
 
-Demo frontend con datos ficticios: no cobra, no crea pedidos reales y el panel está
-abierto sin login. Lo mostrado no equivale al paquete contratado.
+PASO 1  El cliente elige y consulta
+PASO 2  Tu equipo responde y prepara
+PASO 3  El club lo trae de vuelta
 
+Abrir la demo
 
-EL RECORRIDO DEL CLIENTE
+Experiencia del cliente [https://toti-gauna.github.io/supplements-ecommerce/]
+Panel del dueño [https://toti-gauna.github.io/supplements-ecommerce/admin-demo/]
 
-Catálogo de la demo publicada: ayuda a comparar opciones antes de consultar.
+Demo  Volta funciona con datos ficticios: no cobra ni crea pedidos reales, y el panel
+está abierto sin login. Lo que ves no equivale al paquete contratado.
 
+Experiencias de regalo
 
-LA VISTA DEL EQUIPO
+Un regalo también
+es un recorrido.
 
-Panel demostrativo: permite conversar sobre el flujo operativo que realmente
-necesitás.
-
-
-Ver experiencia del cliente [https://toti-gauna.github.io/supplements-ecommerce/]
-
-
-Ver panel del dueño [https://toti-gauna.github.io/supplements-ecommerce/admin-demo/]
-
-
-Accesos de demostración con datos ficticios.
-
-
-EXPERIENCIAS ESPECIALES
-
-
-Un regalo también es un recorrido.
-
-Explorá estas aperturas de regalo de la demo. Son ejemplos ficticios, sin compra ni
+Abrí estas experiencias de regalo de la demo: son ejemplos ficticios, sin compra ni
 beneficio real.
 
 Regalo Volta
 [https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-VE1M-AR7X]
-
-
 Regalo de Navidad
 [https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-NAV1-DADP]
-
 
 La herramienta se adapta al alcance; premios, costos y operación de campañas se
 acuerdan aparte.
 
+03
+Precio
 
-02 / TU PUNTO DE PARTIDA
+Cuánto cuesta
+y cómo se paga.
 
+Precios en dólares, sin letra chica. El número final te lo confirmamos por escrito,
+con el alcance acordado.
 
-Pack lanzamiento para Volta
+A2  OFERTA   Para salir con todo
 
-Adaptación comercial del catálogo y consulta manual, con hasta 25 productos aportados,
-marca y contenido acordados. Cobro online, pedidos persistentes y administración
-conectada requieren alcance adicional.
+Pack lanzamiento
 
-Gamificación estándar incluida. Mecánica estándar de Club y misiones del producto,
-adaptada al alcance. Premios y operación de campañas aparte.
+Para salir con Volta, landing y un plan claro desde el primer día.
 
-Incluye adaptación, landing adicional cuando corresponda y ambas asesorías. La gestión
-económica requiere responsable confirmado.
+Desde · implementación
 
-Pack USD 700
+USD 700
 
-Anticipo 50 %: USD 350
-Saldo: USD 350 al aprobar la entrega.
+Qué incluye
 
+Adaptación de Volta: marca, contenido y configuración
+Landing premium adicional, si tu producto no la trae
+Asesoría de growth y marca + asesoría de gestión económica
+3 meses de plan mensual bonificados (el equivalente a Esencial)
 
-Primero definimos alcance, entregables y factibilidad. El precio corresponde a adaptar
-una base existente.
+BORRADOR · La gestión económica requiere responsable confirmado.
 
-Definamos tu alcance · pendiente
+Cómo se paga
 
+Anticipo 50 %
+Para empezar el proyecto
+USD 350
+Saldo 50 %
+A la entrega aprobada
+USD 350
 
-CONDICIÓN DE ESTA CAMPAÑA
+Hablemos de tu proyecto · PENDIENTE
 
+El proyecto empieza con el anticipo. Antes, definimos juntos alcance, entregables y
+factibilidad: el precio corresponde a adaptar un producto existente.
 
-3 meses de Esencial bonificados.
+04
+Plan mensual
 
-Desde la publicación, bonificamos el equivalente al plan Esencial. Plan elegido:
-Esencial, USD 0/mes durante los primeros 3 meses; desde el mes 4, USD 30/mes.
+Un plan mensual.
+Uno solo.
 
-Si elegís Conectado: USD 45/mes durante la promoción y luego USD 75/mes.
-Automatización/IA: USD 120 y luego USD 150/mes.
+Mantenimiento, alojamiento y lo que tu producto necesita para seguir andando. Elegís
+el nivel según lo que construimos; no se paga uno por canal.
 
+Condición de esta campaña
 
-03 / COMPLEMENTOS CON SENTIDO
+3 meses de Esencial, bonificados.
 
+Desde la publicación, bonificamos el equivalente a Esencial. Si elegís otro plan,
+pagás solo la diferencia; desde el mes 4, el precio normal.
 
-Software, marca y crecimiento.
+Plan
+Esencial  Elegido
 
-La asesoría ayuda a definir mensajes, marca y retención. La gestión económica puede
-complementar la decisión sobre costos y márgenes; se ofrece únicamente con responsable
+Mantenimiento de tu producto y configuración priorizada.
+
+USD 0/mes · meses 1–3
+USD 30/mes · desde el mes 4
+
+Terceros hasta USD 5/mes, dentro del precio
+
+Conectado
+
+Una integración estándar, sujeta a factibilidad.
+
+USD 45/mes · meses 1–3
+USD 75/mes · desde el mes 4
+
+Terceros hasta USD 15/mes, dentro del precio
+
+Automatización/IA
+
+Hasta dos flujos estándar totales; uno puede usar IA.
+
+USD 120/mes · meses 1–3
+USD 150/mes · desde el mes 4
+
+Terceros hasta USD 40/mes, dentro del precio
+
+Los planes son alternativas: elegís uno, no se suman.
+
+05
+Complementos
+
+Para ir
+más lejos.
+
+Una asesoría de growth y marca ordena mensajes, captación y retención. La de gestión
+económica revisa costos y márgenes con tus datos, y solo se ofrece con responsable
 confirmado.
 
 BORRADOR · Asesoría económica pendiente de responsable y capacidad. Esta oferta no se
 puede exportar para envío.
 
-Migración Excel/PDF: USD 100–300 por única vez, tras revisar muestra y carga. Módulos
-operativos fuera de la adaptación: desde USD 750, sujetos a alcance.
+06
+Condiciones
 
+Condiciones,
+a la vista.
 
-04 / CONTINUIDAD
+a.
+Todos los planes incluyen hasta 2 h humanas por mes en total (no se acumulan) para
+mantenimiento, configuración y mejoras priorizadas.
+b.
+Lo de terceros (alojamiento, datos y consumos compatibles) ya está dentro del precio.
+Te avisamos al 80 % y no hay recargos automáticos.
+c.
+Si el cupo no alcanza, acordamos cómo ampliarlo y qué automatización se pausa. Tu
+producto y tus datos siguen disponibles.
+d.
+Proveedor y factibilidad se validan por cuenta, antes de empezar.
+e.
+Migración desde Excel o PDF: USD 100–300, por única vez, después de revisar una
+muestra.
+f.
+Módulos operativos fuera de la adaptación: desde USD 750, según alcance.
+g.
+El dominio y su renovación van aparte, salvo que la propuesta los incluya.
 
+Leé las condiciones completas antes del anticipo [../../../previews/conditions.html] →
 
-Una sola mensualidad.
-El plan que necesitás.
+07
+Próximo paso
 
-PLAN ELEGIDO
+El próximo paso
+es tuyo.
 
-Esencial · USD 30/mes
+Contanos qué querés resolver primero. Te respondemos con alcance, precio y plazos por
+escrito, antes de cualquier anticipo.
 
-Mantenimiento de tu producto y configuración priorizada. Presupuesto total de terceros
-incluido: hasta USD 5/mes.
+Hablemos de tu proyecto · PENDIENTE
 
+Eclipse · remitente pendiente de confirmar
 
-ALTERNATIVA
+ECLIPSE
 
-Conectado · USD 75/mes
+Desarrollo, IA y automatización para negocios que no pueden esperar.
 
-Una integración estándar, sujeta a factibilidad. Presupuesto total de terceros
-incluido: hasta USD 15/mes.
+Conocé Eclipse [https://toti-gauna.github.io/Eclipse-Web/es/] ↗
 
-
-ALTERNATIVA
-
-Automatización/IA · USD 150/mes
-
-Hasta dos flujos estándar totales; uno puede usar IA. Presupuesto total de terceros
-incluido: hasta USD 40/mes.
-
-
-Hasta 2 horas mensuales TOTALES, no acumulables, para mantenimiento, configuración y
-mejoras priorizadas. Los planes son alternativas, no se suman.
-
-Los cupos incluyen alojamiento/datos compatibles y consumos; no se agregan al precio
-mensual. Proveedor y factibilidad por cuenta a validar. Aviso al 80 % y sin
-sobrecargos automáticos.
-
-Si se agota el cupo, acordamos la ampliación y qué automatización se pausa,
-preservando acceso al producto y los datos. Dominio y renovación aparte salvo
-inclusión validada.
-
-Leé las condiciones completas antes del anticipo → [../../../previews/conditions.html]
-
-
-
-Conversemos sobre
-tu próximo paso.
-
-Contanos qué necesitás resolver primero. Definimos un alcance útil y te compartimos
-las condiciones antes de avanzar.
-
-Definamos tu alcance · pendiente
-
-Eclipse Agency · remitente pendiente de confirmar
-
-Conocé Eclipse [https://toti-gauna.github.io/Eclipse-Web/es/]
-
-Si preferís no recibir más propuestas, respondé “No recibir más”.
-
-
+Los negocios que ves en las demos son ficticios. Si preferís no recibir más
+propuestas, respondé «No recibir más».

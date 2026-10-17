@@ -1,51 +1,64 @@
-Asunto: TableFlow: de la carta a la atención de tu salón
-Preheader: Carta, reservas y una operación de muestra para definir un alcance concreto.
-
+Asunto: TableFlow: tu carta y tus reservas, con tu marca
+Preheader: Mirá la demo de Mesa Clara: carta, reservas y el panel del salón.
 
 ECLIPSE
-TableFlow
+Primer contacto · TableFlow
 
+01
+Gastronomía · carta y reservas
 
-
-GASTRONOMÍA · TABLEFLOW
-
-
-De la carta
-a una mesa bien atendida.
+La cena empieza
+antes de llegar.
 
 Hola, equipo de Mesa del Sur.
 
-En un restaurante, la experiencia empieza antes de que llegue el primer plato.
-Preparamos una propuesta para conectar la carta, la consulta de reserva y la atención
-de tu equipo.
+En un restaurante, la experiencia empieza en la carta. TableFlow la conecta con la
+reserva y con el trabajo del salón, con tu identidad y tu forma de atender.
 
-Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
+Probá la demo de TableFlow  ↗ [https://toti-gauna.github.io/Tableflow/#/mesa-clara]
 
+Datos ficticios · sin registro
 
-TableFlow propone conectar la carta y la consulta de reserva con la atención del
-equipo. Adaptación de la presentación, carta y recorrido de consulta sobre la base
-existente. Pedidos, reservas persistentes, salón y cocina productivos se delimitan
-como módulos operativos.
+Muestra  Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
 
-Adaptación desde USD 500. Definimos alcance antes del anticipo.
+02
+En corto
 
-Ver presentación completa [tableflow-tableflow-example-full.html]
+La propuesta,
+en tres líneas.
 
+La demo
+TableFlow, con datos ficticios
+ABRIR ↗ [https://toti-gauna.github.io/Tableflow/#/mesa-clara]
+Adaptación de producto
+Tu marca y tu identidad sobre TableFlow
+desde USD 500
+Plan mensual
+3 meses de Esencial bonificados
+desde USD 30/mes
 
+Ver la propuesta completa  → [tableflow-tableflow-example-full.html]
 
+Alcance, precio, plan mensual y condiciones, en una sola página.
 
-Conversemos sobre
-tu próximo paso.
+03
+Próximo paso
 
-Contanos qué necesitás resolver primero. Definimos un alcance útil y te compartimos
-las condiciones antes de avanzar.
+El próximo paso
+es tuyo.
 
-Definamos tu alcance · pendiente
+Contanos qué querés resolver primero. Te respondemos con alcance, precio y plazos por
+escrito, antes de cualquier anticipo.
 
-Eclipse Agency · remitente pendiente de confirmar
+Hablemos de tu proyecto · PENDIENTE
 
-Conocé Eclipse [https://toti-gauna.github.io/Eclipse-Web/es/]
+Eclipse · remitente pendiente de confirmar
 
-Si preferís no recibir más propuestas, respondé “No recibir más”.
+ECLIPSE
 
+Desarrollo, IA y automatización para negocios que no pueden esperar.
 
+Conocé Eclipse [https://toti-gauna.github.io/Eclipse-Web/es/] ↗
+
+Los negocios que ves en las demos son ficticios. Si preferís no recibir más
+propuestas, respondé «No recibir más».

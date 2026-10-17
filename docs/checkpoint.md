@@ -25,3 +25,8 @@ Registro consolidado guardado y verificado en Eclipse Agency: https://app.notion
 Ignacio solicitó publicar la galería con GitHub Actions desde `main`. Se agregó el workflow de build/validación/deploy y un empaquetado explícito de `_site/`. Las configuraciones y las copias originales de Notion quedan fuera del sitio; las propuestas personalizadas tampoco se publican. La galería continúa mostrando borradores y no envía correos.
 
 URL esperada: https://toti-gauna.github.io/Eclipse-email-kit/
+
+## Rediseño visual y de copy · 17/10/2026
+
+Ignacio pidió plantillas más premium y alineadas a la web. Se rehicieron cabecera, hero, demo, precio, plan mensual, complementos, condiciones, cierre y pie con el sistema de Eclipse-Web (tokens, Instrument Serif/Geist/Geist Mono, glifos de fase, marcas de registro, libros con filetes) y arte capturado de la propia web. La identidad de cada producto queda en su ficha (nombre con su tipografía y color) y en las capturas; el resto es Eclipse. Copy reescrito por producto (`includes`, `apart`, titulares con `*palabra*`); se retiraron campos sin uso (`improvement`, `scope`, `gamification`, `surface`, fuentes de texto por producto). Las secciones se numeran solas y una oferta sin complementos (pack) no muestra esa sección. Sin cambios en precios, reglas de oferta, gates ni procedencia.
+

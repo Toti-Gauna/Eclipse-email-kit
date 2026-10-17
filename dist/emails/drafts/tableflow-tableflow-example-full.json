@@ -1,6 +1,6 @@
 {
-  "subject": "TableFlow: de la carta a la atención de tu salón",
-  "preheader": "Carta, reservas y una operación de muestra para definir un alcance concreto.",
+  "subject": "TableFlow: tu carta y tus reservas, con tu marca",
+  "preheader": "Mirá la demo de Mesa Clara: carta, reservas y el panel del salón.",
   "status": "draft",
   "errors": [
     "Prospecto ficticio",
@@ -9,6 +9,6 @@
     "Condiciones accesibles por HTTPS pendientes",
     "Assets HTTPS pendientes de publicación autorizada"
   ],
-  "bytes": 24672,
+  "bytes": 62701,
   "priceVersion": "2026-10-16.aprobado"
 }

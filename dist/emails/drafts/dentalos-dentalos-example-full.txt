@@ -1,215 +1,245 @@
-Asunto: DentalOS: turnos y continuidad administrativa
-Preheader: Un recorrido claro para pacientes, recepción y profesionales.
-
+Asunto: DentalOS: turnos en orden para tu consultorio
+Preheader: Probá la demo: el paciente pide turno y recepción lo sigue en una sola agenda.
 
 ECLIPSE
-DentalOS
+Propuesta · DentalOS
 
-
-
-ODONTOLOGÍA · DENTALOS
-
+01
+Salud · consultorio odontológico
 
 Cada turno,
-con un próximo paso claro.
+con su próximo paso.
 
 Hola, equipo de Consultorio del Parque.
 
-En un consultorio, pedir un turno y continuar la atención administrativa involucra a
-pacientes y recepción. Preparamos una propuesta para hacer ese recorrido más claro,
-con información y responsabilidades acordadas.
+En un consultorio, pedir un turno y darle seguimiento involucra al paciente y a
+recepción. DentalOS ordena ese recorrido: información clara, una solicitud simple y
+una agenda compartida.
 
-Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
+Probá la demo de DentalOS  ↗ [https://toti-gauna.github.io/DentalOS/#/]
 
+Datos ficticios · sin registro
 
-▷
+Muestra  Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
 
+02
+La demo
+
+Mirá un negocio
+como el tuyo funcionando.
+
+  DentalOS
+Consultorio odontológico
+
+DentalOS es un producto que ya funciona. Probalo con datos ficticios: es la base que
+adaptamos a tu marca.
+
+TRAILER · 60 S
 
 Trailer pendiente de incorporar
 
-60 segundos · vista previa estática
-
-
 Ver cómo funciona · enlace disponible al incorporar el trailer.
 
+Fig. 01 — Vista del cliente
+Demo
 
-01 / LA EXPERIENCIA
+Clínica Brisa: información del consultorio y acceso a pedir turno.
 
-
-Una base para trabajar mejor.
+Qué resuelve
 
 01
 
-Llegar mejor orientado
+Pedir turno, sin vueltas
 
-Información del consultorio y un recorrido de solicitud de turno para el paciente.
-
+El paciente encuentra la información del consultorio y solicita su turno en pocos
+pasos.
 
 02
 
 Recepción con contexto
 
-Agenda, solicitudes y próximos pasos se pueden explorar con datos ficticios.
-
+Agenda, solicitudes y próximos pasos en una sola vista, para todo el equipo.
 
 03
 
-Continuidad administrativa
+Seguimiento en orden
 
-La demo permite revisar tareas y seguimiento. No ofrece diagnósticos, tratamientos
-sugeridos ni resultados clínicos.
+Tareas administrativas a la vista, para que nada dependa de la memoria. Sin
+diagnósticos ni indicaciones clínicas.
 
+Fig. 02 — Vista del equipo
+Demo
 
-Paciente solicita un turno → Recepción organiza la solicitud → Profesional y recepción
-siguen tareas
+Agenda de recepción, con datos sintéticos.
 
+El recorrido
 
-Clínica Brisa es ficticia. La demo es frontend: sin autenticación, mensajes, llamadas,
-pagos ni historia clínica productiva. Los roles son vistas de muestra.
+PASO 1  El paciente pide su turno
+PASO 2  Recepción lo ordena en la agenda
+PASO 3  El equipo sigue cada tarea
 
+Abrir la demo
 
-EL RECORRIDO DEL CLIENTE
+Experiencia del paciente [https://toti-gauna.github.io/DentalOS/#/]
+Panel de recepción [https://toti-gauna.github.io/DentalOS/#/admin]
 
-Portal público de muestra: información y acceso a la solicitud de turno.
+Demo  Clínica Brisa es ficticia. La demo no tiene autenticación, mensajes, llamadas,
+pagos ni historia clínica real: los roles son vistas de muestra.
 
+03
+Precio
 
-LA VISTA DEL EQUIPO
+Cuánto cuesta
+y cómo se paga.
 
-Agenda demostrativa: contexto compartido para conversar sobre recepción y seguimiento.
+Precios en dólares, sin letra chica. El número final te lo confirmamos por escrito,
+con el alcance acordado.
 
+A1  OFERTA
 
-Ver experiencia del paciente [https://toti-gauna.github.io/DentalOS/#/]
+Adaptación de producto
 
+DentalOS, con tu marca, tu contenido y tu configuración.
 
-Ver panel de recepción [https://toti-gauna.github.io/DentalOS/#/admin]
+Desde · implementación
 
+USD 500
 
-Accesos de demostración con datos ficticios.
+Qué incluye
 
+Tu marca e información del consultorio sobre DentalOS
+Recorrido de solicitud de turno
+Exploración educativa y progreso estándar, sin incentivar tratamientos
 
-02 / TU PUNTO DE PARTIDA
+Agenda persistente, datos de pacientes e integraciones se definen con alcance y
+validación propios. El contenido clínico queda sujeto a revisión profesional.
 
+Cómo se paga
 
-Adaptamos DentalOS a tu negocio desde USD 500
+Anticipo 50 %
+Para empezar el proyecto
+USD 250
+Saldo 50 %
+A la entrega aprobada
+USD 250
 
-Adaptación de marca, información del consultorio y recorrido de consulta sobre la base
-existente. Agenda persistente, datos de pacientes e integraciones productivas
-requieren alcance y validación propios.
+Hablemos de tu proyecto · PENDIENTE
 
-Gamificación estándar incluida. Exploración educativa voluntaria y progreso estándar,
-sin condicionar atención ni incentivar tratamientos. Contenido clínico sujeto a
-revisión profesional.
+El proyecto empieza con el anticipo. Antes, definimos juntos alcance, entregables y
+factibilidad: el precio corresponde a adaptar un producto existente.
 
-Implementación USD 500
+04
+Plan mensual
 
-Anticipo 50 %: USD 250
-Saldo: USD 250 al aprobar la entrega.
+Un plan mensual.
+Uno solo.
 
+Mantenimiento, alojamiento y lo que tu producto necesita para seguir andando. Elegís
+el nivel según lo que construimos; no se paga uno por canal.
 
-Primero definimos alcance, entregables y factibilidad. El precio corresponde a adaptar
-una base existente.
+Condición de esta campaña
 
-Definamos tu alcance · pendiente
+3 meses de Esencial, bonificados.
 
+Desde la publicación, bonificamos el equivalente a Esencial. Si elegís otro plan,
+pagás solo la diferencia; desde el mes 4, el precio normal.
 
-CONDICIÓN DE ESTA CAMPAÑA
+Plan
+Esencial  Elegido
 
+Mantenimiento de tu producto y configuración priorizada.
 
-3 meses de Esencial bonificados.
+USD 0/mes · meses 1–3
+USD 30/mes · desde el mes 4
 
-Desde la publicación, bonificamos el equivalente al plan Esencial. Plan elegido:
-Esencial, USD 0/mes durante los primeros 3 meses; desde el mes 4, USD 30/mes.
+Terceros hasta USD 5/mes, dentro del precio
 
-Si elegís Conectado: USD 45/mes durante la promoción y luego USD 75/mes.
-Automatización/IA: USD 120 y luego USD 150/mes.
+Conectado
 
+Una integración estándar, sujeta a factibilidad.
 
-03 / COMPLEMENTOS CON SENTIDO
+USD 45/mes · meses 1–3
+USD 75/mes · desde el mes 4
 
+Terceros hasta USD 15/mes, dentro del precio
 
-Software, marca y crecimiento.
+Automatización/IA
 
-La asesoría ayuda a definir mensajes, marca y retención. La gestión económica puede
-complementar la decisión sobre costos y márgenes; se ofrece únicamente con responsable
+Hasta dos flujos estándar totales; uno puede usar IA.
+
+USD 120/mes · meses 1–3
+USD 150/mes · desde el mes 4
+
+Terceros hasta USD 40/mes, dentro del precio
+
+Los planes son alternativas: elegís uno, no se suman.
+
+05
+Complementos
+
+Para ir
+más lejos.
+
+Una asesoría de growth y marca ordena mensajes, captación y retención. La de gestión
+económica revisa costos y márgenes con tus datos, y solo se ofrece con responsable
 confirmado.
 
-Asesoría puntual de growth y marca · USD 150
-
+Asesoría puntual de growth y marca
 Revisamos propuesta, mensajes y una acción de captación o retención; acordamos
 prioridades y una métrica. No incluye identidad completa ni gestión continua.
-
 OPCIONAL · NO INCLUIDO
-
-
-Landing premium adicional · USD 200
-
++ USD 150
+Landing premium adicional
 Una landing compatible para presentar tu propuesta. Solo si no está incluida en el
 alcance.
-
 OPCIONAL · NO INCLUIDO
++ USD 200
 
+06
+Condiciones
 
-Migración Excel/PDF: USD 100–300 por única vez, tras revisar muestra y carga. Módulos
-operativos fuera de la adaptación: desde USD 750, sujetos a alcance.
+Condiciones,
+a la vista.
 
+a.
+Todos los planes incluyen hasta 2 h humanas por mes en total (no se acumulan) para
+mantenimiento, configuración y mejoras priorizadas.
+b.
+Lo de terceros (alojamiento, datos y consumos compatibles) ya está dentro del precio.
+Te avisamos al 80 % y no hay recargos automáticos.
+c.
+Si el cupo no alcanza, acordamos cómo ampliarlo y qué automatización se pausa. Tu
+producto y tus datos siguen disponibles.
+d.
+Proveedor y factibilidad se validan por cuenta, antes de empezar.
+e.
+Migración desde Excel o PDF: USD 100–300, por única vez, después de revisar una
+muestra.
+f.
+Módulos operativos fuera de la adaptación: desde USD 750, según alcance.
+g.
+El dominio y su renovación van aparte, salvo que la propuesta los incluya.
 
-04 / CONTINUIDAD
+Leé las condiciones completas antes del anticipo [../../../previews/conditions.html] →
 
+07
+Próximo paso
 
-Una sola mensualidad.
-El plan que necesitás.
+El próximo paso
+es tuyo.
 
-PLAN ELEGIDO
+Contanos qué querés resolver primero. Te respondemos con alcance, precio y plazos por
+escrito, antes de cualquier anticipo.
 
-Esencial · USD 30/mes
+Hablemos de tu proyecto · PENDIENTE
 
-Mantenimiento de tu producto y configuración priorizada. Presupuesto total de terceros
-incluido: hasta USD 5/mes.
+Eclipse · remitente pendiente de confirmar
 
+ECLIPSE
 
-ALTERNATIVA
+Desarrollo, IA y automatización para negocios que no pueden esperar.
 
-Conectado · USD 75/mes
+Conocé Eclipse [https://toti-gauna.github.io/Eclipse-Web/es/] ↗
 
-Una integración estándar, sujeta a factibilidad. Presupuesto total de terceros
-incluido: hasta USD 15/mes.
-
-
-ALTERNATIVA
-
-Automatización/IA · USD 150/mes
-
-Hasta dos flujos estándar totales; uno puede usar IA. Presupuesto total de terceros
-incluido: hasta USD 40/mes.
-
-
-Hasta 2 horas mensuales TOTALES, no acumulables, para mantenimiento, configuración y
-mejoras priorizadas. Los planes son alternativas, no se suman.
-
-Los cupos incluyen alojamiento/datos compatibles y consumos; no se agregan al precio
-mensual. Proveedor y factibilidad por cuenta a validar. Aviso al 80 % y sin
-sobrecargos automáticos.
-
-Si se agota el cupo, acordamos la ampliación y qué automatización se pausa,
-preservando acceso al producto y los datos. Dominio y renovación aparte salvo
-inclusión validada.
-
-Leé las condiciones completas antes del anticipo → [../../../previews/conditions.html]
-
-
-
-Conversemos sobre
-tu próximo paso.
-
-Contanos qué necesitás resolver primero. Definimos un alcance útil y te compartimos
-las condiciones antes de avanzar.
-
-Definamos tu alcance · pendiente
-
-Eclipse Agency · remitente pendiente de confirmar
-
-Conocé Eclipse [https://toti-gauna.github.io/Eclipse-Web/es/]
-
-Si preferís no recibir más propuestas, respondé “No recibir más”.
-
-
+Los negocios que ves en las demos son ficticios. Si preferís no recibir más
+propuestas, respondé «No recibir más».

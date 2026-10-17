@@ -1,5 +1,19 @@
 # Revisión de entrega
 
+## Rediseño visual · 17/10/2026
+
+Plantillas rehechas con la dirección de arte de la web: eclipse del hero con su dial, marcas de sección `01 ── ◐ ETIQUETA` con el glifo de fase avanzando hacia el sol, titulares en Instrument Serif con una sola palabra destacada, precio como lectura mono, libro de anticipo/saldo con filetes punteados, marcas de registro en tarjetas y figuras, amanecer entre la demo y los números y el sol al cierre. Copy reescrito en rioplatense, corto y concreto; precios, condiciones y advertencias de demo sin cambios de fondo.
+
+- Pruebas de sistema: 8 (se agregó titular con una palabra destacada, enlace de la breve a la completa y peso < 80 kB).
+- QA de navegador: Chromium 320/390/1440, imágenes y fuentes bloqueadas, solo inline, nombres largos, modo oscuro CSS, galería; sin desbordes. Firefox no estaba instalado en este entorno: queda pendiente repetirlo.
+- Axe WCAG 2 A/AA: 0 incidencias en los tres emails completos y en la galería.
+- Salida de envío simulada con datos completos de prueba: sin textos de borrador y todos los recursos HTTPS.
+- Build determinista: `determinism.json` (34 archivos, dos builds idénticos).
+
+Lo que sigue sin probarse: Gmail, Outlook y Apple Mail reales.
+
+## Revisión anterior (diseño v1)
+
 ## Comprobaciones realizadas
 
 - Seis piezas iniciales compiladas: tres completas y tres breves. Además, base Eclipse, rubro cafetería de TableFlow y pack de lanzamiento en borrador.
@@ -22,7 +36,7 @@ Los renders completos son largos porque incluyen la propuesta íntegra solicitad
 
 ## Evidencia
 
-- `browser-results.json`: 26 comprobaciones de navegador.
+- `browser-results.json`: comprobaciones de navegador (Chromium en el rediseño; Firefox marcado como no disponible).
 - `extra-results.json`: casos extremos y controles.
 - `accessibility.json`: análisis automático WCAG A/AA (complementario, no certificación).
 - `validation.json`: estructura y bloqueos de salida.
