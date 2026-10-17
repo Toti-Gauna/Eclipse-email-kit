@@ -7,7 +7,7 @@ export const FONT={serif:"'Instrument Serif',Georgia,'Times New Roman',serif",sa
 // One palette per section theme, like .theme-dark / .theme-light on the site.
 const dark={fg:'__ECLIPSE_DAWN__',muted:'__ECLIPSE_MIST__',accent:'__ECLIPSE_CORONA__',line:'__ECLIPSE_HAIRDARK__',rule:'__ECLIPSE_RULEDARK__',glyph:'dark'};
 const light={fg:'__ECLIPSE_INK__',muted:'__ECLIPSE_MUTED__',accent:'__ECLIPSE_DEEP__',line:'__ECLIPSE_HAIRLIGHT__',rule:'__ECLIPSE_RULELIGHT__',glyph:'light'};
-export const THEME={void:{...dark,bg:'__ECLIPSE_VOID__'},night:{...dark,bg:'__ECLIPSE_NIGHT__'},dawn:{...light,bg:'__ECLIPSE_DAWN__'},soft:{...light,bg:'__ECLIPSE_SOFT__'},paper:{...light,bg:'__ECLIPSE_PAPER__'}};
+export const THEME={void:{...dark,bg:'__ECLIPSE_VOID__'},night:{...dark,bg:'__ECLIPSE_NIGHT__'},dawn:{...light,bg:'__ECLIPSE_DAY__'},soft:{...light,bg:'__ECLIPSE_SOFT__'},paper:{...light,bg:'__ECLIPSE_PAPER__'}};
 
 export const table=(content,extra='',style='')=>`<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" ${extra} style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;${style}">${content}</table>`;
 export const row=(content,style='',extra='')=>`<tr><td ${extra} style="${style}">${content}</td></tr>`;

@@ -77,7 +77,7 @@ Al recibir miniatura y destino válidos, completá ambas URLs HTTPS, verificá l
 - `src/email/templates/eclipse.mjs`: recorrido noche → amanecer, numeración de secciones y versión breve.
 - `src/schema.mjs`, `src/offers.mjs`: validación y reglas comerciales.
 - `data/`: identidad, productos, precios, ofertas y prospectos.
-- `assets/`: arte capturado de la web (`art-hero.jpg`, `art-sunrise.jpg`, `art-dawn.jpg`, con `scripts/capture-art.mjs`), glifos de fase y logo en PNG (`scripts/render-glyphs.mjs`), pósters de muestra del trailer (`scripts/render-posters.mjs`), capturas JPEG de las demos y fuentes con licencias (Instrument Serif, Geist y Geist Mono de Eclipse-Web; fuente de marca de cada producto).
+- `assets/`: arte capturado de la web (`art-hero.jpg`, `art-dawn.jpg`, con `scripts/capture-art.mjs`), el degradé de noche a blanco de la mitad del email (`art-transition.jpg`, `scripts/render-transition.mjs`), glifos de fase y logo en PNG (`scripts/render-glyphs.mjs`), pósters de muestra del trailer (`scripts/render-posters.mjs`), capturas JPEG de las demos y fuentes con licencias (Instrument Serif, Geist y Geist Mono de Eclipse-Web; fuente de marca de cada producto).
 - `previews/`: galería sin framework, controles accesibles y condiciones.
 - `dist/emails/drafts/`: HTML, texto plano y metadatos por pieza.
 - `docs/sources/`: tarifario/manual consultados y evidencia web.

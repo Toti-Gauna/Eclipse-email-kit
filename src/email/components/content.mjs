@@ -63,5 +63,6 @@ function gifts(c,t){
  return spacer(56)+ticks(label('Regalos de la demo',t,{color:t.accent})+heading('Un regalo también\nes un recorrido.',t,{level:3,size:32,mb:14,cls:'h3'})+p('Abrí estas experiencias de regalo: son ejemplos ficticios, sin compra ni beneficio real.',t,{size:15,lh:24,color:t.muted,mb:22})+buttons(list,{...t,bg:'__ECLIPSE_ASH__'},false)+p('La herramienta se adapta al alcance; premios, costos y operación de campañas se acuerdan aparte.',t,{size:13,lh:21,color:t.muted,mb:0,style:'padding-top:14px'}),t,{pad:28,bg:'__ECLIPSE_ASH__'});
 }
 
-// Night → dawn: the sunrise of the web, between the product and the numbers.
-export const sunrise=c=>bleed(image(asset(c,'art-sunrise.jpg'),'',640,176,{bg:'__ECLIPSE_NIGHT__'}),'__ECLIPSE_NIGHT__');
+// Night → white: one long seamless fade with the first light behind it, between the product
+// and the numbers (scripts/render-transition.mjs). Its edges equal the flat colors around it.
+export const sunrise=c=>bleed(image(asset(c,'art-transition.jpg'),'',640,320,{bg:'__ECLIPSE_NIGHT__'}),'__ECLIPSE_NIGHT__');
