@@ -3,13 +3,14 @@
 // Colors are token slots (__ECLIPSE_X__) resolved at build time by src/theme.mjs.
 export const e=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const money=n=>`USD ${n}`;
-export const FONT={serif:"'Instrument Serif',Georgia,'Times New Roman',serif",sans:"'Geist',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif",mono:"'Geist Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"};
+// Short stacks on purpose: they repeat on every inline style and Gmail clips at 102 kB.
+export const FONT={serif:"'Instrument Serif',Georgia,serif",sans:"Geist,Helvetica,Arial,sans-serif",mono:"'Geist Mono',Menlo,Consolas,monospace"};
 // One palette per section theme, like .theme-dark / .theme-light on the site.
 const dark={fg:'__ECLIPSE_DAWN__',muted:'__ECLIPSE_MIST__',accent:'__ECLIPSE_CORONA__',line:'__ECLIPSE_HAIRDARK__',rule:'__ECLIPSE_RULEDARK__',glyph:'dark'};
 const light={fg:'__ECLIPSE_INK__',muted:'__ECLIPSE_MUTED__',accent:'__ECLIPSE_DEEP__',line:'__ECLIPSE_HAIRLIGHT__',rule:'__ECLIPSE_RULELIGHT__',glyph:'light'};
-export const THEME={void:{...dark,bg:'__ECLIPSE_VOID__'},night:{...dark,bg:'__ECLIPSE_NIGHT__'},dawn:{...light,bg:'__ECLIPSE_DAWN__'},soft:{...light,bg:'__ECLIPSE_SOFT__'},paper:{...light,bg:'__ECLIPSE_PAPER__'}};
+export const THEME={void:{...dark,bg:'__ECLIPSE_VOID__'},night:{...dark,bg:'__ECLIPSE_NIGHT__'},dawn:{...light,bg:'__ECLIPSE_DAY__'},soft:{...light,bg:'__ECLIPSE_SOFT__'},paper:{...light,bg:'__ECLIPSE_PAPER__'}};
 
-export const table=(content,extra='',style='')=>`<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" ${extra} style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;${style}">${content}</table>`;
+export const table=(content,extra='',style='')=>`<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" ${extra} style="border-collapse:collapse;${style}">${content}</table>`;
 export const row=(content,style='',extra='')=>`<tr><td ${extra} style="${style}">${content}</td></tr>`;
 export const spacer=h=>`<div aria-hidden="true" style="height:${h}px;line-height:${h}px;font-size:1px">&nbsp;</div>`;
 export const section=(html,t,style='')=>row(html,`padding:56px 48px;background-color:${t.bg};color:${t.fg};${style}`,'class="pad"');
@@ -41,7 +42,7 @@ export function button(text,url,t,{primary=false,arrow='→'}={}){
 }
 
 // Ledger line: name on the left, a reading on the right, a dotted rule under both.
-export const ledger=(left,right,t,{sub='',size=16,last=false}={})=>`<tr><td style="padding:14px 16px 14px 0;border-bottom:1px ${last?'solid':'dotted'} ${t.rule};font-family:${FONT.sans};font-size:${size}px;line-height:24px;color:${t.fg};vertical-align:top">${left}${sub?`<br><span style="font-size:13px;line-height:20px;color:${t.muted}">${sub}</span>`:''}</td><td class="mono" align="right" style="padding:14px 0;border-bottom:1px ${last?'solid':'dotted'} ${t.rule};font-family:${FONT.mono};font-size:${size}px;line-height:24px;color:${t.fg};white-space:nowrap;vertical-align:top;text-align:right">${right}</td></tr>`;
+export const ledger=(left,right,t,{sub='',size=16,last=false}={})=>`<tr><td style="padding:14px 16px 14px 0;border-bottom:1px ${last?'solid':'dotted'} ${t.rule};font-family:${FONT.sans};font-size:${size}px;line-height:24px;color:${t.fg};vertical-align:top;overflow-wrap:anywhere;word-break:break-word">${left}${sub?`<br><span style="font-size:13px;line-height:20px;color:${t.muted}">${sub}</span>`:''}</td><td class="mono" align="right" style="padding:14px 0;border-bottom:1px ${last?'solid':'dotted'} ${t.rule};font-family:${FONT.mono};font-size:${size}px;line-height:24px;color:${t.fg};white-space:nowrap;vertical-align:top;text-align:right">${right}</td></tr>`;
 
 // A frame with registration marks on its four corners (the .ticks of the web).
 export function ticks(inner,t,{pad=0,bg=''}={}){

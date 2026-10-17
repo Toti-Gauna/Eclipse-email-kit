@@ -12,7 +12,7 @@ funcionando.
 
 Hola, equipo de Negocio de muestra.
 
-Tenemos una propuesta para mejorar la experiencia de tu comercio, sobre un producto
+Pensamos en negocios como el tuyo y armamos una propuesta concreta, sobre un producto
 que ya funciona.
 
 Muestra  Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
@@ -22,9 +22,9 @@ El trailer
 
 Eclipse, en 60 segundos.
 
-Un trailer en motion graphics que recorre cada parte del negocio: lo que ve tu
-cliente, lo que ve tu equipo y cómo se conectan. Con música, para verlo en el celular
-o en la compu.
+Sesenta segundos de motion graphics, con música, que recorren todo Eclipse: lo que
+vive tu cliente, lo que ve tu equipo y cómo se conecta cada parte. Pensado para el
+celular y para la compu.
 
 TRAILER · 60 S
 MOTION GRAPHICS · CON MÚSICA
@@ -43,10 +43,10 @@ La demo
 Eclipse, con datos ficticios
 —
 Adaptación de producto
-Tu marca y tu contenido sobre un producto existente
+Incluye asesoría inicial de growth y retención
 desde USD 500
 Plan mensual
-3 meses de Esencial bonificados
+Esencial gratis 3 meses; los demás, más baratos
 desde USD 30/mes
 
 Ver la propuesta completa  → [eclipse-eclipse-example-full.html]
@@ -59,8 +59,8 @@ Próximo paso
 El próximo paso
 es tuyo.
 
-Contanos qué querés resolver primero. Te respondemos con alcance, precio y plazos por
-escrito, antes de cualquier seña.
+Respondé este correo o escribinos. En una llamada corta vemos qué querés resolver
+primero y te mandamos alcance, precio y plazos por escrito, antes de cualquier seña.
 
 Hablemos de tu proyecto · PENDIENTE
 
@@ -68,7 +68,8 @@ Eclipse · remitente pendiente de confirmar
 
 ECLIPSE
 
-Desarrollo, IA y automatización para negocios que no pueden esperar.
+Consultora de inteligencia artificial para negocios. Desarrollo, IA y automatización
+para los que no pueden esperar.
 
 Conocé Eclipse [https://toti-gauna.github.io/Eclipse-Web/es/] ↗
 

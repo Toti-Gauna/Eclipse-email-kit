@@ -10,7 +10,7 @@ if (manifest.length !== 6 || manifest.some(item => !products.has(item.id) || !['
 await fs.rm(output, {recursive: true, force: true});
 await fs.mkdir(path.join(output, 'previews'), {recursive: true});
 await fs.mkdir(path.join(output, 'dist/emails/drafts'), {recursive: true});
-for (const file of ['index.html', 'gallery.css', 'gallery.js', 'conditions.html', 'manifest.json']) {
+for (const file of ['index.html', 'gallery.css', 'gallery.js', 'conditions.html', 'regalos-volta.html', 'manifest.json']) {
   await fs.copyFile(`previews/${file}`, `${output}/previews/${file}`);
 }
 await fs.cp('assets', `${output}/assets`, {recursive: true});

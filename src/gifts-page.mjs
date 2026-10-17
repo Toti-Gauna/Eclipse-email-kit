@@ -1,0 +1,22 @@
+import {e} from './email/components/primitives.mjs';
+
+// «Ver todos los regalos»: one screen with every sample gift of the demo, linked from the email.
+// Static, no scripts or trackers; published with the gallery (previews/regalos-<product>.html).
+export function giftsPage(c){
+ const d=c.product,list=d.gifts.filter(x=>x.verified&&x.url&&x.evidence);
+ const card=(x,i)=>`<li><a class="gift" href="${e(x.url)}" target="_blank" rel="noopener"><span class="n">${String(i+1).padStart(2,'0')}</span><span class="occasion">${e(x.label)}</span><span class="who">De ${e(x.from)} para ${e(x.to)}</span><span class="msg">“${e(x.message)}”</span><span class="item">${e(x.item)}</span><span class="open">Abrir regalo ↗</span></a></li>`;
+ return `<!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Regalos de ${e(d.name)} · Eclipse</title><style>@font-face{font-family:'Instrument Serif';src:url('../assets/fonts/instrument.woff2') format('woff2')}@font-face{font-family:'Instrument Serif';font-style:italic;src:url('../assets/fonts/instrument-italic.woff2') format('woff2')}@font-face{font-family:Geist;src:url('../assets/fonts/geist.woff2') format('woff2');font-weight:100 900}@font-face{font-family:'Geist Mono';src:url('../assets/fonts/geist-mono.woff2') format('woff2');font-weight:100 900}
+:root{--void:#05050a;--night:#0c0c14;--ash:#1a1a24;--corona:#f5b942;--dawn:#f4efe6;--mist:#9a97a6;--rule:#34333b;--accent:${e(d.accent)}}
+*{box-sizing:border-box}body{margin:0;background:var(--void);color:var(--dawn);font:16px/1.6 Geist,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:1120px;margin:0 auto;padding:40px 16px 80px}@media(min-width:768px){main{padding:56px 32px 96px}}
+.top{display:flex;justify-content:space-between;align-items:center;gap:16px;font:500 13px/1 Geist,sans-serif;letter-spacing:4px}.top a{color:var(--dawn);text-decoration:none}.top span{font:11px/1.4 'Geist Mono',ui-monospace,Menlo,Consolas,monospace;letter-spacing:1.3px;color:var(--mist);text-transform:uppercase}
+.mark{display:flex;align-items:center;gap:12px;margin:64px 0 24px;font:11px/1 'Geist Mono',ui-monospace,Menlo,monospace;letter-spacing:1.3px;color:var(--mist);text-transform:uppercase}.mark i{width:40px;height:1px;background:var(--rule)}
+h1{margin:0 0 20px;font:400 clamp(44px,8vw,88px)/1 'Instrument Serif',Georgia,serif;letter-spacing:-.02em}h1 em{color:var(--corona)}
+.lead{max-width:640px;margin:0 0 48px;color:#c9c4bc;font-size:18px}
+ul{list-style:none;margin:0;padding:0;display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.gift{display:flex;flex-direction:column;gap:6px;height:100%;padding:22px;border:1px solid var(--rule);border-radius:20px;background:var(--night);color:var(--dawn);text-decoration:none;transition:border-color .25s,transform .25s}.gift:hover,.gift:focus-visible{border-color:var(--corona);transform:translateY(-2px)}a:focus-visible{outline:2px solid var(--corona);outline-offset:3px}
+.n,.open,.who{font:11px/1.5 'Geist Mono',ui-monospace,Menlo,monospace;letter-spacing:1.3px;text-transform:uppercase}.n{color:var(--accent)}.who{color:var(--mist)}
+.occasion{font:400 30px/1.05 'Instrument Serif',Georgia,serif}.msg{color:#c9c4bc;font-size:15px;line-height:1.5}.item{color:var(--mist);font-size:14px;margin-top:auto;padding-top:10px;border-top:1px dotted var(--rule)}.open{color:var(--corona);padding-top:6px}
+.note{margin-top:40px;color:var(--mist);font-size:13px;max-width:640px}
+@media(prefers-reduced-motion:reduce){.gift{transition:none}.gift:hover{transform:none}}</style></head><body><main><div class="top"><a href="${e(c.brand.siteUrl)}" target="_blank" rel="noopener">ECLIPSE</a><span>Demo · ${e(d.name)}</span></div><p class="mark">Regalos <i></i> ${list.length} experiencias</p><h1>Cada regalo,<br>una <em>apertura</em>.</h1><p class="lead">Todos los regalos de muestra de ${e(d.name)}: por ocasión, con sabor a elección y gift cards. Abrí cualquiera para ver la experiencia completa, desde el celular o la compu.</p><ul>${list.map(card).join('')}</ul><p class="note">Personas, mensajes y regalos ficticios de la demo: no hay compra ni beneficio real. Premios, costos y operación de campañas se acuerdan aparte.</p></main></body></html>\n`;
+}

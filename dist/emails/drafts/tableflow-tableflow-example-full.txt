@@ -12,8 +12,8 @@ antes de llegar.
 
 Hola, equipo de Mesa del Sur.
 
-Tenemos una propuesta para mejorar la experiencia de tu restaurante: la carta, la
-reserva y el salón, conectados.
+Pensamos en restaurantes como el tuyo y armamos una propuesta concreta: una carta que
+abre el apetito, reservas sin idas y vueltas y un salón que sabe qué viene.
 
 Muestra  Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
 
@@ -22,9 +22,9 @@ El trailer
 
 TableFlow, en 60 segundos.
 
-Un trailer en motion graphics que recorre cada parte del negocio: lo que ve tu
-cliente, lo que ve tu equipo y cómo se conectan. Con música, para verlo en el celular
-o en la compu.
+Sesenta segundos de motion graphics, con música, que recorren todo TableFlow: lo que
+vive tu cliente, lo que ve tu equipo y cómo se conecta cada parte. Pensado para el
+celular y para la compu.
 
 TRAILER · 60 S
 MOTION GRAPHICS · CON MÚSICA
@@ -86,33 +86,37 @@ PASO 3  El pasaporte invita a volver
 
 Además del software
 
-Te acompañamos
-en el negocio.
+No te dejamos
+solo con la herramienta.
 
-Asesorías puntuales para que la herramienta rinda. Cada una tiene su precio en «Piezas
-extra».
+Una herramienta rinde cuando hay una estrategia detrás. Por eso la propuesta viene con
+asesoría.
 
 01
 
 Growth marketing
 
-Ordenamos tu propuesta, tus mensajes y una acción concreta para conseguir clientes,
-con una métrica para medirla.
+Incluida en tu propuesta
+
+Ordenamos tu propuesta y tus mensajes, y definimos la primera acción para conseguir
+clientes, con una métrica para medirla.
 
 02
 
 Retención de clientes
 
-La gamificación estándar de TableFlow ya viene incluida; definimos con vos una acción
-para que tus clientes vuelvan.
+Incluida en tu propuesta
+
+Diseñamos cómo usar la gamificación de TableFlow, que ya viene incluida, para que tus
+clientes vuelvan más seguido.
 
 03
 
 Finanzas
 
-Sujeta a validación
+Pieza extra · USD 150 · sujeta a validación
 
-Revisamos costos, márgenes y escenarios con tus datos, para decidir con números. Sin
+Costos, márgenes y escenarios con tus datos, para decidir con números. Sin
 asesoramiento contable, tributario ni de inversiones.
 
 Probalo vos
@@ -146,6 +150,13 @@ Desde · implementación
 
 USD 500
 
+Incluido en los USD 500
+
+Asesoría inicial de growth marketing y retención de clientes.
+
+Una sesión para ordenar tu propuesta, tus mensajes y cómo hacer que tus clientes
+vuelvan, con una métrica para medirlo.
+
 Qué incluye
 
 Tu marca y tu identidad sobre TableFlow
@@ -163,15 +174,24 @@ USD 250
 Saldo 50 %
 A la entrega aprobada
 USD 250
-Mantenimiento Esencial
-Bonificado · meses 1 a 3 desde la publicación
+
+Y por sumarte, tu plan mensual baja · por mes, meses 1 a 3
+
+Esencial
+Bonificado · después USD 30/mes
 USD 0
+Conectado
+USD 30 menos por mes · después USD 75/mes
+USD 45
+Automatización/IA
+USD 30 menos por mes · después USD 150/mes
+USD 120
 
 Hablemos de tu proyecto · PENDIENTE
 
-El proyecto empieza con la seña. Antes, definimos juntos alcance, entregables y
-factibilidad: el precio corresponde a adaptar un producto que ya funciona; las
-funciones nuevas se cotizan aparte.
+El proyecto arranca con la seña. Antes, definimos juntos alcance, entregables y
+factibilidad. El precio es por adaptar un producto que ya funciona; las funciones
+nuevas se cotizan aparte.
 
 05
 Piezas extra
@@ -179,8 +199,8 @@ Piezas extra
 Para ir
 más lejos.
 
-Lo que te recomendamos sumar a tu plan. Sobre esta propuesta, cada pieza va a precio
-de complemento y se cobra una sola vez.
+Lo que te recomendamos sumar, cuando quieras. Sobre esta propuesta cada pieza va a
+precio de complemento, más bajo que por separado, y se paga una sola vez.
 
 WhatsApp estándar (sin IA)
 Un flujo de aviso o seguimiento. Sin agente IA ni envíos masivos. Su operación entra
@@ -192,11 +212,11 @@ Un caso de uso, guion y pase a una persona. Telefonía a validar. Su operación 
 el plan Automatización/IA.
 RECOMENDADO · OPCIONAL
 + USD 250
-Las dos asesorías
-Growth, marketing y marca + gestión económica. Reemplaza a las dos sueltas. Cada una
-suelta: USD 150. Gestión económica sujeta a validación.
+Asesoría de gestión económica
+Costos, márgenes y escenarios con tus datos, una vez. Sin asesoramiento contable,
+tributario ni de inversiones. Gestión económica sujeta a validación.
 RECOMENDADO · OPCIONAL
-+ USD 250
++ USD 150
 Landing premium adicional
 Una landing compatible para presentar tu propuesta. Solo si no está incluida en el
 alcance.
@@ -212,15 +232,15 @@ Mantenimiento
 Un plan mensual.
 Uno solo.
 
-Mantenimiento, alojamiento y lo que tu producto necesita para seguir andando. Elegís
-el nivel según lo que construimos; no se paga uno por canal.
+Hosting, mantenimiento y mejoras en un solo pago mensual. Elegís el nivel según lo que
+construimos; no se paga por canal.
 
-Condición de esta campaña
+Beneficio por la adaptación
 
-3 meses de Esencial, bonificados.
+Esencial gratis 3 meses. Los demás, USD 30 menos por mes.
 
-Desde la publicación, bonificamos el equivalente a Esencial. Si elegís otro plan,
-pagás solo la diferencia; desde el mes 4, el precio normal.
+Desde la publicación y durante 3 meses, descontamos el valor de Esencial de cualquier
+plan. Desde el mes 4, el precio normal.
 
 Plan
 Esencial  Elegido
@@ -253,6 +273,61 @@ Terceros hasta USD 40/mes, dentro del precio
 Los planes son alternativas: elegís uno, no se suman.
 
 07
+Cómo seguimos
+
+Después del sí,
+todo a la vista.
+
+No te mandamos un archivo y desaparecemos. Así trabajamos desde el primer día:
+
+Paso 01
+
+Hablamos y definimos el alcance
+
+Una llamada para entender qué querés resolver primero. Te mandamos la propuesta por
+escrito: alcance, precio y plazos.
+
+Paso 02
+
+Seña, tu cuenta y tu portal
+
+Con la seña te creamos tu cuenta de cliente y tu portal: ahí ves el proyecto, sus
+etapas y lo que necesitamos de vos.
+
+Paso 03
+
+Construcción, a la vista
+
+Adaptamos TableFlow a tu negocio. Seguís cada avance en el portal: preparación,
+construcción, revisión y entrega.
+
+Paso 04
+
+Entrega y capacitación
+
+Lo publicamos, lo dejamos andando y te enseñamos a usarlo, a vos y a tu equipo.
+
+Paso 05
+
+Mantenimiento y mejoras
+
+Tu plan mensual mantiene todo funcionando y suma mejoras priorizadas cada mes.
+
+Eclipse
+
+Una consultora de inteligencia artificial para negocios de todos los rubros.
+
+Salud, comercio, gastronomía, fitness, inmobiliarias y educación. TableFlow es uno de
+nuestros productos; hay más, y cada uno se adapta a tu negocio.
+
+Ver cómo es tu portal  ↗ [https://toti-gauna.github.io/Eclipse-Web/es/portal/]
+
+Ver más productos de Eclipse  ↗
+[https://toti-gauna.github.io/Eclipse-Web/es/#ejemplos]
+
+El portal del enlace es una vista de demostración con datos ficticios.
+
+08
 Condiciones
 
 Condiciones,
@@ -279,14 +354,14 @@ El dominio y su renovación van aparte, salvo que la propuesta los incluya.
 
 Leé las condiciones completas antes de la seña [../../../previews/conditions.html] →
 
-08
+09
 Próximo paso
 
 El próximo paso
 es tuyo.
 
-Contanos qué querés resolver primero. Te respondemos con alcance, precio y plazos por
-escrito, antes de cualquier seña.
+Respondé este correo o escribinos. En una llamada corta vemos qué querés resolver
+primero y te mandamos alcance, precio y plazos por escrito, antes de cualquier seña.
 
 Hablemos de tu proyecto · PENDIENTE
 
@@ -294,7 +369,8 @@ Eclipse · remitente pendiente de confirmar
 
 ECLIPSE
 
-Desarrollo, IA y automatización para negocios que no pueden esperar.
+Consultora de inteligencia artificial para negocios. Desarrollo, IA y automatización
+para los que no pueden esperar.
 
 Conocé Eclipse [https://toti-gauna.github.io/Eclipse-Web/es/] ↗
 

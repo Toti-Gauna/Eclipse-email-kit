@@ -7,8 +7,8 @@
   "preheader": "Probá la demo: el paciente pide turno y recepción lo sigue en una sola agenda.",
   "eyebrow": "Salud · consultorio odontológico",
   "headline": "Cada turno,\ncon su *próximo paso*.",
-  "brief": "Tenemos una propuesta para mejorar la experiencia de tu consultorio: turnos claros para el paciente y una agenda en orden para el equipo.",
-  "intro": "En un consultorio, pedir un turno y darle seguimiento involucra al paciente y a recepción. DentalOS ordena ese recorrido: información clara, una solicitud simple y una agenda compartida.",
+  "brief": "Pensamos en consultorios como el tuyo y armamos una propuesta concreta: turnos en pocos pasos, una recepción con contexto y un seguimiento que no depende de la memoria.",
+  "intro": "En un consultorio, pedir un turno y darle seguimiento involucra al paciente y a recepción. DentalOS ordena ese recorrido: información clara, una solicitud simple y una agenda compartida por todo el equipo.",
   "accent": "#1e5c55",
   "accentInk": "#ffffff",
   "headingFont": "Newsreader",
@@ -78,6 +78,8 @@
     "verified": false
   },
   "gifts": [],
+  "featuredGifts": 6,
+  "giftsPageUrl": "",
   "presentationUrl": "",
   "presentationVerified": false
 }

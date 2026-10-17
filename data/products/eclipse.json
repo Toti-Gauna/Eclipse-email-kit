@@ -7,7 +7,7 @@
   "preheader": "Un producto que ya funciona, adaptado a tu marca.",
   "eyebrow": "Desarrollo · IA · automatización",
   "headline": "Tu negocio,\n*funcionando*.",
-  "brief": "Tenemos una propuesta para mejorar la experiencia de tu comercio, sobre un producto que ya funciona.",
+  "brief": "Pensamos en negocios como el tuyo y armamos una propuesta concreta, sobre un producto que ya funciona.",
   "intro": "Partimos de un producto que ya funciona y lo adaptamos a tu marca, tu contenido y tu forma de trabajar.",
   "accent": "#f5b942",
   "accentInk": "#111114",
@@ -66,6 +66,8 @@
     "verified": false
   },
   "gifts": [],
+  "featuredGifts": 6,
+  "giftsPageUrl": "",
   "presentationUrl": "",
   "presentationVerified": false,
   "verticals": {}

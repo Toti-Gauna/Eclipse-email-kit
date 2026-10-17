@@ -7,7 +7,7 @@
   "preheader": "Mirá la demo de Mesa Clara: carta, reservas y el panel del salón.",
   "eyebrow": "Gastronomía · carta y reservas",
   "headline": "La cena empieza\n*antes* de llegar.",
-  "brief": "Tenemos una propuesta para mejorar la experiencia de tu restaurante: la carta, la reserva y el salón, conectados.",
+  "brief": "Pensamos en restaurantes como el tuyo y armamos una propuesta concreta: una carta que abre el apetito, reservas sin idas y vueltas y un salón que sabe qué viene.",
   "intro": "En un restaurante, la experiencia empieza en la carta. TableFlow la conecta con la reserva y con el trabajo del salón, con tu identidad y tu forma de atender.",
   "accent": "#355443",
   "accentInk": "#ffffff",
@@ -78,6 +78,8 @@
     "verified": false
   },
   "gifts": [],
+  "featuredGifts": 6,
+  "giftsPageUrl": "",
   "presentationUrl": "",
   "presentationVerified": false,
   "verticals": {
@@ -85,7 +87,7 @@
     "cafe": {
       "sector": "Cafetería",
       "headline": "Del primer sorbo\nal *próximo* café.",
-      "brief": "Tenemos una propuesta para mejorar la experiencia de tu cafetería: la carta y el retiro, en un mismo recorrido.",
+      "brief": "Pensamos en cafeterías como la tuya y armamos una propuesta concreta: la carta, el pedido y el retiro en un mismo recorrido, con tu identidad.",
       "intro": "En una cafetería, elegir la bebida y coordinar el retiro son parte del mismo ritual. TableFlow ordena la carta y la consulta, con tu identidad.",
       "customer": {
         "url": "https://toti-gauna.github.io/Tableflow/#/ritual-cafe",

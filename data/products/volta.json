@@ -7,8 +7,8 @@
   "preheader": "Probá la demo antes de hablar: catálogo, consultas y un club que hace volver.",
   "eyebrow": "Comercio · tienda online",
   "headline": "Que elegir\nsea *fácil*.",
-  "brief": "Tenemos una propuesta para mejorar la experiencia de tu tienda: un catálogo claro, consultas sin vueltas y un club que hace volver.",
-  "intro": "En una tienda de suplementos, la venta se decide entre sabores, tamaños y dudas. Volta ordena ese momento: catálogo claro, fichas completas y un camino directo a la consulta, con tu marca.",
+  "brief": "Pensamos en tiendas como la tuya y armamos una propuesta concreta: un catálogo que se entiende de un vistazo, consultas que llegan con todo el contexto y un club que hace volver.",
+  "intro": "En una tienda de suplementos, la venta se decide entre sabores, tamaños y dudas. Volta ordena ese momento: fichas completas para comparar, un camino directo a la consulta y un club con misiones que trae a tus clientes de vuelta.",
   "accent": "#c8ff2e",
   "accentInk": "#0b0c0d",
   "headingFont": "Big Shoulders Display",
@@ -80,18 +80,168 @@
   },
   "gifts": [
     {
-      "label": "Regalo Volta",
       "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-VE1M-AR7X",
+      "label": "Regalo Volta",
       "verified": true,
-      "evidence": "docs/sources/live/REGALO-VE1M-AR7X.txt; fixture gifts.ts; 2026-10-17"
+      "evidence": "docs/sources/live/REGALO-VE1M-AR7X.txt; fixture gifts.ts; 2026-10-17",
+      "from": "Caro",
+      "to": "Juli",
+      "item": "Ionic Whey 100% · chocolate",
+      "message": "Porque sí. Para que arranques la semana con todo."
     },
     {
-      "label": "Regalo de Navidad",
-      "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-NAV1-DADP",
+      "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-SAB0-R01D",
+      "label": "Elegís el sabor",
       "verified": true,
-      "evidence": "docs/sources/live/REGALO-NAV1-DADP.txt; fixture gifts.ts; 2026-10-17"
+      "evidence": "fixture src/demo/fixtures/gifts.ts @ supplements-ecommerce 653c05a; sin apertura en vivo (GitHub Pages bloqueado por el proxy del entorno)",
+      "from": "Mili",
+      "to": "Fran",
+      "item": "Overvolt pre-entreno · locker con código",
+      "message": "Elegí el que más te guste y a romperla en la banca."
+    },
+    {
+      "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-GC0S-0F1D",
+      "label": "Gift card",
+      "verified": true,
+      "evidence": "fixture src/demo/fixtures/gifts.ts @ supplements-ecommerce 653c05a; sin apertura en vivo (GitHub Pages bloqueado por el proxy del entorno)",
+      "from": "Gaby",
+      "to": "Agus",
+      "item": "Gift card de $ 60.000",
+      "message": "Para que te armes el stack que quieras."
+    },
+    {
+      "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-MADR-E26B",
+      "label": "Día de la Madre",
+      "verified": true,
+      "evidence": "fixture src/demo/fixtures/gifts.ts @ supplements-ecommerce 653c05a; sin apertura en vivo (GitHub Pages bloqueado por el proxy del entorno)",
+      "from": "Tomás",
+      "to": "Mamá",
+      "item": "Omega 3 1000 mg",
+      "message": "Para la que corre más que todos nosotros. ¡Feliz día, ma!"
+    },
+    {
+      "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-NAV1-DADP",
+      "label": "Navidad",
+      "verified": true,
+      "evidence": "docs/sources/live/REGALO-NAV1-DADP.txt; fixture gifts.ts; 2026-10-17",
+      "from": "Sofi y Benja",
+      "to": "Papá",
+      "item": "Creatina monohidrato micronizada",
+      "message": "¡Feliz Navidad, pa! Para que el 2027 te encuentre más fuerte que nunca."
+    },
+    {
+      "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-PADR-E26D",
+      "label": "Día del Padre",
+      "verified": true,
+      "evidence": "fixture src/demo/fixtures/gifts.ts @ supplements-ecommerce 653c05a; sin apertura en vivo (GitHub Pages bloqueado por el proxy del entorno)",
+      "from": "Cami",
+      "to": "Papá",
+      "item": "Creatina en gomitas · naranja",
+      "message": "Para el que levanta más que yo. ¡Feliz día, pa!"
+    },
+    {
+      "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-HA11-0WEP",
+      "label": "Halloween",
+      "verified": true,
+      "evidence": "fixture src/demo/fixtures/gifts.ts @ supplements-ecommerce 653c05a; sin apertura en vivo (GitHub Pages bloqueado por el proxy del entorno)",
+      "from": "Mili",
+      "to": "Fran",
+      "item": "Overvolt pre-entreno · frutos rojos",
+      "message": "¿Truco o regalo? Pre-entreno, obvio."
+    },
+    {
+      "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-CYB3-R725",
+      "label": "CyberMonday",
+      "verified": true,
+      "evidence": "fixture src/demo/fixtures/gifts.ts @ supplements-ecommerce 653c05a; sin apertura en vivo (GitHub Pages bloqueado por el proxy del entorno)",
+      "from": "Agus",
+      "to": "Leo",
+      "item": "Creatina Brava 100% pura",
+      "message": "Lo cacé en el CyberMonday antes de que volara. Estrenala."
+    },
+    {
+      "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-B1AC-KFRW",
+      "label": "Black Friday",
+      "verified": true,
+      "evidence": "fixture src/demo/fixtures/gifts.ts @ supplements-ecommerce 653c05a; sin apertura en vivo (GitHub Pages bloqueado por el proxy del entorno)",
+      "from": "Vale",
+      "to": "Vale",
+      "item": "Isolate Zero · chocolate",
+      "message": "Me lo regalé en Black Friday. Me lo merecía."
+    },
+    {
+      "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-AN02-027S",
+      "label": "Año Nuevo",
+      "verified": true,
+      "evidence": "fixture src/demo/fixtures/gifts.ts @ supplements-ecommerce 653c05a; sin apertura en vivo (GitHub Pages bloqueado por el proxy del entorno)",
+      "from": "Flor",
+      "to": "Mati",
+      "item": "Shaker Volta 700 ml",
+      "message": "Año nuevo, marca nueva. ¡A romperla en 2027!"
+    },
+    {
+      "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-AM0R-014M",
+      "label": "San Valentín",
+      "verified": true,
+      "evidence": "fixture src/demo/fixtures/gifts.ts @ supplements-ecommerce 653c05a; sin apertura en vivo (GitHub Pages bloqueado por el proxy del entorno)",
+      "from": "Lu",
+      "to": "Gonza",
+      "item": "Barra proteica 20 g · caja x 12",
+      "message": "Feliz San Valentín, amor. Vos, yo y el gym a las 7."
+    },
+    {
+      "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-GYM0-D1AN",
+      "label": "Vuelta al gym",
+      "verified": true,
+      "evidence": "fixture src/demo/fixtures/gifts.ts @ supplements-ecommerce 653c05a; sin apertura en vivo (GitHub Pages bloqueado por el proxy del entorno)",
+      "from": "Ro",
+      "to": "Nacho",
+      "item": "Proteína vegana arveja + arroz",
+      "message": "Se terminó el verano: el lunes volvemos. Te espero en la banca."
+    },
+    {
+      "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-H0TS-A1EX",
+      "label": "Hot Sale",
+      "verified": true,
+      "evidence": "fixture src/demo/fixtures/gifts.ts @ supplements-ecommerce 653c05a; sin apertura en vivo (GitHub Pages bloqueado por el proxy del entorno)",
+      "from": "Euge",
+      "to": "Pau",
+      "item": "Mass Gainer 3 kg · dulce de leche",
+      "message": "Lo vi en el Hot Sale y pensé en vos."
+    },
+    {
+      "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-AM1G-0S2S",
+      "label": "Día del Amigo",
+      "verified": true,
+      "evidence": "fixture src/demo/fixtures/gifts.ts @ supplements-ecommerce 653c05a; sin apertura en vivo (GitHub Pages bloqueado por el proxy del entorno)",
+      "from": "Pato",
+      "to": "Juanma",
+      "item": "Pump Flow sin estimulantes · sandía",
+      "message": "Feliz día, compañero de gym. Te debo el spot de la banca."
+    },
+    {
+      "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-VERA-N0SZ",
+      "label": "Operación verano",
+      "verified": true,
+      "evidence": "fixture src/demo/fixtures/gifts.ts @ supplements-ecommerce 653c05a; sin apertura en vivo (GitHub Pages bloqueado por el proxy del entorno)",
+      "from": "Juli",
+      "to": "Caro",
+      "item": "Electro Volt sobres · blue razz",
+      "message": "Operación verano: arrancamos hoy. Hidratada y sin excusas."
+    },
+    {
+      "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-GC0M-4RCG",
+      "label": "Gift card con saldo",
+      "verified": true,
+      "evidence": "fixture src/demo/fixtures/gifts.ts @ supplements-ecommerce 653c05a; sin apertura en vivo (GitHub Pages bloqueado por el proxy del entorno)",
+      "from": "Marcos",
+      "to": "Sofía",
+      "item": "Gift card de $ 25.000 · ya usada en parte",
+      "message": "Para tu próxima recompra. ¡Fuerza!"
     }
   ],
+  "featuredGifts": 6,
+  "giftsPageUrl": "https://toti-gauna.github.io/Eclipse-email-kit/previews/regalos-volta.html",
   "presentationUrl": "",
   "presentationVerified": false
 }

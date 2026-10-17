@@ -1,4 +1,4 @@
-import fs from 'node:fs/promises';import path from 'node:path';import {fileURLToPath} from 'node:url';import {plainText} from '../src/plain.mjs';import {load} from '../src/load.mjs';import {readiness} from '../src/offers.mjs';import {render} from '../src/email/templates/eclipse.mjs';import {safeHttps} from '../src/schema.mjs';import {conditions} from '../src/conditions.mjs';
+import fs from 'node:fs/promises';import path from 'node:path';import {fileURLToPath} from 'node:url';import {plainText} from '../src/plain.mjs';import {load} from '../src/load.mjs';import {readiness} from '../src/offers.mjs';import {render} from '../src/email/templates/eclipse.mjs';import {safeHttps} from '../src/schema.mjs';import {conditions} from '../src/conditions.mjs';import {giftsPage} from '../src/gifts-page.mjs';
 process.chdir(path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'));
 const args=process.argv.slice(2),arg=k=>{const i=args.indexOf('--'+k);return i<0?undefined:args[i+1]},mode=arg('mode')||'preview';
 if(!['preview','send'].includes(mode))throw Error('Modo inválido');
@@ -19,6 +19,7 @@ for(const product of products){const c=await load(product,arg('prospect')||`${pr
   manifest.push({id:product,label:c.product.label,format,subject:c.product.subject,preheader:c.product.preheader,html:`../${dir}/${stem}.html`,text:`../${dir}/${stem}.txt`,bytes:Buffer.byteLength(html),status:mode==='send'?'ready':'draft',errors});console.log(`${dir}/${stem}.html · ${Buffer.byteLength(html)} bytes · ${mode==='send'?'VALIDADO':'BORRADOR'}`);
  }
  await fs.writeFile('previews/conditions.html',conditions(c));
+ if(c.product.gifts.length)await fs.writeFile(`previews/regalos-${product}.html`,giftsPage(c));
 }
 if(!arg('product')&&mode==='preview')await fs.writeFile('previews/manifest.json',JSON.stringify(manifest,null,2)+'\n');
 async function verifyResources(html){
