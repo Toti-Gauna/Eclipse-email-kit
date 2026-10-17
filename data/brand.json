@@ -1,0 +1,31 @@
+{
+  "name": "Eclipse",
+  "siteUrl": "https://toti-gauna.github.io/Eclipse-Web/es/",
+  "contactUrl": "",
+  "contactLabel": "Contacto de Eclipse pendiente de confirmar",
+  "sender": {
+    "name": "",
+    "email": "",
+    "confirmed": false
+  },
+  "assetBaseUrl": "",
+  "conditionsUrl": "",
+  "conditionsVerified": false,
+  "economicAdvisor": {
+    "confirmed": false,
+    "responsible": "",
+    "scope": ""
+  },
+  "tokens": {
+    "void": "#05050a",
+    "night": "#0c0c14",
+    "ash": "#1a1a24",
+    "corona": "#f5b942",
+    "flare": "#ffe8b0",
+    "dawn": "#f4efe6",
+    "ink": "#111114",
+    "muted": "#5b5866",
+    "radius": 24
+  },
+  "source": "Eclipse-Web/app/globals.css; components/layout/MiniEclipse.tsx; app/fonts"
+}

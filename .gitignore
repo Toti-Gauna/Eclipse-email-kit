@@ -1,0 +1,9 @@
+node_modules/
+.env*
+!.env.example
+dist/emails/ready/
+data/prospects/private-*.json
+.DS_Store
+_site/
+# Copias originales de fuentes y evidencia local, fuera del repositorio público.
+docs/sources/

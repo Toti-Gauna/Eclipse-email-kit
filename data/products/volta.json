@@ -1,0 +1,93 @@
+{
+  "trailer": {
+    "enabled": true,
+    "state": "pending",
+    "trailerUrl": "",
+    "posterUrl": "",
+    "durationSeconds": 60,
+    "verified": false
+  },
+  "gifts": [
+    {
+      "label": "Regalo Volta",
+      "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-VE1M-AR7X",
+      "verified": true,
+      "evidence": "docs/sources/live/REGALO-VE1M-AR7X.txt; fixture gifts.ts; 2026-10-17"
+    },
+    {
+      "label": "Regalo de Navidad",
+      "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-NAV1-DADP",
+      "verified": true,
+      "evidence": "docs/sources/live/REGALO-NAV1-DADP.txt; fixture gifts.ts; 2026-10-17"
+    }
+  ],
+  "presentationUrl": "",
+  "presentationVerified": false,
+  "extraContext": "La asesoría ayuda a definir mensajes, marca y retención. La gestión económica puede complementar la decisión sobre costos y márgenes; se ofrece únicamente con responsable confirmado.",
+  "id": "volta",
+  "name": "Volta",
+  "label": "Ecommerce (Volta)",
+  "sector": "tienda de suplementos y deporte",
+  "subject": "Volta: catálogo y consultas para tu tienda",
+  "preheader": "Una base adaptable a tu marca, con catálogo, consulta y fidelización estándar.",
+  "eyebrow": "COMERCIO · VOLTA",
+  "headline": "Tu catálogo.\nEl próximo paso, más claro.",
+  "intro": "En una tienda de suplementos, encontrar una opción y saber cómo consultar son parte del mismo recorrido. Preparamos una propuesta para ordenar ese camino con tu marca y tus contenidos.",
+  "improvement": "ordenar el recorrido del catálogo a la consulta",
+  "accent": "#c8ff2e",
+  "accentInk": "#0b0c0d",
+  "headingFont": "Big Shoulders Display",
+  "bodyFont": "Archivo",
+  "headingFallback": "Arial Narrow, Impact, Arial, sans-serif",
+  "bodyFallback": "Arial, Helvetica, sans-serif",
+  "headingFile": "big-shoulders.woff2",
+  "bodyFile": "archivo.woff2",
+  "headingWeight": 800,
+  "surface": "#f3f3ef",
+  "benefits": [
+    {
+      "title": "Elegir con contexto",
+      "text": "Categorías y fichas reúnen variantes y datos del catálogo para preparar una consulta."
+    },
+    {
+      "title": "Una operación visible",
+      "text": "El panel de muestra permite recorrer pedidos y preparación. La operación productiva se delimita aparte."
+    },
+    {
+      "title": "Un motivo para volver",
+      "text": "Club, misiones y experiencias de regalo muestran posibilidades de fidelización con reglas visibles."
+    }
+  ],
+  "journey": [
+    "Cliente explora y consulta",
+    "Comercio organiza la atención",
+    "Seguimiento según alcance"
+  ],
+  "scope": "Adaptación comercial del catálogo y consulta manual, con hasta 25 productos aportados, marca y contenido acordados. Cobro online, pedidos persistentes y administración conectada requieren alcance adicional.",
+  "gamification": "Mecánica estándar de Club y misiones del producto, adaptada al alcance. Premios y operación de campañas aparte.",
+  "demoNote": "Demo frontend con datos ficticios: no cobra, no crea pedidos reales y el panel está abierto sin login. Lo mostrado no equivale al paquete contratado.",
+  "customer": {
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/",
+    "label": "Ver experiencia del cliente",
+    "verified": true,
+    "evidence": "docs/sources/live; inspección web 2026-10-17"
+  },
+  "admin": {
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/admin-demo/",
+    "label": "Ver panel del dueño",
+    "verified": true,
+    "evidence": "docs/sources/live; inspección web 2026-10-17"
+  },
+  "screens": [
+    {
+      "file": "volta.jpg",
+      "alt": "Catálogo Volta: categorías y fichas de productos de muestra",
+      "caption": "Catálogo de la demo publicada: ayuda a comparar opciones antes de consultar."
+    },
+    {
+      "file": "volta-admin.jpg",
+      "alt": "Panel Volta con pedidos y tareas de preparación ficticios",
+      "caption": "Panel demostrativo: permite conversar sobre el flujo operativo que realmente necesitás."
+    }
+  ]
+}

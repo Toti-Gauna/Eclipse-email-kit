@@ -1,0 +1,14 @@
+{
+  "subject": "TableFlow: de la carta a la atención de tu salón",
+  "preheader": "Carta, reservas y una operación de muestra para definir un alcance concreto.",
+  "status": "draft",
+  "errors": [
+    "Prospecto ficticio",
+    "Remitente real sin confirmar",
+    "Contacto real pendiente",
+    "Condiciones accesibles por HTTPS pendientes",
+    "Assets HTTPS pendientes de publicación autorizada"
+  ],
+  "bytes": 24569,
+  "priceVersion": "2026-10-16.aprobado"
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "browser": "chromium",
+    "id": "volta",
+    "dark": "emulación CSS, no inversión de cliente email",
+    "longText": true,
+    "inlineOnly": true
+  },
+  {
+    "browser": "chromium",
+    "id": "tableflow",
+    "dark": "emulación CSS, no inversión de cliente email",
+    "longText": true,
+    "inlineOnly": true
+  },
+  {
+    "browser": "chromium",
+    "id": "dentalos",
+    "dark": "emulación CSS, no inversión de cliente email",
+    "longText": true,
+    "inlineOnly": true
+  },
+  {
+    "browser": "chromium",
+    "mobileGallery": true,
+    "focusTrap": true,
+    "downloadExact": true,
+    "clean": true
+  },
+  {
+    "browser": "firefox",
+    "id": "volta",
+    "dark": "emulación CSS, no inversión de cliente email",
+    "longText": true,
+    "inlineOnly": true
+  },
+  {
+    "browser": "firefox",
+    "id": "tableflow",
+    "dark": "emulación CSS, no inversión de cliente email",
+    "longText": true,
+    "inlineOnly": true
+  },
+  {
+    "browser": "firefox",
+    "id": "dentalos",
+    "dark": "emulación CSS, no inversión de cliente email",
+    "longText": true,
+    "inlineOnly": true
+  },
+  {
+    "browser": "firefox",
+    "mobileGallery": true,
+    "focusTrap": true,
+    "downloadExact": true,
+    "clean": true
+  },
+  {
+    "edge": "no instalado; Chromium no equivale a Edge real"
+  }
+]

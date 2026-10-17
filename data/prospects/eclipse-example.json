@@ -1,0 +1,10 @@
+{
+  "id": "eclipse-example",
+  "businessName": "Negocio de muestra",
+  "fictional": true,
+  "reviewed": false,
+  "publicFact": "",
+  "sourceUrl": "",
+  "notes": "Ejemplo ficticio sectorial. No se investigó un negocio real.",
+  "offerId": "base-campaign"
+}
