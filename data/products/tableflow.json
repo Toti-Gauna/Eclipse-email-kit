@@ -7,6 +7,7 @@
   "preheader": "Mirá la demo de Mesa Clara: carta, reservas y el panel del salón.",
   "eyebrow": "Gastronomía · carta y reservas",
   "headline": "La cena empieza\n*antes* de llegar.",
+  "brief": "Tenemos una propuesta para mejorar la experiencia de tu restaurante: la carta, la reserva y el salón, conectados.",
   "intro": "En un restaurante, la experiencia empieza en la carta. TableFlow la conecta con la reserva y con el trabajo del salón, con tu identidad y tu forma de atender.",
   "accent": "#355443",
   "accentInk": "#ffffff",
@@ -33,6 +34,10 @@
     "El salón recibe y organiza",
     "El pasaporte invita a volver"
   ],
+  "recommends": [
+    "whatsapp",
+    "voice"
+  ],
   "includes": [
     "Tu marca y tu identidad sobre TableFlow",
     "Carta completa y recorrido de consulta",
@@ -42,13 +47,13 @@
   "demoNote": "Mesa Clara es un negocio ficticio. Reservas, pedidos, caja, WhatsApp y llamadas son simulaciones en el navegador, sin integraciones reales.",
   "customer": {
     "url": "https://toti-gauna.github.io/Tableflow/#/mesa-clara",
-    "label": "Experiencia del cliente",
+    "label": "Vista del cliente",
     "verified": true,
     "evidence": "docs/sources/live; inspección web 2026-10-17"
   },
   "admin": {
     "url": "https://toti-gauna.github.io/Tableflow/#/admin/reservas",
-    "label": "Panel del salón",
+    "label": "Vista del dueño",
     "verified": true,
     "evidence": "docs/sources/live; inspección web 2026-10-17"
   },
@@ -75,16 +80,16 @@
   "gifts": [],
   "presentationUrl": "",
   "presentationVerified": false,
-  "extraContext": "Una asesoría de growth y marca ordena mensajes, captación y retención. La de gestión económica revisa costos y márgenes con tus datos, y solo se ofrece con responsable confirmado.",
   "verticals": {
     "restaurant": {},
     "cafe": {
       "sector": "Cafetería",
       "headline": "Del primer sorbo\nal *próximo* café.",
+      "brief": "Tenemos una propuesta para mejorar la experiencia de tu cafetería: la carta y el retiro, en un mismo recorrido.",
       "intro": "En una cafetería, elegir la bebida y coordinar el retiro son parte del mismo ritual. TableFlow ordena la carta y la consulta, con tu identidad.",
       "customer": {
         "url": "https://toti-gauna.github.io/Tableflow/#/ritual-cafe",
-        "label": "Experiencia del cliente",
+        "label": "Vista del cliente",
         "verified": true,
         "evidence": "docs/sources/live; inspección web 2026-10-17"
       },

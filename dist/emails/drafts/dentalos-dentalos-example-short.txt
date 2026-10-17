@@ -12,17 +12,28 @@ con su próximo paso.
 
 Hola, equipo de Consultorio del Parque.
 
-En un consultorio, pedir un turno y darle seguimiento involucra al paciente y a
-recepción. DentalOS ordena ese recorrido: información clara, una solicitud simple y
-una agenda compartida.
-
-Probá la demo de DentalOS  ↗ [https://toti-gauna.github.io/DentalOS/#/]
-
-Datos ficticios · sin registro
+Tenemos una propuesta para mejorar la experiencia de tu consultorio: turnos claros
+para el paciente y una agenda en orden para el equipo.
 
 Muestra  Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
 
 02
+El trailer
+
+DentalOS, en 60 segundos.
+
+Un trailer en motion graphics que recorre cada parte del negocio: lo que ve tu
+cliente, lo que ve tu equipo y cómo se conectan. Con música, para verlo en el celular
+o en la compu.
+
+TRAILER · 60 S
+MOTION GRAPHICS · CON MÚSICA
+
+Trailer pendiente de incorporar · el póster es una vista previa estática.
+
+Ver cómo funciona · enlace disponible al incorporar el trailer.
+
+03
 En corto
 
 La propuesta,
@@ -42,14 +53,14 @@ Ver la propuesta completa  → [dentalos-dentalos-example-full.html]
 
 Alcance, precio, plan mensual y condiciones, en una sola página.
 
-03
+04
 Próximo paso
 
 El próximo paso
 es tuyo.
 
 Contanos qué querés resolver primero. Te respondemos con alcance, precio y plazos por
-escrito, antes de cualquier anticipo.
+escrito, antes de cualquier seña.
 
 Hablemos de tu proyecto · PENDIENTE
 

@@ -15,7 +15,7 @@ Rediseño visual (17/10/2026), lo que cambia para los clientes:
 - Arte: tres JPEG capturados de la web (hero, amanecer, sol) con fondo sólido del color de su sección detrás; con imágenes bloqueadas queda el alt y el fondo. Glifos y logo en PNG transparente; nunca SVG.
 - Tabla de planes: en escritorio, tres columnas; en teléfonos, una media query oculta las columnas y muestra los mismos importes bajo cada plan. Sin soporte de media queries (Gmail con cuentas no Google), la tabla se comprime sin desbordar a 320 px.
 - Modo oscuro: el diseño ya va de noche a amanecer con colores explícitos; `color-scheme: light dark` evita la inversión automática en Apple Mail. Gmail/Outlook pueden oscurecer las secciones claras.
-- Peso: 62–67 kB las completas y ~20 kB las breves, por debajo del recorte de Gmail (102 kB).
+- Peso: 72–77 kB las completas y ~23 kB las breves, por debajo del recorte de Gmail (102 kB).
 
 HTML final de una columna; ancho máximo 640 px. No depende de flex/grid, variables CSS, webfonts, JavaScript, formularios, iframe ni video. La galería contiene un iframe separado, que nunca se exporta. Botones basados en tablas con padding de Outlook y color sólido: no requieren VML; bordes redondeados pueden pasar a rectangulares en Outlook clásico. Los degradados usan siempre color de fondo sólido y texto claro. PNG para el logo, JPEG para capturas, medidas explícitas y alt; el contenido decisivo es texto.
 
@@ -30,4 +30,4 @@ Referencias técnicas consultadas el 17/10/2026:
 - https://www.caniemail.com/features/css-linear-gradient/ — degradado como mejora, fondo sólido de respaldo.
 - https://www.caniemail.com/features/css-at-font-face/ — fuentes remotas como mejora progresiva, fallbacks de sistema.
 
-Medición de bytes HTML (sin imágenes externas): `docs/qa/validation.json`. Máximo de las variantes iniciales tras el rediseño: 67.140 bytes, por debajo de 90.000 (límite del build) y de 102 kB (recorte de Gmail). La longitud del correo completo responde al alcance solicitado; existe una versión breve para primer contacto. Esto no demuestra una mayor conversión: futuras comparaciones deben medir respuesta/reuniones por variante y período, sin trackers por defecto.
+Medición de bytes HTML (sin imágenes externas): `docs/qa/validation.json`. Máximo de las variantes iniciales tras el rediseño: 77.334 bytes, por debajo de 90.000 (límite del build) y de 102 kB (recorte de Gmail). La longitud del correo completo responde al alcance solicitado; existe una versión breve para primer contacto. Esto no demuestra una mayor conversión: futuras comparaciones deben medir respuesta/reuniones por variante y período, sin trackers por defecto.

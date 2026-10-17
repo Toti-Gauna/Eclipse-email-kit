@@ -38,7 +38,7 @@ npm test
 
 1. Copiá un ejemplo de `data/prospects/` a `private-mi-prospecto.json`; cambiá `id`, nombre, notas y oferta. Los archivos `private-*` están ignorados por git.
 2. `fictional: false` solo para un negocio real. Si no lo investigaste, mantené `reviewed: false`: se usa una apertura sectorial honesta. Para `reviewed: true`, completá `publicFact` como fragmento (por ejemplo, “que publicaron su carta de temporada”), `sourceUrl` HTTPS y notas. El compilador escapa el texto; no admite HTML arbitrario.
-3. Elegí el contenido y enlaces en `data/products/<producto>.json`; cargá los enlaces públicos verificados de la demo y su evidencia. Las vistas no equivalen a autenticación. En `headline`, `*palabra*` marca la única palabra destacada (itálica ámbar) y `\n` el corte de línea; `includes` lista lo que trae la adaptación y `apart`, lo que se cotiza aparte.
+3. Elegí el contenido y enlaces en `data/products/<producto>.json`; cargá los enlaces públicos verificados de la demo y su evidencia. Las vistas no equivalen a autenticación. En `headline`, `*palabra*` marca la única palabra destacada (itálica ámbar) y `\n` el corte de línea; `brief` es la apertura corta (con un hecho investigado se antepone «Vimos…»), `includes` lista lo que trae la adaptación, `apart` lo que se cotiza aparte y `recommends` los canales (WhatsApp, chatbot, voz) que se recomiendan como piezas extra.
 4. Definí la oferta en `data/offers/`. No edites precios en las plantillas: `prices.v2026-10-16.json` centraliza importes, pagos, cupos y procedencia. `base-campaign.json` contiene la extensión de la bonificación pedida por Ignacio. Podés cambiar el plan, los meses o desactivar `promotion.enabled` por oferta.
 5. Generá el borrador y revisá asunto, preheader, alcance, extras y capturas. Cambiar configuración requiere recompilar; no editar `dist/` a mano.
 
@@ -73,17 +73,17 @@ Al recibir miniatura y destino válidos, completá ambas URLs HTTPS, verificá l
 
 ## Organización
 
-- `src/email/components/`: primitivas del lenguaje visual (marca de sección con glifo de fase, titulares serif, libro de precios, marcas de registro, figuras), cabecera, hero, demo (trailer, figuras, qué resuelve, recorrido, accesos, regalos), precio, plan mensual con la campaña, complementos, condiciones, cierre y pie.
+- `src/email/components/`: primitivas del lenguaje visual (marca de sección con glifo de fase, titulares serif, libro de precios, marcas de registro, figuras), en el orden del email completo: 01 brief, 02 trailer, 03 solución (producto, figuras, qué resuelve, recorrido, asesorías de growth, retención y finanzas, vista del cliente y del dueño, regalos en botones), 04 precio (seña 50 % y mantenimiento bonificado), 05 piezas extra con precios, 06 mantenimiento, 07 condiciones, 08 próximo paso y pie.
 - `src/email/templates/eclipse.mjs`: recorrido noche → amanecer, numeración de secciones y versión breve.
 - `src/schema.mjs`, `src/offers.mjs`: validación y reglas comerciales.
 - `data/`: identidad, productos, precios, ofertas y prospectos.
-- `assets/`: arte capturado de la web (`art-hero.jpg`, `art-sunrise.jpg`, `art-dawn.jpg`, con `scripts/capture-art.mjs`), glifos de fase y logo en PNG (`scripts/render-glyphs.mjs`), capturas JPEG de las demos y fuentes con licencias (Instrument Serif, Geist y Geist Mono de Eclipse-Web; fuente de marca de cada producto).
+- `assets/`: arte capturado de la web (`art-hero.jpg`, `art-sunrise.jpg`, `art-dawn.jpg`, con `scripts/capture-art.mjs`), glifos de fase y logo en PNG (`scripts/render-glyphs.mjs`), pósters de muestra del trailer (`scripts/render-posters.mjs`), capturas JPEG de las demos y fuentes con licencias (Instrument Serif, Geist y Geist Mono de Eclipse-Web; fuente de marca de cada producto).
 - `previews/`: galería sin framework, controles accesibles y condiciones.
 - `dist/emails/drafts/`: HTML, texto plano y metadatos por pieza.
 - `docs/sources/`: tarifario/manual consultados y evidencia web.
 - `docs/qa/`: resultados JSON, matriz y capturas.
 
-El arte se regenera solo si cambia la web: `node scripts/capture-art.mjs` (web publicada) o `node scripts/capture-art.mjs --url http://localhost:3200/es/` (Eclipse-Web en `next dev`), y `node scripts/render-glyphs.mjs` para glifos y logo. Ambos escriben en `assets/` y no forman parte del build.
+El arte se regenera solo si cambia la web: `node scripts/capture-art.mjs` (web publicada) o `node scripts/capture-art.mjs --url http://localhost:3200/es/` (Eclipse-Web en `next dev`), `node scripts/render-glyphs.mjs` para glifos y logo, y `node scripts/render-posters.mjs` si cambian las capturas. Ambos escriben en `assets/` y no forman parte del build.
 
 Se eligió un compilador pequeño en JavaScript con tablas e inline explícito, Zod para datos y html-to-text. Evita la transformación opaca de otra DSL para una composición de una columna. Los tokens compartidos de `data/brand.json` se resuelven a valores concretos mediante `src/theme.mjs`; no quedan variables CSS en el email. Lockfile, datos fijos y ausencia de timestamps en el build permiten compilación determinista. Los informes de inspección y QA se generan por separado.
 

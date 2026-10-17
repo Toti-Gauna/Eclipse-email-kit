@@ -7,6 +7,7 @@
   "preheader": "Probá la demo: el paciente pide turno y recepción lo sigue en una sola agenda.",
   "eyebrow": "Salud · consultorio odontológico",
   "headline": "Cada turno,\ncon su *próximo paso*.",
+  "brief": "Tenemos una propuesta para mejorar la experiencia de tu consultorio: turnos claros para el paciente y una agenda en orden para el equipo.",
   "intro": "En un consultorio, pedir un turno y darle seguimiento involucra al paciente y a recepción. DentalOS ordena ese recorrido: información clara, una solicitud simple y una agenda compartida.",
   "accent": "#1e5c55",
   "accentInk": "#ffffff",
@@ -33,6 +34,10 @@
     "Recepción lo ordena en la agenda",
     "El equipo sigue cada tarea"
   ],
+  "recommends": [
+    "whatsapp",
+    "voice"
+  ],
   "includes": [
     "Tu marca e información del consultorio sobre DentalOS",
     "Recorrido de solicitud de turno",
@@ -42,13 +47,13 @@
   "demoNote": "Clínica Brisa es ficticia. La demo no tiene autenticación, mensajes, llamadas, pagos ni historia clínica real: los roles son vistas de muestra.",
   "customer": {
     "url": "https://toti-gauna.github.io/DentalOS/#/",
-    "label": "Experiencia del paciente",
+    "label": "Vista del paciente",
     "verified": true,
     "evidence": "docs/sources/live; inspección web 2026-10-17"
   },
   "admin": {
     "url": "https://toti-gauna.github.io/DentalOS/#/admin",
-    "label": "Panel de recepción",
+    "label": "Vista del profesional",
     "verified": true,
     "evidence": "docs/sources/live; inspección web 2026-10-17"
   },
@@ -74,6 +79,5 @@
   },
   "gifts": [],
   "presentationUrl": "",
-  "presentationVerified": false,
-  "extraContext": "Una asesoría de growth y marca ordena mensajes, captación y retención. La de gestión económica revisa costos y márgenes con tus datos, y solo se ofrece con responsable confirmado."
+  "presentationVerified": false
 }

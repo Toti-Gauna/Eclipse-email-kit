@@ -7,14 +7,15 @@
     "preheader": "Probá la demo antes de hablar: catálogo, consultas y un club que hace volver.",
     "html": "../dist/emails/drafts/volta-volta-example-full.html",
     "text": "../dist/emails/drafts/volta-volta-example-full.txt",
-    "bytes": 67140,
+    "bytes": 77334,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
       "Remitente real sin confirmar",
       "Contacto real pendiente",
       "Condiciones accesibles por HTTPS pendientes",
-      "Assets HTTPS pendientes de publicación autorizada"
+      "Assets HTTPS pendientes de publicación autorizada",
+      "Asesoría económica sin responsable/capacidad confirmados"
     ]
   },
   {
@@ -25,7 +26,7 @@
     "preheader": "Probá la demo antes de hablar: catálogo, consultas y un club que hace volver.",
     "html": "../dist/emails/drafts/volta-volta-example-short.html",
     "text": "../dist/emails/drafts/volta-volta-example-short.txt",
-    "bytes": 19981,
+    "bytes": 23159,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -33,7 +34,8 @@
       "Contacto real pendiente",
       "Condiciones accesibles por HTTPS pendientes",
       "Assets HTTPS pendientes de publicación autorizada",
-      "Presentación completa HTTPS pendiente"
+      "Presentación completa HTTPS pendiente",
+      "Asesoría económica sin responsable/capacidad confirmados"
     ]
   },
   {
@@ -44,14 +46,15 @@
     "preheader": "Mirá la demo de Mesa Clara: carta, reservas y el panel del salón.",
     "html": "../dist/emails/drafts/tableflow-tableflow-example-full.html",
     "text": "../dist/emails/drafts/tableflow-tableflow-example-full.txt",
-    "bytes": 62701,
+    "bytes": 72343,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
       "Remitente real sin confirmar",
       "Contacto real pendiente",
       "Condiciones accesibles por HTTPS pendientes",
-      "Assets HTTPS pendientes de publicación autorizada"
+      "Assets HTTPS pendientes de publicación autorizada",
+      "Asesoría económica sin responsable/capacidad confirmados"
     ]
   },
   {
@@ -62,7 +65,7 @@
     "preheader": "Mirá la demo de Mesa Clara: carta, reservas y el panel del salón.",
     "html": "../dist/emails/drafts/tableflow-tableflow-example-short.html",
     "text": "../dist/emails/drafts/tableflow-tableflow-example-short.txt",
-    "bytes": 19983,
+    "bytes": 23182,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -70,7 +73,8 @@
       "Contacto real pendiente",
       "Condiciones accesibles por HTTPS pendientes",
       "Assets HTTPS pendientes de publicación autorizada",
-      "Presentación completa HTTPS pendiente"
+      "Presentación completa HTTPS pendiente",
+      "Asesoría económica sin responsable/capacidad confirmados"
     ]
   },
   {
@@ -81,14 +85,15 @@
     "preheader": "Probá la demo: el paciente pide turno y recepción lo sigue en una sola agenda.",
     "html": "../dist/emails/drafts/dentalos-dentalos-example-full.html",
     "text": "../dist/emails/drafts/dentalos-dentalos-example-full.txt",
-    "bytes": 62803,
+    "bytes": 72495,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
       "Remitente real sin confirmar",
       "Contacto real pendiente",
       "Condiciones accesibles por HTTPS pendientes",
-      "Assets HTTPS pendientes de publicación autorizada"
+      "Assets HTTPS pendientes de publicación autorizada",
+      "Asesoría económica sin responsable/capacidad confirmados"
     ]
   },
   {
@@ -99,7 +104,7 @@
     "preheader": "Probá la demo: el paciente pide turno y recepción lo sigue en una sola agenda.",
     "html": "../dist/emails/drafts/dentalos-dentalos-example-short.html",
     "text": "../dist/emails/drafts/dentalos-dentalos-example-short.txt",
-    "bytes": 20023,
+    "bytes": 23225,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -107,7 +112,8 @@
       "Contacto real pendiente",
       "Condiciones accesibles por HTTPS pendientes",
       "Assets HTTPS pendientes de publicación autorizada",
-      "Presentación completa HTTPS pendiente"
+      "Presentación completa HTTPS pendiente",
+      "Asesoría económica sin responsable/capacidad confirmados"
     ]
   }
 ]

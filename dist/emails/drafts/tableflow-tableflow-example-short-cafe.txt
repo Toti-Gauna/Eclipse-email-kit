@@ -12,16 +12,28 @@ al próximo café.
 
 Hola, equipo de Mesa del Sur.
 
-En una cafetería, elegir la bebida y coordinar el retiro son parte del mismo ritual.
-TableFlow ordena la carta y la consulta, con tu identidad.
-
-Probá la demo de TableFlow  ↗ [https://toti-gauna.github.io/Tableflow/#/ritual-cafe]
-
-Datos ficticios · sin registro
+Tenemos una propuesta para mejorar la experiencia de tu cafetería: la carta y el
+retiro, en un mismo recorrido.
 
 Muestra  Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
 
 02
+El trailer
+
+TableFlow, en 60 segundos.
+
+Un trailer en motion graphics que recorre cada parte del negocio: lo que ve tu
+cliente, lo que ve tu equipo y cómo se conectan. Con música, para verlo en el celular
+o en la compu.
+
+TRAILER · 60 S
+MOTION GRAPHICS · CON MÚSICA
+
+Trailer pendiente de incorporar · el póster es una vista previa estática.
+
+Ver cómo funciona · enlace disponible al incorporar el trailer.
+
+03
 En corto
 
 La propuesta,
@@ -41,14 +53,14 @@ Ver la propuesta completa  → [tableflow-tableflow-example-full-cafe.html]
 
 Alcance, precio, plan mensual y condiciones, en una sola página.
 
-03
+04
 Próximo paso
 
 El próximo paso
 es tuyo.
 
 Contanos qué querés resolver primero. Te respondemos con alcance, precio y plazos por
-escrito, antes de cualquier anticipo.
+escrito, antes de cualquier seña.
 
 Hablemos de tu proyecto · PENDIENTE
 

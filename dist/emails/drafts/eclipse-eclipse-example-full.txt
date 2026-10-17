@@ -12,32 +12,38 @@ funcionando.
 
 Hola, equipo de Negocio de muestra.
 
-Partimos de un producto que ya funciona y lo adaptamos a tu marca, tu contenido y tu
-forma de trabajar.
-
-Probá la demo de Eclipse · PENDIENTE
-
-Datos ficticios · sin registro
+Tenemos una propuesta para mejorar la experiencia de tu comercio, sobre un producto
+que ya funciona.
 
 Muestra  Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
 
 02
-La demo
+El trailer
 
-Mirá un negocio
-como el tuyo funcionando.
+Eclipse, en 60 segundos.
+
+Un trailer en motion graphics que recorre cada parte del negocio: lo que ve tu
+cliente, lo que ve tu equipo y cómo se conectan. Con música, para verlo en el celular
+o en la compu.
+
+TRAILER · 60 S
+MOTION GRAPHICS · CON MÚSICA
+
+Trailer pendiente de incorporar · el póster es una vista previa estática.
+
+Ver cómo funciona · enlace disponible al incorporar el trailer.
+
+03
+La solución
+
+Un producto que ya funciona,
+con tu marca.
 
   Eclipse
 Producto base
 
-Eclipse es un producto que ya funciona. Probalo con datos ficticios: es la base que
-adaptamos a tu marca.
-
-TRAILER · 60 S
-
-Trailer pendiente de incorporar
-
-Ver cómo funciona · enlace disponible al incorporar el trailer.
+Partimos de un producto que ya funciona y lo adaptamos a tu marca, tu contenido y tu
+forma de trabajar.
 
 Qué resuelve
 
@@ -65,13 +71,46 @@ PASO 1  El cliente consulta
 PASO 2  El equipo organiza
 PASO 3  El seguimiento acordado
 
-Abrir la demo
+Además del software
+
+Te acompañamos
+en el negocio.
+
+Asesorías puntuales para que la herramienta rinda. Cada una tiene su precio en «Piezas
+extra».
+
+01
+
+Growth marketing
+
+Ordenamos tu propuesta, tus mensajes y una acción concreta para conseguir clientes,
+con una métrica para medirla.
+
+02
+
+Retención de clientes
+
+La gamificación estándar de Eclipse ya viene incluida; definimos con vos una acción
+para que tus clientes vuelvan.
+
+03
+
+Finanzas
+
+Sujeta a validación
+
+Revisamos costos, márgenes y escenarios con tus datos, para decidir con números. Sin
+asesoramiento contable, tributario ni de inversiones.
+
+Probalo vos
 
 Enlaces de la demo pendientes de verificar.
 
+Datos ficticios · sin registro
+
 Demo  Base para configurar un nuevo producto; demo y evidencia pendientes.
 
-03
+04
 Precio
 
 Cuánto cuesta
@@ -84,7 +123,8 @@ A1  OFERTA
 
 Adaptación de producto
 
-Eclipse, con tu marca, tu contenido y tu configuración.
+Un plan y un software a la medida de Negocio de muestra, sobre Eclipse: tu marca, tu
+contenido y tu configuración.
 
 Desde · implementación
 
@@ -100,20 +140,52 @@ Las funciones nuevas se cotizan aparte.
 
 Cómo se paga
 
-Anticipo 50 %
-Para empezar el proyecto
+Seña 50 %
+Para empezar: plan y software a medida
 USD 250
 Saldo 50 %
 A la entrega aprobada
 USD 250
+Mantenimiento Esencial
+Bonificado · meses 1 a 3 desde la publicación
+USD 0
 
 Hablemos de tu proyecto · PENDIENTE
 
-El proyecto empieza con el anticipo. Antes, definimos juntos alcance, entregables y
-factibilidad: el precio corresponde a adaptar un producto existente.
+El proyecto empieza con la seña. Antes, definimos juntos alcance, entregables y
+factibilidad: el precio corresponde a adaptar un producto que ya funciona; las
+funciones nuevas se cotizan aparte.
 
-04
-Plan mensual
+05
+Piezas extra
+
+Para ir
+más lejos.
+
+Lo que te recomendamos sumar a tu plan. Sobre esta propuesta, cada pieza va a precio
+de complemento y se cobra una sola vez.
+
+WhatsApp estándar (sin IA)
+Un flujo de aviso o seguimiento. Sin agente IA ni envíos masivos. Su operación entra
+en el plan Conectado.
+RECOMENDADO · OPCIONAL
++ USD 100
+Las dos asesorías
+Growth, marketing y marca + gestión económica. Reemplaza a las dos sueltas. Cada una
+suelta: USD 150. Gestión económica sujeta a validación.
+RECOMENDADO · OPCIONAL
++ USD 250
+Landing premium adicional
+Una landing compatible para presentar tu propuesta. Solo si no está incluida en el
+alcance.
+RECOMENDADO · OPCIONAL
++ USD 200
+
+BORRADOR · Asesoría económica pendiente de responsable y capacidad. Esta oferta no se
+puede exportar para envío.
+
+06
+Mantenimiento
 
 Un plan mensual.
 Uno solo.
@@ -158,28 +230,7 @@ Terceros hasta USD 40/mes, dentro del precio
 
 Los planes son alternativas: elegís uno, no se suman.
 
-05
-Complementos
-
-Para ir
-más lejos.
-
-Una asesoría de growth y marca ordena mensajes, captación y retención. La de gestión
-económica revisa costos y márgenes con tus datos, y solo se ofrece con responsable
-confirmado.
-
-Asesoría puntual de growth y marca
-Revisamos propuesta, mensajes y una acción de captación o retención; acordamos
-prioridades y una métrica. No incluye identidad completa ni gestión continua.
-OPCIONAL · NO INCLUIDO
-+ USD 150
-Landing premium adicional
-Una landing compatible para presentar tu propuesta. Solo si no está incluida en el
-alcance.
-OPCIONAL · NO INCLUIDO
-+ USD 200
-
-06
+07
 Condiciones
 
 Condiciones,
@@ -204,16 +255,16 @@ Módulos operativos fuera de la adaptación: desde USD 750, según alcance.
 g.
 El dominio y su renovación van aparte, salvo que la propuesta los incluya.
 
-Leé las condiciones completas antes del anticipo [../../../previews/conditions.html] →
+Leé las condiciones completas antes de la seña [../../../previews/conditions.html] →
 
-07
+08
 Próximo paso
 
 El próximo paso
 es tuyo.
 
 Contanos qué querés resolver primero. Te respondemos con alcance, precio y plazos por
-escrito, antes de cualquier anticipo.
+escrito, antes de cualquier seña.
 
 Hablemos de tu proyecto · PENDIENTE
 

@@ -1,14 +1,16 @@
 import {resolveTokens} from '../../theme.mjs';
-import {masthead,hero,demo,sunrise} from '../components/content.mjs';
+import {masthead,hero,trailer,trailerShown,solution,sunrise} from '../components/content.mjs';
 import {offer,plans,extras,extraIds,conditions,closing,footer,brief} from '../components/commercial.mjs';
 import {e,asset,FONT} from '../components/primitives.mjs';
 
-// Night → dawn, as the web: totality in the hero, the demo at night, the sunrise, the numbers
-// in daylight and the risen sun at the last call. The short version keeps the same arc.
+// Brief → trailer → solution → price → extra pieces → maintenance, along the web's night → dawn:
+// totality in the brief, the product at night, the sunrise, the numbers in daylight and the risen
+// sun at the last call. The short version keeps the brief, the trailer and the same arc.
 export function render(c,format='full'){
  const d=c.product,full=format==='full';
  // Numbered sections (01…), as the page index of the web; the glyph phase follows the number.
- const sections=full?[hero,demo,sunrise,offer,plans,...(extraIds(c.offer).length||c.calc.economic&&!c.brand.economicAdvisor.confirmed?[extras]:[]),conditions,closing]:[hero,sunrise,brief,(c,n,total)=>closing(c,n,total,{primary:false})];
+ const film=trailerShown(c)?[trailer]:[];
+ const sections=full?[hero,...film,solution,sunrise,offer,...(extraIds(c).length||c.calc.economic&&!c.brand.economicAdvisor.confirmed?[extras]:[]),plans,conditions,closing]:[hero,...film,sunrise,brief,(c,n,total)=>closing(c,n,total,{primary:false})];
  const total=sections.filter(f=>f!==sunrise).length;let n=0;
  const content=[masthead(c,full?'Propuesta':'Primer contacto'),...sections.map(f=>f===sunrise?sunrise(c):f(c,++n,total)),footer(c)];
  const font=(family,file,style='normal')=>`@font-face{font-family:'${e(family)}';src:url('${e(asset(c,'fonts/'+file))}') format('woff2');font-weight:100 900;font-style:${style}}`;

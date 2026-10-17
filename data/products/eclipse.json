@@ -7,6 +7,7 @@
   "preheader": "Un producto que ya funciona, adaptado a tu marca.",
   "eyebrow": "Desarrollo · IA · automatización",
   "headline": "Tu negocio,\n*funcionando*.",
+  "brief": "Tenemos una propuesta para mejorar la experiencia de tu comercio, sobre un producto que ya funciona.",
   "intro": "Partimos de un producto que ya funciona y lo adaptamos a tu marca, tu contenido y tu forma de trabajar.",
   "accent": "#f5b942",
   "accentInk": "#111114",
@@ -33,6 +34,9 @@
     "El equipo organiza",
     "El seguimiento acordado"
   ],
+  "recommends": [
+    "whatsapp"
+  ],
   "includes": [
     "Tu marca y tu contenido sobre un producto existente",
     "Configuración acordada",
@@ -42,13 +46,13 @@
   "demoNote": "Base para configurar un nuevo producto; demo y evidencia pendientes.",
   "customer": {
     "url": "",
-    "label": "Experiencia del cliente",
+    "label": "Vista del cliente",
     "verified": false,
     "evidence": ""
   },
   "admin": {
     "url": "",
-    "label": "Panel del dueño",
+    "label": "Vista del dueño",
     "verified": false,
     "evidence": ""
   },
@@ -64,6 +68,5 @@
   "gifts": [],
   "presentationUrl": "",
   "presentationVerified": false,
-  "extraContext": "Una asesoría de growth y marca ordena mensajes, captación y retención. La de gestión económica revisa costos y márgenes con tus datos, y solo se ofrece con responsable confirmado.",
   "verticals": {}
 }

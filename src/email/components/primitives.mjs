@@ -43,9 +43,6 @@ export function button(text,url,t,{primary=false,arrow='→'}={}){
 // Ledger line: name on the left, a reading on the right, a dotted rule under both.
 export const ledger=(left,right,t,{sub='',size=16,last=false}={})=>`<tr><td style="padding:14px 16px 14px 0;border-bottom:1px ${last?'solid':'dotted'} ${t.rule};font-family:${FONT.sans};font-size:${size}px;line-height:24px;color:${t.fg};vertical-align:top">${left}${sub?`<br><span style="font-size:13px;line-height:20px;color:${t.muted}">${sub}</span>`:''}</td><td class="mono" align="right" style="padding:14px 0;border-bottom:1px ${last?'solid':'dotted'} ${t.rule};font-family:${FONT.mono};font-size:${size}px;line-height:24px;color:${t.fg};white-space:nowrap;vertical-align:top;text-align:right">${right}</td></tr>`;
 
-// Link row of an index list: the whole line opens the destination.
-export const linkRow=(text,url,t,{tag='ABRIR ↗',first=false}={})=>`<tr><td style="padding:17px 0;${first?`border-top:1px solid ${t.rule};`:''}border-bottom:1px solid ${t.rule}"><a href="${e(url)}" target="_blank" style="display:block;font-family:${FONT.sans};font-size:16px;line-height:22px;color:${t.fg};text-decoration:none"><span class="mono" aria-hidden="true" style="float:right;padding-left:12px;font-family:${FONT.mono};font-size:11px;line-height:22px;letter-spacing:1.3px;color:${t.accent}">${e(tag)}</span>${e(text)}</a></td></tr>`;
-
 // A frame with registration marks on its four corners (the .ticks of the web).
 export function ticks(inner,t,{pad=0,bg=''}={}){
  const corner=(v,h)=>`<td aria-hidden="true" width="10" height="10" style="width:10px;height:10px;border-${v}:1px solid ${t.rule};border-${h}:1px solid ${t.rule};font-size:1px;line-height:1px">&nbsp;</td>`;
