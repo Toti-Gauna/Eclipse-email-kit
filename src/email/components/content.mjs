@@ -29,7 +29,7 @@ export function trailer(c,n,total){
  if(ready)frame=`<a href="${e(x.trailerUrl)}" target="_blank" style="text-decoration:none">${image(x.posterUrl,`Ver cómo funciona ${d.name} · ${x.durationSeconds} segundos`,544,306,{bg:t.bg})}</a>`;
  else if(screen)frame=image(asset(c,`poster-${screen.file}`),`Póster de muestra del trailer de ${d.name}`,544,306,{bg:t.bg});
  else frame=table(row(`<p aria-hidden="true" style="margin:0;font-family:${FONT.sans};font-size:34px;line-height:34px;color:__ECLIPSE_CORONA__">▷</p>`,'padding:110px 24px;text-align:center;background-color:__ECLIPSE_ASH__'));
- let html=mark(c,n,total,'El trailer',t)+heading(`${d.name}, en *${x.durationSeconds} segundos*.`,t,{size:46,mb:20})+p('Un trailer en motion graphics que recorre cada parte del negocio: lo que ve tu cliente, lo que ve tu equipo y cómo se conectan. Con música, para verlo en el celular o en la compu.',t,{size:17,lh:28,color:'__ECLIPSE_DIM__',mb:36})+head+ticks(frame,t);
+ let html=mark(c,n,total,'El trailer',t)+heading(`${d.name}, en *${x.durationSeconds} segundos*.`,t,{size:46,mb:20})+p(`Sesenta segundos de motion graphics, con música, que recorren todo ${e(d.name)}: lo que vive tu cliente, lo que ve tu equipo y cómo se conecta cada parte. Pensado para el celular y para la compu.`,t,{size:17,lh:28,color:'__ECLIPSE_DIM__',mb:36})+head+ticks(frame,t);
  html+=ready?spacer(24)+button('▶ Ver cómo funciona',x.trailerUrl,t,{primary:true,arrow:''}):p('Trailer pendiente de incorporar · el póster es una vista previa estática.',t,{size:13,lh:20,color:t.muted,mb:4,style:'padding:14px 10px 0'})+p('Ver cómo funciona · enlace disponible al incorporar el trailer.',t,{size:12,lh:18,color:t.muted,mb:0,style:'padding:0 10px'});
  return section(html,t,'padding-top:8px;padding-bottom:72px');
 }
@@ -48,19 +48,25 @@ export function solution(c,n,total){
  html+=label('Qué resuelve',t,{mb:4})+index(d.benefits)+spacer(36);
  rest.forEach((s,i)=>{html+=figure(c,s,i+2,d.admin.label,t)+spacer(44)});
  html+=label('El recorrido',t,{mb:16})+table(d.journey.map((x,i)=>`<tr><td aria-hidden="true" style="width:36px;padding:0 0 18px;vertical-align:top"><img src="${e(asset(c,`glyph-${[4,2,0][i]}-dark.png`))}" alt="" width="22" height="22" style="display:block;border:0;width:22px;height:22px" /></td><td style="padding:1px 0 18px;vertical-align:top"><span class="mono" style="font-family:${FONT.mono};font-size:11px;line-height:20px;letter-spacing:1.3px;color:${t.muted}">PASO ${i+1}&nbsp;&nbsp;</span><span style="font-family:${FONT.sans};font-size:16px;line-height:20px;color:${t.fg}">${e(x)}</span></td></tr>`).join(''))+spacer(44);
- // Eclipse's advice around the software (priced in «Piezas extra»). Finance carries the same
- // availability note as the web until a responsible person is confirmed in data/brand.json.
- const finance=c.brand.economicAdvisor.confirmed?'':'Sujeta a validación';
- html+=ticks(label('Además del software',t,{color:t.accent})+heading('Te acompañamos\nen el negocio.',t,{level:3,size:34,mb:10,cls:'h3'})+p('Asesorías puntuales para que la herramienta rinda. Cada una tiene su precio en «Piezas extra».',t,{size:15,lh:24,color:t.muted,mb:8})+index([{title:'Growth marketing',text:'Ordenamos tu propuesta, tus mensajes y una acción concreta para conseguir clientes, con una métrica para medirla.'},{title:'Retención de clientes',text:`La gamificación estándar de ${d.name} ya viene incluida; definimos con vos una acción para que tus clientes vuelvan.`},{title:'Finanzas',tag:finance,text:'Revisamos costos, márgenes y escenarios con tus datos, para decidir con números. Sin asesoramiento contable, tributario ni de inversiones.'}]),t,{pad:28,bg:'__ECLIPSE_ASH__'})+spacer(48);
+ // Eclipse's advice around the software. What the offer includes says so; the rest points to its
+ // price. Finance carries the web's availability note until data/brand.json confirms who gives it.
+ const inc=c.calc.included,pack=c.offer.type==='pack',v=c.prices;
+ const tag=(id,extra='')=>pack||inc.includes(id)?`Incluida en tu propuesta${extra}`:`Pieza extra · USD ${v.extras[id].price}${extra}`;
+ const finance=c.brand.economicAdvisor.confirmed?'':' · sujeta a validación';
+ html+=ticks(label('Además del software',t,{color:t.accent})+heading('No te dejamos\nsolo con la herramienta.',t,{level:3,size:34,mb:10,cls:'h3'})+p('Una herramienta rinde cuando hay una estrategia detrás. Por eso la propuesta viene con asesoría.',t,{size:15,lh:24,color:t.muted,mb:8})+index([{title:'Growth marketing',tag:tag('growth'),text:'Ordenamos tu propuesta y tus mensajes, y definimos la primera acción para conseguir clientes, con una métrica para medirla.'},{title:'Retención de clientes',tag:tag('growth'),text:`Diseñamos cómo usar la gamificación de ${d.name}, que ya viene incluida, para que tus clientes vuelvan más seguido.`},{title:'Finanzas',tag:tag('economics',finance),text:'Costos, márgenes y escenarios con tus datos, para decidir con números. Sin asesoramiento contable, tributario ni de inversiones.'}]),t,{pad:28,bg:'__ECLIPSE_ASH__'})+spacer(48);
  const views=[d.customer,d.admin].filter(x=>x.url);
  html+=label('Probalo vos',t,{mb:16})+(views.length?buttons(views,t,true):p('Enlaces de la demo pendientes de verificar.',t,{size:14,color:t.muted}))+label('Datos ficticios · sin registro',t,{mb:0,style:'padding-top:8px'})+p(`${badge('Demo')}&nbsp; ${e(d.demoNote)}`,t,{size:13,lh:21,color:t.muted,mb:0,style:'padding-top:18px'});
  return section(html+gifts(c,t),t,`padding-top:24px;padding-bottom:72px;background-image:linear-gradient(180deg,__ECLIPSE_VOID__ 0,__ECLIPSE_NIGHT__ 220px)`);
 }
 
-// Ecommerce demos carry gift experiences: each one, a button.
+// Ecommerce demos carry gift experiences: the featured ones as pill buttons that wrap like the
+// web's chips, and one button to the screen with all of them (previews/regalos-<id>.html).
+const chip=(x,t)=>`<a href="${e(x.url)}" target="_blank" style="display:inline-block;margin:0 6px 10px 0;padding:11px 18px;border:1px solid ${t.rule};border-radius:22px;font-family:${FONT.sans};font-size:14px;line-height:20px;font-weight:500;color:${t.fg};text-decoration:none;white-space:nowrap">${e(x.label)}&nbsp;&nbsp;<span style="color:${t.accent}">↗</span></a>`;
 function gifts(c,t){
- const list=c.product.gifts.filter(x=>x.verified&&x.url&&x.evidence);if(!list.length)return '';
- return spacer(56)+ticks(label('Regalos de la demo',t,{color:t.accent})+heading('Un regalo también\nes un recorrido.',t,{level:3,size:32,mb:14,cls:'h3'})+p('Abrí estas experiencias de regalo: son ejemplos ficticios, sin compra ni beneficio real.',t,{size:15,lh:24,color:t.muted,mb:22})+buttons(list,{...t,bg:'__ECLIPSE_ASH__'},false)+p('La herramienta se adapta al alcance; premios, costos y operación de campañas se acuerdan aparte.',t,{size:13,lh:21,color:t.muted,mb:0,style:'padding-top:14px'}),t,{pad:28,bg:'__ECLIPSE_ASH__'});
+ const d=c.product,list=d.gifts.filter(x=>x.verified&&x.url&&x.evidence);if(!list.length)return '';
+ const all=c.mode==='send'?d.giftsPageUrl:`../../../previews/regalos-${d.id}.html`;
+ const box={...t,bg:'__ECLIPSE_ASH__'};
+ return spacer(56)+ticks(label(`Regalos de la demo · ${list.length}`,t,{color:t.accent})+heading('Un regalo también\nes una experiencia.',t,{level:3,size:32,mb:14,cls:'h3'})+p(`En ${e(d.name)}, regalar se abre como un evento: por ocasión, con sabor a elección o como gift card. Probá algunos:`,t,{size:15,lh:24,color:t.muted,mb:20})+`<p style="margin:0 0 14px;line-height:20px">${list.slice(0,d.featuredGifts).map(x=>chip(x,box)).join('')}</p>`+(all?button(`Ver todos los regalos de ${d.name}`,all,box,{primary:true}):'')+p('Personas y regalos ficticios, sin compra ni beneficio real. Premios, costos y operación de campañas se acuerdan aparte.',t,{size:13,lh:21,color:t.muted,mb:0,style:'padding-top:14px'}),t,{pad:28,bg:'__ECLIPSE_ASH__'});
 }
 
 // Night → white: one long seamless fade with the first light behind it, between the product

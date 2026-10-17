@@ -29,6 +29,8 @@ Eclipse-Web en `e335533` (rama main), servida con `next dev` local porque el pro
 
 Piezas extra de canal (WhatsApp estándar, chatbot IA, agente de voz): precio de complemento (`addonUsd`) de `content/items.json` en Eclipse-Web `e335533`, los mismos botones «+ Sumar» que muestra la web sobre la Adaptación de producto (`content/addons.json`). Se cargaron en `data/offers/prices.v2026-10-16.json` con `addonsSource`. Pósters del trailer: `scripts/render-posters.mjs` sobre la primera captura de cada demo; son vistas previas estáticas, no fotogramas de un trailer existente.
 
+Regalos de Volta: los 16 regalos de muestra de `src/demo/fixtures/gifts.ts` (sampleGifts y moreSampleGifts) del repo supplements-ecommerce @ 653c05a, con sus personas, mensajes y productos ficticios. Portal y productos: `/es/portal/` y `/es/#ejemplos` de Eclipse-Web.
+
 ## Verificación publicada y capturas
 
 - https://toti-gauna.github.io/Eclipse-Web/es/

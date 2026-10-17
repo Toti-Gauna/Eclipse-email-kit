@@ -1,6 +1,8 @@
 {
   "name": "Eclipse",
   "siteUrl": "https://toti-gauna.github.io/Eclipse-Web/es/",
+  "portalUrl": "https://toti-gauna.github.io/Eclipse-Web/es/portal/",
+  "productsUrl": "https://toti-gauna.github.io/Eclipse-Web/es/#ejemplos",
   "contactUrl": "",
   "contactLabel": "Contacto de Eclipse pendiente de confirmar",
   "sender": {

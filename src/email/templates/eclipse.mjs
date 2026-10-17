@@ -1,6 +1,6 @@
 import {resolveTokens} from '../../theme.mjs';
 import {masthead,hero,trailer,trailerShown,solution,sunrise} from '../components/content.mjs';
-import {offer,plans,extras,extraIds,conditions,closing,footer,brief} from '../components/commercial.mjs';
+import {offer,plans,extras,extraIds,process,conditions,closing,footer,brief} from '../components/commercial.mjs';
 import {e,asset,FONT} from '../components/primitives.mjs';
 
 // Brief → trailer → solution → price → extra pieces → maintenance, along the web's night → dawn:
@@ -10,7 +10,7 @@ export function render(c,format='full'){
  const d=c.product,full=format==='full';
  // Numbered sections (01…), as the page index of the web; the glyph phase follows the number.
  const film=trailerShown(c)?[trailer]:[];
- const sections=full?[hero,...film,solution,sunrise,offer,...(extraIds(c).length||c.calc.economic&&!c.brand.economicAdvisor.confirmed?[extras]:[]),plans,conditions,closing]:[hero,...film,sunrise,brief,(c,n,total)=>closing(c,n,total,{primary:false})];
+ const sections=full?[hero,...film,solution,sunrise,offer,...(extraIds(c).length||c.calc.economic&&!c.brand.economicAdvisor.confirmed?[extras]:[]),plans,process,conditions,closing]:[hero,...film,sunrise,brief,(c,n,total)=>closing(c,n,total,{primary:false})];
  const total=sections.filter(f=>f!==sunrise).length;let n=0;
  const content=[masthead(c,full?'Propuesta':'Primer contacto'),...sections.map(f=>f===sunrise?sunrise(c):f(c,++n,total)),footer(c)];
  const font=(family,file,style='normal')=>`@font-face{font-family:'${e(family)}';src:url('${e(asset(c,'fonts/'+file))}') format('woff2');font-weight:100 900;font-style:${style}}`;

@@ -36,3 +36,7 @@ Ignacio fijó el orden del email completo: brief corto («Vimos…» solo con he
 
 Ajuste posterior: a la mitad del email (entre la solución y el precio) el fondo pasa de la noche a un blanco cálido (`day` #fbf9f6, tarjetas en blanco) con un degradé largo y continuo generado por `scripts/render-transition.mjs`, sin línea de horizonte; reemplaza a la franja de amanecer capturada. Los bordes del sol de cierre se funden con el mismo blanco.
 
+## Oferta, regalos y continuidad · 17/10/2026
+
+Indicaciones de Ignacio: los USD 500 de la adaptación incluyen una asesoría inicial de growth marketing y retención de clientes (`includedExtras: ["growth"]` en `base-campaign.json`; ya no se recomienda «ambas asesorías», solo gestión económica, para no cobrar growth dos veces). El descuento en los demás planes por pagar la adaptación es la bonificación existente (el valor de Esencial, USD 30/mes, descontado de cualquier plan durante 3 meses): se muestra plan por plan en la tarjeta del precio y en el mantenimiento; no se inventó un monto nuevo. Volta muestra 6 de sus 16 regalos de muestra (fixture `gifts.ts` del repo supplements-ecommerce @ 653c05a; solo 2 se abrieron en vivo, el resto no se pudo abrir porque el proxy bloquea GitHub Pages) y un botón a la pantalla con todos (`previews/regalos-volta.html`). Nueva sección «Cómo seguimos»: llamada y alcance, seña con cuenta y portal de cliente, construcción con avances en el portal, entrega y mantenimiento, con botones al portal de la web (hoy en modo demostración) y a más productos de Eclipse. Wording general revisado.
+

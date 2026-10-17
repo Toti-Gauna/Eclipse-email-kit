@@ -12,8 +12,9 @@ sea fácil.
 
 Hola, equipo de Tienda Horizonte.
 
-Tenemos una propuesta para mejorar la experiencia de tu tienda: un catálogo claro,
-consultas sin vueltas y un club que hace volver.
+Pensamos en tiendas como la tuya y armamos una propuesta concreta: un catálogo que se
+entiende de un vistazo, consultas que llegan con todo el contexto y un club que hace
+volver.
 
 Muestra  Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
 
@@ -22,9 +23,9 @@ El trailer
 
 Volta, en 60 segundos.
 
-Un trailer en motion graphics que recorre cada parte del negocio: lo que ve tu
-cliente, lo que ve tu equipo y cómo se conectan. Con música, para verlo en el celular
-o en la compu.
+Sesenta segundos de motion graphics, con música, que recorren todo Volta: lo que vive
+tu cliente, lo que ve tu equipo y cómo se conecta cada parte. Pensado para el celular
+y para la compu.
 
 TRAILER · 60 S
 MOTION GRAPHICS · CON MÚSICA
@@ -43,10 +44,10 @@ La demo
 Volta, con datos ficticios
 ABRIR ↗ [https://toti-gauna.github.io/supplements-ecommerce/]
 Adaptación de producto
-Tu marca y tu contenido sobre Volta
+Incluye asesoría inicial de growth y retención
 desde USD 500
 Plan mensual
-3 meses de Esencial bonificados
+Esencial gratis 3 meses; los demás, más baratos
 desde USD 30/mes
 
 Ver la propuesta completa  → [volta-volta-example-full.html]
@@ -59,8 +60,8 @@ Próximo paso
 El próximo paso
 es tuyo.
 
-Contanos qué querés resolver primero. Te respondemos con alcance, precio y plazos por
-escrito, antes de cualquier seña.
+Respondé este correo o escribinos. En una llamada corta vemos qué querés resolver
+primero y te mandamos alcance, precio y plazos por escrito, antes de cualquier seña.
 
 Hablemos de tu proyecto · PENDIENTE
 
@@ -68,7 +69,8 @@ Eclipse · remitente pendiente de confirmar
 
 ECLIPSE
 
-Desarrollo, IA y automatización para negocios que no pueden esperar.
+Consultora de inteligencia artificial para negocios. Desarrollo, IA y automatización
+para los que no pueden esperar.
 
 Conocé Eclipse [https://toti-gauna.github.io/Eclipse-Web/es/] ↗
 

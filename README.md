@@ -73,7 +73,7 @@ Al recibir miniatura y destino válidos, completá ambas URLs HTTPS, verificá l
 
 ## Organización
 
-- `src/email/components/`: primitivas del lenguaje visual (marca de sección con glifo de fase, titulares serif, libro de precios, marcas de registro, figuras), en el orden del email completo: 01 brief, 02 trailer, 03 solución (producto, figuras, qué resuelve, recorrido, asesorías de growth, retención y finanzas, vista del cliente y del dueño, regalos en botones), 04 precio (seña 50 % y mantenimiento bonificado), 05 piezas extra con precios, 06 mantenimiento, 07 condiciones, 08 próximo paso y pie.
+- `src/email/components/`: primitivas del lenguaje visual (marca de sección con glifo de fase, titulares serif, libro de precios, marcas de registro, figuras), en el orden del email completo: 01 brief, 02 trailer, 03 solución (producto, figuras, qué resuelve, recorrido, asesorías de growth, retención y finanzas, vista del cliente y del dueño, regalos en botones), 04 precio (seña 50 % y mantenimiento bonificado), 05 piezas extra con precios, 06 mantenimiento, 07 cómo seguimos (cuenta, portal y más productos de Eclipse), 08 condiciones, 09 próximo paso y pie. Los productos con regalos generan además `previews/regalos-<id>.html`, la pantalla «Ver todos los regalos», que se publica con la galería; en envío el botón usa `giftsPageUrl`.
 - `src/email/templates/eclipse.mjs`: recorrido noche → amanecer, numeración de secciones y versión breve.
 - `src/schema.mjs`, `src/offers.mjs`: validación y reglas comerciales.
 - `data/`: identidad, productos, precios, ofertas y prospectos.
