@@ -13,7 +13,7 @@
     "preheader": "Conocé Volta y evaluemos una mejora concreta en una asesoría gratuita de 15 minutos.",
     "html": "../dist/emails/drafts/volta-volta-example-full.html",
     "text": "../dist/emails/drafts/volta-volta-example-full.txt",
-    "bytes": 54276,
+    "bytes": 22443,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -39,7 +39,7 @@
     "preheader": "Conocé Volta y evaluemos una mejora concreta en una asesoría gratuita de 15 minutos.",
     "html": "../dist/emails/drafts/volta-volta-example-short.html",
     "text": "../dist/emails/drafts/volta-volta-example-short.txt",
-    "bytes": 27570,
+    "bytes": 15548,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",

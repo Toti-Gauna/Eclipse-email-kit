@@ -1,0 +1,10 @@
+import {chromium} from 'playwright';
+import {chromiumOptions} from './browser-options.mjs';
+const browser=await chromium.launch({...chromiumOptions,proxy:process.env.HTTPS_PROXY?{server:process.env.HTTPS_PROXY}:undefined});
+const page=await browser.newPage({viewport:{width:1100,height:800},deviceScaleFactor:1,reducedMotion:'reduce'});
+await page.goto('https://toti-gauna.github.io/supplements-ecommerce/admin-demo/costos/',{waitUntil:'networkidle'});
+await page.getByRole('heading',{name:'Costos y margen',exact:true}).waitFor();
+console.log((await page.locator('main').innerText()).slice(0,3000));
+const box=await page.locator('main').boundingBox();
+await page.screenshot({path:'assets/volta-costs.jpg',type:'jpeg',quality:85,clip:{...box,height:Math.min(box.height,750)}});
+await browser.close();

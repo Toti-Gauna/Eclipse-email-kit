@@ -18,3 +18,11 @@ test('slots de nombre escapan HTML, preservan links/regalos y no cambian gates',
  for(const name of ['Nutri & Fit "José"','<img src=x onerror=alert(1)>','', 'NutriSport']){const out=personalizeDraft(payload,name,'http://127.0.0.1:4173/dist/emails/drafts/volta-volta-example-full.html');assert.doesNotMatch(out.html,/<img src=x/);assert.doesNotMatch(out.html,/ECLIPSE_BUSINESS_NAME_SLOT/);for(const g of c.product.gifts.slice(0,6))assert.ok(out.html.includes(g.url.replaceAll('&','&amp;')));assert.deepEqual(readiness(c),gates);assert.ok(out.text.includes(name||'Ejemplo ficticio'));}
 });
 test('mailto admite solo dirección y query de asunto/cuerpo seguros',()=>{assert.ok(safeMailto('mailto:ignacio@eclipse.test?subject=Asesor%C3%ADa%20gratuita&body=Hola%2C%20Ignacio'));for(const url of ['javascript:alert(1)','mailto:a@b.test?bcc=otro@b.test','mailto:a@b.test%0aBcc:x@y.test','mailto:bad','https://a.test'])assert.equal(safeMailto(url),false)});
+test('contactos editables seguros, locales y coherentes en HTML/texto sin habilitar envío',async()=>{
+ const c=await load(),h=render(c),payload={html:[h],text:[plainText(h,c.product)],subject:[c.product.subject],preheader:[c.product.preheader]},base='http://127.0.0.1:4173/dist/emails/drafts/volta.html';
+ const out=personalizeDraft(payload,'Nutri & Fit',base,{email:'dueño@example.test',phone:'+54 9 223 555 1234'});assert.ok(!out.html.includes('mailto:dueño'));
+ const good=personalizeDraft(payload,'José',base,{email:'hola+volta@example.test',phone:'+54 9 223 555 1234'});
+ for(const doc of [good.html,good.text]){assert.ok(doc.includes('mailto:hola+volta@example.test?subject=Quiero%20mi%20asesor%C3%ADa%20gratuita'));assert.ok(doc.includes('tel:+5492235551234'));assert.ok(!doc.includes('Contacto pendiente'));}
+ for(const email of ['x@example.test\r\nBcc:x@y.test','a?bcc=x@example.test','<img onerror=alert(1)>','javascript:alert(1)']){const bad=personalizeDraft(payload,'José',base,{email,phone:'javascript:alert(1)'});assert.ok(!bad.html.includes('href="mailto:'));assert.ok(!bad.html.includes('href="tel:'));}
+ assert.ok(readiness(c).length>0);
+});

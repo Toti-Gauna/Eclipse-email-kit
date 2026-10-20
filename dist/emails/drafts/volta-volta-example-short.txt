@@ -2,134 +2,84 @@ Asunto: Tienda Horizonte: una idea para potenciar tu tienda de suplementos
 Preheader: Conocé Volta y evaluemos una mejora concreta en una asesoría gratuita de 15 minutos.
 
 ECLIPSE
+
 Eclipse. Potenciamos tus ventas y hacemos que tus clientes vuelvan.
 
-01
-Tu negocio, distinto del resto.
+01 /
 
 Tu negocio, distinto del resto.
+
+Hola, equipo de Tienda Horizonte:
+
+Soy Ignacio, de Eclipse, Mar del Plata. Te comparto una idea para tu tienda de
+suplementos. Borrador sectorial, sin investigación del negocio.
 
 Presentá mejor tus productos, facilitá la compra y dales a tus clientes motivos para
 volver.
 
-Hola, equipo de Tienda Horizonte:
-
-Soy Ignacio, de Eclipse, de acá de Mar del Plata. Quería mostrarles una idea para
-presentar una tienda de suplementos y facilitar la compra. Esta es una propuesta
-sectorial; todavía no investigamos tu negocio.
-
-BORRADOR · apertura sectorial sin investigación verificada. El nombre es un dato de
-preview; no acredita un destinatario real.
-
-02
-Conocé Volta en acción.
+02 /
 
 Conocé Volta en acción.
-
-Mirá un recorrido de la experiencia antes de explorar la demo.
 
 https://toti-gauna.github.io/supplements-ecommerce/trailer/t1-email.mp4
 
-▶ Ver el tráiler  
+▷ Ver el tráiler
 [https://toti-gauna.github.io/supplements-ecommerce/trailer/t1-email.mp4]
 
-Duración del archivo: 75,47 segundos.
+Tráiler de referencia · condiciones comerciales en revisión.
 
-BORRADOR · recurso pendiente de compatibilidad comercial. El MP4 existente muestra a
-los 62 s equivalencias USD, 100 mensajes de WhatsApp y cuatro cuotas de ARS 225.000; a
-los 67 s, mantenimiento ARS 45.000 / USD 30, cupo de terceros USD 5 y 2 h mensuales.
-Estas condiciones no corresponden a esta campaña.
+03 /
 
-03
-La propuesta, en breve.
+Cuánto cuesta y cómo se paga.
 
-La propuesta, en breve.
+Referencia: ARS 750.000 · 50% de descuento aplicado.
 
-En Eclipse combinamos una tienda adaptada a tu negocio con asesoría inicial de
-marketing digital y herramientas de fidelización.
+TOTAL FINAL AL CONTADO · PAGO ÚNICO
 
-Precio de referencia del paquete: ARS 750.000.
+ARS 375.000
 
-Precio al contado: ARS 375.000.
+Precio al contado final. El descuento ya está aplicado.
 
-50% de descuento respecto del precio de referencia.
+Hasta 4 cuotas con recargo: a evaluar y cotizar por escrito.
 
-Dos meses iniciales de mantenimiento bonificados. Desde el tercer mes: ARS 50.000
-mensuales.
+04 /
 
-Podemos evaluar hasta cuatro cuotas con recargo. Antes de contratar, dejamos por
-escrito el valor de cada cuota, el total financiado, los vencimientos y los costos
-adicionales.
+¿Qué tendría que generar?
 
-El inicio del período bonificado y el alcance preciso del mantenimiento quedan
-establecidos en la propuesta antes de contratar.
+Ejemplo hipotético: ARS 375.000 ÷ ARS 15.000 de contribución por pedido = 25 pedidos
+adicionales. Se suman mantenimiento y otros costos. No es un pronóstico ni garantía.
 
-La propuesta incluye una instancia inicial de asesoría y capacitación, con alcance
-acordado por escrito. Evaluar automatizaciones no implica que su desarrollo esté
-incluido. Nuevas integraciones, gestión continua de campañas, contenido periódico y
-ampliaciones se cotizan aparte.
+05 /
 
-Ver la propuesta completa  → [volta-volta-example-full.html]
+Mantenimiento
 
-Leer condiciones de esta campaña  →
-[../../../previews/conditions-volta-2026-10-19.html]
+Meses 1–2 bonificados. Desde el mes 3: ARS 50.000/mes. Ajustes menores acordados;
+inicio por escrito. Servicios de terceros aparte, previo acuerdo.
 
-Abrir la experiencia del cliente  →
-[https://toti-gauna.github.io/supplements-ecommerce/]
+06 /
 
-Abrir el panel de demostración  →
-[https://toti-gauna.github.io/supplements-ecommerce/admin-demo/]
+Explorá Volta
 
-Ver todos los regalos de Volta  → [../../../previews/regalos-volta.html]
+Ver propuesta completa [volta-volta-example-full.html]
 
-04
-¿Qué tendría que generar para recuperar la inversión?
+Explorar la tienda [https://toti-gauna.github.io/supplements-ecommerce/]
 
-¿Qué tendría que generar para recuperar la inversión?
+Explorar el panel [https://toti-gauna.github.io/supplements-ecommerce/admin-demo/]
 
-Lo estimamos con tus números: cuánto te deja cada pedido después de pagar la
-mercadería y los costos de venderlo, y cuántos pedidos adicionales harían falta para
-cubrir la implementación y los costos del período.
+Ver todos los regalos de Volta [../../../previews/regalos-volta.html]
 
-Ejemplo hipotético: si cada pedido adicional deja ARS 15.000, una implementación de
-ARS 375.000 equivale a 25 pedidos adicionales para cubrir su costo inicial. El
-mantenimiento y otros costos se suman según el período.
+Leer condiciones completas [../../../previews/conditions-volta-2026-10-19.html]
 
-Es un umbral de referencia, no un pronóstico ni una garantía de recuperación.
+07 /
 
-La contribución descuenta descuentos, comisiones y costos variables; los pedidos son
-adicionales respecto de la base habitual. Desde el mes 3 se suma mantenimiento y los
-demás costos del período. Si se financia, se usa el total financiado acordado. Una
-contribución nula o negativa no permite cubrir la inversión; estimar tiempo requiere
-un supuesto explícito de pedidos adicionales por mes.
+Contáctanos
 
-05
-Tu primera asesoría gratuita
-
-Tu primera asesoría gratuita
-
-Te ofrecemos una primera asesoría gratuita de 15 minutos. Revisamos cómo trabajan hoy,
-te llevás una recomendación inicial y te mostramos qué podría servirle de Volta a tu
-negocio.
-
-También podemos estimar, con tus números, cuántas ventas adicionales necesitarías para
-recuperar la inversión.
-
-Quiero mi asesoría gratuita · PENDIENTE
+Revisemos tu negocio y una mejora concreta en una asesoría gratuita.
 
 15 minutos · sin obligación de contratar.
 
-Ignacio · Eclipse
-Mar del Plata
+Contacto pendiente · completá tu email y teléfono en la galería.
 
-BORRADOR · contacto y remitente pendientes de confirmar.
+Ignacio · Eclipse · Mar del Plata
 
-ECLIPSE
-
-Consultora de inteligencia artificial para negocios. Desarrollo, IA y automatización
-para los que no pueden esperar.
-
-Conocé Eclipse [https://toti-gauna.github.io/Eclipse-Web/es/] ↗
-
-Los negocios que ves en las demos son ficticios. Si preferís no recibir más
-propuestas, respondé «No recibir más».
+Si preferís no recibir más propuestas, respondé «No recibir más».

@@ -38,7 +38,7 @@
     "product": "volta",
     "version": "improved",
     "format": "full",
-    "bytes": 54276,
+    "bytes": 22443,
     "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
@@ -55,7 +55,7 @@
     "product": "volta",
     "version": "improved",
     "format": "short",
-    "bytes": 27570,
+    "bytes": 15210,
     "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [

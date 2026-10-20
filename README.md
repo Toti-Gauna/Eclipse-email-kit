@@ -1,5 +1,11 @@
 # Eclipse Email Kit
 
+## Revisión visual y contactos · 20/10/2026
+
+La tab Mejorada concentra la propuesta en unas 410 palabras (lectura estimada de 2 minutos), con condiciones detalladas enlazadas, captura real adicional de costos/margen y precio final al contado destacado. Original y otras ofertas conservan sus compilados.
+
+En la galería, **Tu email de contacto** y **Tu teléfono** personalizan los botones de Mejorada. El teléfono usa formato internacional con `+` y abre una llamada (`tel:`); el email abre una consulta (`mailto:`). Los datos se mantienen solo en memoria, sobreviven a cambios de tab/formato y se incluyen en HTML/texto copiados o descargados. No se guardan, no se publican y no confirman al remitente. Los campos vacíos o inválidos no generan enlaces. El MP4 existente se puede abrir/descargar y su enlace se puede copiar desde “Archivo del tráiler”; sigue bloqueado comercialmente.
+
 ## Campaña Volta · actualización local 19–20/10/2026
 
 La galería separa **Original** (referencia anterior, no exportable para esta campaña) y **Mejorada**, con el selector de productos y Completa/Breve independientes. “Nombre del negocio” personaliza `businessName` en memoria: no lo guarda ni lo agrega a URLs. HTML/texto copiados y descargados son exactamente los del preview; siguen siendo borradores ficticios.
