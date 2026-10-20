@@ -39,9 +39,25 @@ automatizaciones y recuperación de inversión.
 
 Comprá fácil. Volvé por más.
 
+Ficha: precio por servicio, sabores y tamaños en una sola vista.
+
+Packs por objetivo: hipertrofia, fuerza y definición.
+
+Club: misiones y niveles para que tu cliente vuelva.
+
+Regalar: producto, sabor y tarjeta con mensaje.
+
 Explorar la tienda [https://toti-gauna.github.io/supplements-ecommerce/]
 
 Tu operación, a la vista.
+
+Pedidos: filtrá por etapa, cliente o fecha.
+
+Productos y stock: lotes, vencimientos y reposición.
+
+Regalos y gift cards: saldo, canjes y vencimientos.
+
+Campañas: el calendario comercial y la próxima fecha.
 
 Explorar el panel [https://toti-gauna.github.io/supplements-ecommerce/admin-demo/]
 

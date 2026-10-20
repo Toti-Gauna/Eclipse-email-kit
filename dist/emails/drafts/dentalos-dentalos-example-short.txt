@@ -44,10 +44,12 @@ DentalOS, con datos ficticios
 ABRIR ↗ [https://toti-gauna.github.io/DentalOS/#/]
 Adaptación de producto
 Incluye asesoría inicial de growth y retención
-desde USD 500
+desde ARS 750.000
+USD 500
 Plan mensual
 Esencial gratis 3 meses; los demás, más baratos
-desde USD 30/mes
+desde ARS 45.000/mes
+USD 30/mes
 
 Ver la propuesta completa  → [dentalos-dentalos-example-full.html]
 

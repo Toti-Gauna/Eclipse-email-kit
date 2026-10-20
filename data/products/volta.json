@@ -60,14 +60,64 @@
   },
   "screens": [
     {
-      "file": "volta.jpg",
-      "alt": "Catálogo Volta: categorías y fichas de productos de muestra",
-      "caption": "Catálogo de la demo: categorías y fichas para comparar antes de consultar."
+      "file": "volta-cliente-inicio.jpg",
+      "view": "customer",
+      "alt": "Volta: inicio de la tienda con el producto destacado y las categorías",
+      "caption": "Inicio: el producto estrella y el camino a cada categoría."
     },
     {
-      "file": "volta-admin.jpg",
-      "alt": "Panel Volta con pedidos y tareas de preparación ficticios",
-      "caption": "Panel del dueño: pedidos y preparación, con datos ficticios."
+      "file": "volta-cliente-ficha.jpg",
+      "view": "customer",
+      "alt": "Volta: ficha de Ionic Whey 100% con precio, sabores y tamaños",
+      "caption": "Ficha: precio por servicio, sabores y tamaños en una sola vista."
+    },
+    {
+      "file": "volta-cliente-packs.jpg",
+      "view": "customer",
+      "alt": "Volta: packs por objetivo (hipertrofia, fuerza y definición)",
+      "caption": "Packs por objetivo: hipertrofia, fuerza y definición."
+    },
+    {
+      "file": "volta-cliente-club.jpg",
+      "view": "customer",
+      "alt": "Volta: Club con misiones, niveles y premios",
+      "caption": "Club: misiones y niveles para que tu cliente vuelva."
+    },
+    {
+      "file": "volta-cliente-regalar.jpg",
+      "view": "customer",
+      "alt": "Volta: regalar un producto con sabor y tarjeta personalizada",
+      "caption": "Regalar: producto, sabor y tarjeta con mensaje."
+    },
+    {
+      "file": "volta-admin-inicio.jpg",
+      "view": "admin",
+      "alt": "Panel de Volta: ventas, ticket promedio y pedidos en marcha",
+      "caption": "Inicio: ventas, ticket y pedidos del día de un vistazo."
+    },
+    {
+      "file": "volta-admin-pedidos.jpg",
+      "view": "admin",
+      "alt": "Panel de Volta: pedidos filtrables por etapa, cliente y fecha",
+      "caption": "Pedidos: filtrá por etapa, cliente o fecha."
+    },
+    {
+      "file": "volta-admin-stock.jpg",
+      "view": "admin",
+      "alt": "Panel de Volta: productos y stock con lotes y vencimientos",
+      "caption": "Productos y stock: lotes, vencimientos y reposición."
+    },
+    {
+      "file": "volta-admin-regalos.jpg",
+      "view": "admin",
+      "alt": "Panel de Volta: gift cards con saldo, canjes y vencimientos",
+      "caption": "Regalos y gift cards: saldo, canjes y vencimientos."
+    },
+    {
+      "file": "volta-admin-campanas.jpg",
+      "view": "admin",
+      "alt": "Panel de Volta: calendario de campañas comerciales",
+      "caption": "Campañas: el calendario comercial y la próxima fecha."
     }
   ],
   "trailer": {

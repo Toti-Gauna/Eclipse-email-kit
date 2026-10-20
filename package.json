@@ -15,7 +15,9 @@
     "qa": "node scripts/qa.mjs",
     "qa:extra": "node scripts/qa-extra.mjs",
     "qa:a11y": "node scripts/a11y.mjs",
-    "build:pages": "node scripts/build-pages.mjs"
+    "build:pages": "node scripts/build-pages.mjs",
+    "trailer": "node scripts/add-trailer.mjs",
+    "capture:demos": "node scripts/capture-demos.mjs"
   },
   "keywords": [],
   "author": "",

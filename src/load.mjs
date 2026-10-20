@@ -1,4 +1,4 @@
-import fs from 'node:fs/promises';import {productSchema,prospectSchema,offerSchema,brandSchema,validatePrices} from './schema.mjs';import {calculateOffer} from './offers.mjs';
+import fs from 'node:fs/promises';import {productSchema,prospectSchema,offerSchema,brandSchema,validatePrices} from './schema.mjs';import {calculateOffer} from './offers.mjs';import {makeFx,validateFx} from './fx.mjs';
 export const read=async p=>JSON.parse(await fs.readFile(p,'utf8'));
 export async function load(product='volta',prospect=`${product}-example`,offer,vertical,version='improved'){
  for(const s of [product,prospect,offer,vertical].filter(Boolean))if(!/^[a-z0-9-]+$/.test(s))throw Error('Identificador inválido');
@@ -14,5 +14,6 @@ export async function load(product='volta',prospect=`${product}-example`,offer,v
   if(!brand.contactUrl&&brand.sender.confirmed&&/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(brand.sender.email))brand.contactUrl=`mailto:${brand.sender.email}?subject=${encodeURIComponent('Asesoría gratuita · Volta')}`;
  }
 
- return {version:product==='volta'?(o.type==='campaign'?'improved':'original'):'original',conditionsFile:o.id==='base-campaign'?'conditions.html':`conditions-${o.id}.html`,brand,product:d,prospect:q,offer:o,prices,calc:calculateOffer(o,prices),mode:'preview'};
+ const fx=makeFx(validateFx(await read('data/offers/fx.json')));
+ return {fx,version:product==='volta'?(o.type==='campaign'?'improved':'original'):'original',conditionsFile:o.id==='base-campaign'?'conditions.html':`conditions-${o.id}.html`,brand,product:d,prospect:q,offer:o,prices,calc:calculateOffer(o,prices),mode:'preview'};
 }

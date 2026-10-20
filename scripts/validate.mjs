@@ -4,7 +4,7 @@ for(const id of ['volta','tableflow','dentalos'])for(const version of (id==='vol
  const c=await load(id,`${id}-example`,undefined,undefined,version);
  for(const format of ['full','short']){
   const html=render(c,format),errors=readiness(c,format);
-  if(Buffer.byteLength(html)>=90000)throw Error('Tamaño excedido');
+  if(Buffer.byteLength(html)>=96000)throw Error('Tamaño excedido');
   if(/<(script|iframe|video|form)\b|var\(--|display:\s*(grid|flex)/i.test(html))throw Error('Contaminación de galería');
   for(const s of c.product.screens)await fs.access('assets/'+s.file);
   c.mode='send';const send=render(c,format);

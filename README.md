@@ -1,5 +1,12 @@
 # Eclipse Email Kit
 
+## Pesos, pantallas y trailer · 20/10/2026
+
+- **Precios en pesos.** Todas las propuestas «Original» (Volta, TableFlow, DentalOS, Eclipse) muestran primero el importe en pesos y debajo el dólar, que sigue siendo la moneda del contrato. La referencia sale de la versión Mejorada de Volta: ARS 750.000 ÷ USD 500 = **1 USD = ARS 1.500** (`data/offers/fx.json`, con su derivación; `src/fx.mjs` valida que coincida con la oferta y falla si no). Para cambiar la cotización editá `ARS` y `derivedFrom` en ese archivo y recompilá. La Mejorada ya estaba en pesos y no cambió. La página de condiciones aclara que el contrato es en dólares y que los pesos son referencia.
+- **Pantallas de ambas vistas.** Cada producto trae 5 capturas de la vista cliente y 5 del panel del dueño (`screens[].view`: `customer` | `admin`; TableFlow Café, 5 + 5 propias). La primera de cada vista va grande y el resto en grilla de dos; en Mejorada de Volta, una grande y cuatro miniaturas por vista. Se regeneran con `npm run capture:demos` (acepta `--only` y la URL de cada demo, para correrlo contra una copia local si las demos publicadas no están accesibles). Una oferta de campaña no se puede exportar sin al menos una captura de cada vista.
+- **Subir el trailer.** `npm run trailer -- --product volta --video ruta/al/video.mp4` convierte a H.264/AAC con arranque rápido, extrae el póster (o usá `--poster`/`--at`), copia a `assets/trailers/` y genera la página `previews/trailer-<producto>.html`, que es la que abre el botón del correo. Para un video ya publicado: `--url https://… --poster imagen.jpg`. Más de 100 MB: agregá `--compress`. El video queda **sin verificar** (solo preview) hasta que lo mires y corras `--verified`; en Volta además hace falta `--commercial-ok` (que no muestre precios, cuotas ni condiciones ajenas a la campaña). Detalle en `assets/trailers/README.md`.
+- **Peso.** El límite del build subió de 90.000 a 96.000 bytes por las diez capturas y los pesos; la completa Original de Volta pesa ~90 kB y Gmail recorta recién a los 102 kB.
+
 ## Revisión visual y contactos · 20/10/2026
 
 La tab Mejorada concentra la propuesta en unas 410 palabras (lectura estimada de 2 minutos), con condiciones detalladas enlazadas, captura real adicional de costos/margen y precio final al contado destacado. Original y otras ofertas conservan sus compilados.
@@ -99,7 +106,7 @@ En cada producto existe:
 }
 ```
 
-Al recibir miniatura y destino válidos, completá ambas URLs HTTPS, verificá los recursos y cambiá `state` a `ready` y `verified` a `true`. Recompilá. Aparece la miniatura enlazada y el CTA “Ver cómo funciona”. Si falta alguno, el preview muestra un placeholder estático y el email de envío omite el módulo completo. `enabled: false` lo elimina también del preview. No hay reproductor, video, guion, audio ni producción audiovisual en el kit.
+Al recibir miniatura y destino válidos, completá ambas URLs HTTPS, verificá los recursos y cambiá `state` a `ready` y `verified` a `true`. Recompilá. Aparece la miniatura enlazada y el CTA “Ver cómo funciona”. Si falta alguno, el preview muestra un placeholder estático y el email de envío omite el módulo completo. `enabled: false` lo elimina también del preview. El kit no produce el video: lo cargás con `npm run trailer` (ver «Pesos, pantallas y trailer»). El correo nunca incrusta el video, solo el póster enlazado a una página reproductora.
 
 ## Organización
 
