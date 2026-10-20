@@ -57,21 +57,22 @@ export function ticks(inner,t,{pad=0,bg=''}={}){
 }
 
 // A demo screen as a plate in a technical document: «FIG. 01 — VISTA DEL CLIENTE · DEMO».
-export function figure(c,screen,n,caption,t){
+export function figure(c,screen,n,caption,t,{ticked=true}={}){
  const head=table(`<tr><td class="mono" style="font-family:${FONT.mono};font-size:11px;line-height:16px;letter-spacing:1.3px;color:${t.muted};text-transform:uppercase">Fig. ${String(n).padStart(2,'0')} — ${e(caption)}</td><td align="right" style="white-space:nowrap">${badge('Demo')}</td></tr>`,'','margin:0 0 12px');
- return head+ticks(image(asset(c,screen.file),screen.alt,540,375,{bg:t.bg}),t)+p(e(screen.caption),t,{size:14,lh:22,color:t.muted,mb:0,style:'padding:14px 10px 0'});
+ const img=image(asset(c,screen.file),screen.alt,540,375,{bg:t.bg});
+ return head+(ticked?ticks(img,t):`<div style="border:1px solid ${t.rule}">${img}</div>`)+p(e(screen.caption),t,{size:14,lh:22,color:t.muted,mb:0,style:'padding:14px 10px 0'});
 }
 
 // A compact plate for the 2-up grid: «FIG. 03 · DEMO», the screen and one line under it.
 function figureCompact(c,screen,n,t){
- const head=table(`<tr><td class="mono" style="font-family:${FONT.mono};font-size:10px;line-height:16px;letter-spacing:1.3px;color:${t.muted};text-transform:uppercase">Fig. ${String(n).padStart(2,'0')} · Demo</td></tr>`,'','margin:0 0 8px');
- return head+`<div style="border:1px solid ${t.rule}">${image(asset(c,screen.file),screen.alt,262,182,{bg:t.bg,cls:'fig2',style:'width:100%;max-width:100%'})}</div>`+p(e(screen.caption),t,{size:13,lh:19,color:t.muted,mb:0,style:'padding-top:10px'});
+ const head=`<p class="mono" style="margin:0 0 8px;font:10px/16px ${FONT.mono};letter-spacing:1.3px;color:${t.muted};text-transform:uppercase">Fig. ${String(n).padStart(2,'0')} · ${screen.view==='admin'?'Dueño · ':''}Demo</p>`;
+ return head+`<div style="border:1px solid ${t.rule}"><img class="fig2" src="${e(asset(c,screen.file))}" alt="${e(screen.alt)}" width="262" height="182" style="display:block;border:0;width:100%;height:auto;background-color:${t.bg}" /></div>`+p(e(screen.caption),t,{size:13,lh:19,color:t.muted,mb:0,style:'padding-top:10px'});
 }
 
 // One view of the demo (client or owner): the first screen large, the rest two by two.
-export function screenSet(c,list,startN,label,t){
+export function screenSet(c,list,startN,label,t,opts){
  const [lead,...rest]=list;if(!lead)return '';
- let html=figure(c,lead,startN,label,t);
+ let html=figure(c,lead,startN,label,t,opts);
  if(rest.length){
   const cell=(x,i,side)=>`<td class="col2" width="50%" valign="top" style="width:50%;padding:0 ${side==='l'?10:0}px 28px ${side==='l'?0:10}px">${x?figureCompact(c,x,startN+1+i,t):''}</td>`;
   const rows=[];for(let i=0;i<rest.length;i+=2)rows.push(`<tr>${cell(rest[i],i,'l')}${cell(rest[i+1],i+1,'r')}</tr>`);

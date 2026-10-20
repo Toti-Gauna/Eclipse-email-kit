@@ -4,6 +4,7 @@ export async function load(product='volta',prospect=`${product}-example`,offer,v
  for(const s of [product,prospect,offer,vertical].filter(Boolean))if(!/^[a-z0-9-]+$/.test(s))throw Error('Identificador inválido');
  const brand=brandSchema.parse(await read('data/brand.json')),q=prospectSchema.parse(await read(`data/prospects/${prospect}.json`));let d=productSchema.parse(await read(`data/products/${product}.json`));
  if(vertical){if(!d.verticals?.[vertical])throw Error('Rubro no configurado');d=productSchema.parse({...d,...d.verticals[vertical]})}
+ for(const ch of d.chapters||[])for(const f of ch.screens)if(!d.screens.some(x=>x.file===f))throw Error(`Capítulo ${ch.id}: captura inexistente ${f}`);
  const offerId=offer||(product==='volta'&&version!=='original'?'volta-2026-10-19':q.offerId);
  const o=offerSchema.parse(await read(`data/offers/${offerId}.json`));
  if(o.type==='campaign'&&product!==o.productId)throw Error('Campaña exclusiva de Volta');

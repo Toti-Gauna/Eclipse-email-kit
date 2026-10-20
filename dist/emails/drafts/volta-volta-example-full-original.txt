@@ -47,6 +47,13 @@ En una tienda de suplementos, la venta se decide entre sabores, tamaños y dudas
 ordena ese momento: fichas completas para comparar, un camino directo a la consulta y
 un club con misiones que trae a tus clientes de vuelta.
 
+01 · Vende
+
+Una tienda que se entiende de un vistazo.
+
+El cliente compara sabores y tamaños en una sola ficha, arma su stack o elige un pack
+por objetivo, y llega a la consulta sabiendo qué quiere.
+
 Fig. 01 — Vista del cliente
 Demo
 
@@ -60,62 +67,123 @@ Fig. 03 · Demo
 
 Packs por objetivo: hipertrofia, fuerza y definición.
 
-Fig. 04 · Demo
+Explorar la tienda  ↗ [https://toti-gauna.github.io/supplements-ecommerce/]
+
+ 
+
+02 · Fideliza
+
+Un club que hace volver.
+
+El sistema de fidelización de Volta, con reglas que definís vos. Tus clientes suben de
+nivel comprando, cumplen misiones, giran la ruleta y juegan por un cupón.
+
+Cuatro niveles, de bronce a platino, con beneficios que crecen.
+Misiones de entrenamiento y de compra, con premio al completarlas.
+Ruleta y Shaker Rush: un motivo para volver a mirar la tienda cada día.
+Desde el panel activás, editás y simulás misiones y premios.
+
+Fig. 04 — Vista del cliente
+Demo
 
 Club: misiones y niveles para que tu cliente vuelva.
 
 Fig. 05 · Demo
 
+Niveles: cuatro medallas que se suben con lo comprado en los últimos 12 meses.
+
+Fig. 06 · Demo
+
+Misiones: de entrenamiento y de compra, cada una con su premio.
+
+Fig. 07 · Demo
+
+Ruleta y Shaker Rush: un giro con premio seguro y un juego de 45 segundos con ranking
+semanal.
+
+Fig. 08 · Dueño · Demo
+
+Misiones y premios: activás, editás y simulás desde el panel.
+
+Ver el Club  ↗ [https://toti-gauna.github.io/supplements-ecommerce/club/]Jugar Shaker
+Rush  ↗ [https://toti-gauna.github.io/supplements-ecommerce/club/juego/]Ver misiones
+en el panel  ↗
+[https://toti-gauna.github.io/supplements-ecommerce/admin-demo/misiones/]
+
+Premios y operación de campañas se acuerdan aparte.
+
+ 
+
+03 · Regala
+
+Cada regalo, una apertura.
+
+Quien recibe un regalo no ve un recibo: lo abre. Le pega a una bolsa de boxeo y
+aparece una tarjeta con el producto, cómo tomarlo y el mensaje de quien lo mandó. Se
+regala un producto, un stack o una gift card.
+
+Fig. 09 — Vista del cliente
+Demo
+
 Regalar: producto, sabor y tarjeta con mensaje.
 
-Qué resuelve
+Fig. 10 · Demo
 
-01
+Gift card: la persona elige qué quiere y el saldo se descuenta al comprar.
 
-Fichas que responden
+Fig. 11 · Demo
 
-Sabores, tamaños y variantes en una sola ficha. El cliente llega a la consulta
-sabiendo qué quiere.
+El regalo se abre a golpes contra una bolsa de boxeo.
 
-02
+Fig. 12 · Demo
 
-Pedidos a la vista
+La tarjeta de atleta: producto, cómo tomarlo y el mensaje de quien regala.
 
-Un panel para seguir pedidos y preparación de un vistazo. La operación conectada se
-define según alcance.
+Fig. 13 · Dueño · Demo
 
-03
+Regalos y gift cards: saldo, canjes y vencimientos.
 
-Un motivo para volver
+Abrí uno · 16 regalos de muestra
 
-Club, misiones y regalos con reglas claras: tu tienda también fideliza.
+Regalo Volta  ↗
+[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-VE1M-AR7X]Elegís
+el sabor  ↗
+[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-SAB0-R01D]Gift
+card  ↗
+[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-GC0S-0F1D]Día de
+la Madre  ↗
+[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-MADR-E26B]Navidad  ↗
+[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-NAV1-DADP]Día del
+Padre  ↗
+[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-PADR-E26D]
 
-Fig. 06 — Vista del dueño
+Ver todos los regalos de Volta  → [../../../previews/regalos-volta.html]
+
+Personas y regalos ficticios, sin compra ni beneficio real.
+
+ 
+
+04 · Controla
+
+Tu operación, a la vista.
+
+Ventas, pedidos, stock con lotes y vencimientos, y el calendario comercial, en un solo
+panel.
+
+Fig. 14 — Vista del dueño
 Demo
 
 Inicio: ventas, ticket y pedidos del día de un vistazo.
 
-Fig. 07 · Demo
+Fig. 15 · Dueño · Demo
 
 Pedidos: filtrá por etapa, cliente o fecha.
 
-Fig. 08 · Demo
+Fig. 16 · Dueño · Demo
 
 Productos y stock: lotes, vencimientos y reposición.
 
-Fig. 09 · Demo
-
-Regalos y gift cards: saldo, canjes y vencimientos.
-
-Fig. 10 · Demo
-
-Campañas: el calendario comercial y la próxima fecha.
-
-El recorrido
-
-PASO 1  El cliente elige y consulta
-PASO 2  Tu equipo responde y prepara
-PASO 3  El club lo trae de vuelta
+Explorar el panel  ↗ [https://toti-gauna.github.io/supplements-ecommerce/admin-demo/]
 
 Además del software
 
@@ -152,41 +220,10 @@ Pieza extra · ARS 225.000 · sujeta a validación
 Costos, márgenes y escenarios con tus datos, para decidir con números. Sin
 asesoramiento contable, tributario ni de inversiones.
 
-Probalo vos
-
-Vista del cliente  ↗ [https://toti-gauna.github.io/supplements-ecommerce/]
-
-Vista del dueño  ↗ [https://toti-gauna.github.io/supplements-ecommerce/admin-demo/]
-
 Datos ficticios · sin registro
 
 Demo  Volta funciona con datos ficticios: no cobra ni crea pedidos reales, y el panel
 está abierto sin login. Lo que ves no equivale al paquete contratado.
-
-Regalos de la demo · 16
-
-Un regalo también
-es una experiencia.
-
-En Volta, regalar se abre como un evento: por ocasión, con sabor a elección o como
-gift card. Probá algunos:
-
-Regalo Volta  ↗
-[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-VE1M-AR7X]Elegís
-el sabor  ↗
-[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-SAB0-R01D]Gift
-card  ↗
-[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-GC0S-0F1D]Día de
-la Madre  ↗
-[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-MADR-E26B]Navidad  ↗
-[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-NAV1-DADP]Día del
-Padre  ↗
-[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-PADR-E26D]
-
-Ver todos los regalos de Volta  → [../../../previews/regalos-volta.html]
-
-Personas y regalos ficticios, sin compra ni beneficio real. Premios, costos y
-operación de campañas se acuerdan aparte.
 
 04
 Precio
