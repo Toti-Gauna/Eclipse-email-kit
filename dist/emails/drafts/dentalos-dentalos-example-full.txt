@@ -49,7 +49,23 @@ una agenda compartida por todo el equipo.
 Fig. 01 — Vista del paciente
 Demo
 
-Clínica Brisa: información del consultorio y acceso a pedir turno.
+Inicio: la información del consultorio y el próximo turno.
+
+Fig. 02 · Demo
+
+Pedir turno: motivo, profesional y horario.
+
+Fig. 03 · Demo
+
+Mis turnos: confirmar, cambiar o cancelar.
+
+Fig. 04 · Demo
+
+WhatsApp (simulado): recordatorios y respuestas.
+
+Fig. 05 · Demo
+
+Tu primera visita: una guía opcional, sin premios.
 
 Qué resuelve
 
@@ -73,10 +89,26 @@ Seguimiento en orden
 Tareas administrativas a la vista, para que nada dependa de la memoria. Sin
 diagnósticos ni indicaciones clínicas.
 
-Fig. 02 — Vista del profesional
+Fig. 06 — Vista del profesional
 Demo
 
-Agenda de recepción, con datos sintéticos.
+Agenda: el día por profesional, con lo que falta confirmar.
+
+Fig. 07 · Demo
+
+Informes: turnos, ausencias y presupuestos del período.
+
+Fig. 08 · Demo
+
+Ficha: datos, grupo familiar y turnos de la persona.
+
+Fig. 09 · Demo
+
+Odontograma: registro administrativo de muestra.
+
+Fig. 10 · Demo
+
+Presupuestos: emitidos, aceptados y saldo.
 
 El recorrido
 
@@ -114,7 +146,7 @@ clientes vuelvan más seguido.
 
 Finanzas
 
-Pieza extra · USD 150 · sujeta a validación
+Pieza extra · ARS 225.000 · sujeta a validación
 
 Costos, márgenes y escenarios con tus datos, para decidir con números. Sin
 asesoramiento contable, tributario ni de inversiones.
@@ -136,8 +168,8 @@ Precio
 Cuánto cuesta
 y cómo se paga.
 
-Precios en dólares, sin letra chica. El número final te lo confirmamos por escrito,
-con el alcance acordado.
+Todo en pesos, con el dólar de referencia a la vista. Sin letra chica: el número final
+te lo confirmamos por escrito, con el alcance acordado.
 
 A1  OFERTA
 
@@ -146,11 +178,13 @@ Adaptación de producto
 Un plan y un software a la medida de Consultorio del Parque, sobre DentalOS: tu marca,
 tu contenido y tu configuración.
 
-Desde · implementación
+Desde · implementación · en pesos
 
-USD 500
+ARS 750.000
 
-Incluido en los USD 500
+USD 500 · dólar de referencia: 1 USD = ARS 1.500
+
+Incluido en los ARS 750.000
 
 Asesoría inicial de growth marketing y retención de clientes.
 
@@ -170,21 +204,26 @@ Cómo se paga
 
 Seña 50 %
 Para empezar: plan y software a medida
+ARS 375.000
 USD 250
 Saldo 50 %
 A la entrega aprobada
+ARS 375.000
 USD 250
 
 Y por sumarte, tu plan mensual baja · por mes, meses 1 a 3
 
 Esencial
-Bonificado · después USD 30/mes
+Bonificado · después ARS 45.000/mes
+ARS 0
 USD 0
 Conectado
-USD 30 menos por mes · después USD 75/mes
+ARS 45.000 menos por mes · después ARS 112.500/mes
+ARS 67.500
 USD 45
 Automatización/IA
-USD 30 menos por mes · después USD 150/mes
+ARS 45.000 menos por mes · después ARS 225.000/mes
+ARS 180.000
 USD 120
 
 Hablemos de tu proyecto · PENDIENTE
@@ -192,6 +231,10 @@ Hablemos de tu proyecto · PENDIENTE
 El proyecto arranca con la seña. Antes, definimos juntos alcance, entregables y
 factibilidad. El precio es por adaptar un producto que ya funciona; las funciones
 nuevas se cotizan aparte.
+
+Los pesos son una referencia: convertimos el precio en dólares a 1 USD = ARS 1.500, el
+dólar de referencia de la propuesta Mejorada. El precio es en dólares y se confirma
+por escrito.
 
 05
 Piezas extra
@@ -206,22 +249,26 @@ WhatsApp estándar (sin IA)
 Un flujo de aviso o seguimiento. Sin agente IA ni envíos masivos. Su operación entra
 en el plan Conectado.
 RECOMENDADO · OPCIONAL
-+ USD 100
++ ARS 150.000
+USD 100
 Agente de voz con IA
 Un caso de uso, guion y pase a una persona. Telefonía a validar. Su operación entra en
 el plan Automatización/IA.
 RECOMENDADO · OPCIONAL
-+ USD 250
++ ARS 375.000
+USD 250
 Asesoría de gestión económica
 Costos, márgenes y escenarios con tus datos, una vez. Sin asesoramiento contable,
 tributario ni de inversiones. Gestión económica sujeta a validación.
 RECOMENDADO · OPCIONAL
-+ USD 150
++ ARS 225.000
+USD 150
 Landing premium adicional
 Una landing compatible para presentar tu propuesta. Solo si no está incluida en el
 alcance.
 RECOMENDADO · OPCIONAL
-+ USD 200
++ ARS 300.000
+USD 200
 
 BORRADOR · Asesoría económica pendiente de responsable y capacidad. Esta oferta no se
 puede exportar para envío.
@@ -237,7 +284,7 @@ construimos; no se paga por canal.
 
 Beneficio por la adaptación
 
-Esencial gratis 3 meses. Los demás, USD 30 menos por mes.
+Esencial gratis 3 meses. Los demás, ARS 45.000 menos por mes.
 
 Desde la publicación y durante 3 meses, descontamos el valor de Esencial de cualquier
 plan. Desde el mes 4, el precio normal.
@@ -247,28 +294,28 @@ Esencial  Elegido
 
 Mantenimiento de tu producto y configuración priorizada.
 
-USD 0/mes · meses 1–3
-USD 30/mes · desde el mes 4
+ARS 0/mes · USD 0 · meses 1–3
+ARS 45.000/mes · USD 30 · desde el mes 4
 
-Terceros hasta USD 5/mes, dentro del precio
+Terceros hasta ARS 7.500/mes, dentro del precio
 
 Conectado
 
 Una integración estándar, sujeta a factibilidad.
 
-USD 45/mes · meses 1–3
-USD 75/mes · desde el mes 4
+ARS 67.500/mes · USD 45 · meses 1–3
+ARS 112.500/mes · USD 75 · desde el mes 4
 
-Terceros hasta USD 15/mes, dentro del precio
+Terceros hasta ARS 22.500/mes, dentro del precio
 
 Automatización/IA
 
 Hasta dos flujos estándar totales; uno puede usar IA.
 
-USD 120/mes · meses 1–3
-USD 150/mes · desde el mes 4
+ARS 180.000/mes · USD 120 · meses 1–3
+ARS 225.000/mes · USD 150 · desde el mes 4
 
-Terceros hasta USD 40/mes, dentro del precio
+Terceros hasta ARS 60.000/mes, dentro del precio
 
 Los planes son alternativas: elegís uno, no se suman.
 
@@ -340,16 +387,20 @@ b.
 Lo de terceros (alojamiento, datos y consumos compatibles) ya está dentro del precio.
 Te avisamos al 80 % y no hay recargos automáticos.
 c.
+Los precios son en dólares. Los pesos son una referencia al dólar de 1 USD = ARS
+1.500; el monto final se confirma por escrito.
+d.
 Si el cupo no alcanza, acordamos cómo ampliarlo y qué automatización se pausa. Tu
 producto y tus datos siguen disponibles.
-d.
-Proveedor y factibilidad se validan por cuenta, antes de empezar.
 e.
-Migración desde Excel o PDF: USD 100–300, por única vez, después de revisar una
-muestra.
+Proveedor y factibilidad se validan por cuenta, antes de empezar.
 f.
-Módulos operativos fuera de la adaptación: desde USD 750, según alcance.
+Migración desde Excel o PDF: ARS 150.000 a 450.000 (USD 100–300), por única vez,
+después de revisar una muestra.
 g.
+Módulos operativos fuera de la adaptación: desde ARS 1.125.000 (USD 750), según
+alcance.
+h.
 El dominio y su renovación van aparte, salvo que la propuesta los incluya.
 
 Leé las condiciones completas antes de la seña [../../../previews/conditions.html] →

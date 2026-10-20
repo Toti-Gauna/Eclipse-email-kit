@@ -1,5 +1,5 @@
 import {NAME_SLOT} from '../previews/personalize.js';
-import fs from 'node:fs/promises';import path from 'node:path';import {fileURLToPath} from 'node:url';import {plainText} from '../src/plain.mjs';import {load} from '../src/load.mjs';import {readiness} from '../src/offers.mjs';import {render} from '../src/email/templates/eclipse.mjs';import {safeHttps,safeMailto} from '../src/schema.mjs';import {conditions} from '../src/conditions.mjs';import {giftsPage} from '../src/gifts-page.mjs';
+import fs from 'node:fs/promises';import path from 'node:path';import {fileURLToPath} from 'node:url';import {plainText} from '../src/plain.mjs';import {load} from '../src/load.mjs';import {readiness} from '../src/offers.mjs';import {render} from '../src/email/templates/eclipse.mjs';import {safeHttps,safeMailto} from '../src/schema.mjs';import {conditions} from '../src/conditions.mjs';import {giftsPage} from '../src/gifts-page.mjs';import {trailerPage} from '../src/trailer-page.mjs';
 process.chdir(path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'));
 const args=process.argv.slice(2),arg=k=>{const i=args.indexOf('--'+k);return i<0?undefined:args[i+1]},mode=arg('mode')||'preview';
 if(!['preview','send'].includes(mode))throw Error('Modo inválido');
@@ -8,7 +8,7 @@ const manifest=[];const conditionPages=new Set();
 if(arg('version')&&!['original','improved'].includes(arg('version')))throw Error('Versión inválida');
 for(const product of products)for(const version of (arg('version')?[arg('version')]:product==='volta'&&!arg('product')?['improved','original']:['improved'])){const c=await load(product,arg('prospect')||`${product}-example`,arg('offer'),arg('vertical'),version);c.mode=mode;const suffix=(arg('vertical')?'-'+arg('vertical'):'')+(arg('offer')?'-'+arg('offer'):'')+(product==='volta'&&c.version==='original'?'-original':'');c.previewFullFile=`${product}-${c.prospect.id}-full${suffix}.html`;
  for(const format of formats){const errors=readiness(c,format);if(mode==='send'&&errors.length)throw Error(`Exportación bloqueada (${product}/${format}):\n- ${errors.join('\n- ')}`);
-  const html=render(c,format);if(Buffer.byteLength(html)>90000)throw Error('HTML supera 90 kB');
+  const html=render(c,format);if(Buffer.byteLength(html)>96000)throw Error('HTML supera 96 kB (Gmail recorta a 102 kB)');
   if(/<(script|iframe|video|form)\b|var\(--|display:\s*(grid|flex)/i.test(html))throw Error('Contenido incompatible en email');
   if(mode==='send'){
    if(/pendiente|placeholder|BORRADOR|ejemplo ficticio|\{\{|\}\}/i.test(html))throw Error('Placeholder visible');
@@ -31,6 +31,7 @@ for(const product of products)for(const version of (arg('version')?[arg('version
  }
  if(!conditionPages.has(c.conditionsFile)){await fs.writeFile(`previews/${c.conditionsFile}`,conditions(c));conditionPages.add(c.conditionsFile)}
  if(c.product.gifts.length&&c.version!=='original')await fs.writeFile(`previews/regalos-${product}.html`,giftsPage(c));
+ if(c.product.trailer.file)await fs.writeFile(`previews/trailer-${product}.html`,trailerPage(c));
 }
 if(!arg('product')&&mode==='preview')await fs.writeFile('previews/manifest.json',JSON.stringify(manifest,null,2)+'\n');
 async function verifyResources(html){

@@ -1,6 +1,6 @@
 // Campaign-only composition. The original components and USD offer stay unchanged.
 import {e,p,label,heading,table,row,section,bleed,spacer,mark,button,ticks,figure,asset,image,FONT,THEME} from './primitives.mjs';
-import {trailerReady} from './content.mjs';
+import {trailerReady,trailerHref,trailerPoster} from './content.mjs';
 export const ars=n=>`ARS ${new Intl.NumberFormat('es-AR',{maximumFractionDigits:0}).format(n)}`;
 export const copy={
  slogan:'Eclipse. Potenciamos tus ventas y hacemos que tus clientes vuelvan.',
@@ -36,11 +36,13 @@ export function hero(c,n,total){const t=THEME.void,q=c.prospect;
  return bleed(image(asset(c,'art-hero.jpg'),'La corona de un eclipse',640,440,{bg:t.bg}),t.bg)+block(c,n,total,copy.hero,p(`Hola, equipo de ${e(q.businessName)}:`,t,{size:15})+p('Soy Ignacio, de Eclipse, Mar del Plata. '+e(opening),t,{size:15})+p(e(copy.subhero),t,{size:17}),t);
 }
 export function trailer(c,n,total){const t=THEME.void,x=c.product.trailer;
- return block(c,n,total,'Conocé Volta en acción.',`<a href="${e(x.trailerUrl)}">${image(x.posterUrl||asset(c,'poster-volta.jpg'),'Reproducir el tráiler de Volta',544,306,{bg:t.bg})}</a>`+action('▷ Ver el tráiler',x.trailerUrl,t,true)+(!c.offer.resources.trailerCommercialVerified?p('Tráiler de referencia · condiciones comerciales en revisión.',t,{size:12,color:t.muted}):''),t);
+ return block(c,n,total,'Conocé Volta en acción.',`<a href="${e(trailerHref(c))}">${image(trailerPoster(c)||asset(c,'poster-volta-cliente-inicio.jpg'),'Reproducir el tráiler de Volta',544,306,{bg:t.bg})}</a>`+action('▷ Ver el tráiler',trailerHref(c),t,true)+(!c.offer.resources.trailerCommercialVerified?p('Tráiler de referencia · condiciones comerciales en revisión.',t,{size:12,color:t.muted}):''),t);
 }
+// More screens of the same view, two by two (they stack on phones).
+const thumbs=(c,list,t)=>{if(!list.length)return '';const cell=(x,side)=>`<td class="col2" width="50%" valign="top" style="width:50%;padding:0 ${side==='l'?8:0}px 20px ${side==='l'?0:8}px">${x?image(asset(c,x.file),x.alt,264,184,{bg:t.bg,cls:'fig2',style:'width:100%;max-width:100%'})+p(e(x.caption),t,{size:12,lh:18,color:t.muted,mb:0,style:'padding-top:8px'}):''}</td>`;const rows=[];for(let i=0;i<list.length;i+=2)rows.push(`<tr>${cell(list[i],'l')}${cell(list[i+1],'r')}</tr>`);return spacer(12)+table(rows.join(''))};
 export function solution(c,n,total){const t=THEME.night,d=c.product;
  let body=table(`<tr><td style="padding:14px;background:#1c1d25;border-left:3px solid #f6bb43">${p('Tienda adaptada a tu marca',t,{size:16})+p('Marketing y fidelización · capacitación en el sistema e IA · evaluación de automatizaciones y recuperación de inversión.',t,{size:14})}</td></tr>`)+spacer(20);
- for(const [i,title,url] of [[0,'Comprá fácil. Volvé por más.',d.customer.url],[1,'Tu operación, a la vista.',d.admin.url]])body+=heading(title,t,{level:3,size:25,cls:'v-title'})+image(asset(c,d.screens[i].file),d.screens[i].alt,544,340,{bg:t.bg})+action(i?'Explorar el panel':'Explorar la tienda',url,t);
+ for(const [view,title,url,cta] of [['customer','Comprá fácil. Volvé por más.',d.customer.url,'Explorar la tienda'],['admin','Tu operación, a la vista.',d.admin.url,'Explorar el panel']]){const [lead,...more]=d.screens.filter(x=>x.view===view);body+=heading(title,t,{level:3,size:25,cls:'v-title'})+image(asset(c,lead.file),lead.alt,544,340,{bg:t.bg})+thumbs(c,more,t)+action(cta,url,t)}
  body+=heading('Costos y márgenes.',t,{level:3,size:25,cls:'v-title'})+image(asset(c,'volta-costs.jpg'),'Demostración de costos y margen por producto con datos ficticios',544,340,{bg:t.bg})+action('Ver costos y margen',d.admin.url+'costos/',t)+p('Demo con datos ficticios, sin pagos ni pedidos reales; panel abierto. Margen de producto sin impuestos ni comisiones.',t,{size:12,color:t.muted});
  body+=heading('Regalá una experiencia.',t,{level:3,size:25,cls:'v-title'})+p(d.gifts.slice(0,d.featuredGifts).map(g=>`<a href="${e(g.url)}" style="color:${t.fg}">${e(g.label)}</a>`).join(' · '),t,{size:14})+action('Ver todos los regalos de Volta',c.mode==='send'?d.giftsPageUrl:'../../../previews/regalos-volta.html',t)+p('Ejemplos ficticios; mecánicas, premios y operación a acordar.',t,{size:12,color:t.muted});
  return block(c,n,total,'Así se ve tu próxima tienda.',body,t);

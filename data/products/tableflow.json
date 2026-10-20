@@ -59,14 +59,64 @@
   },
   "screens": [
     {
-      "file": "tableflow.jpg",
-      "alt": "Mesa Clara: carta e inicio del restaurante ficticio",
-      "caption": "Mesa Clara: carta, reserva y consulta en un mismo recorrido."
+      "file": "tableflow-cliente-inicio.jpg",
+      "view": "customer",
+      "alt": "Mesa Clara: inicio del restaurante con la pizarra del día",
+      "caption": "Inicio: la pizarra del día y el camino a la carta o la reserva."
     },
     {
-      "file": "tableflow-admin.jpg",
-      "alt": "TableFlow: panel demostrativo de reservas",
-      "caption": "Panel de reservas: la vista del equipo, para decidir qué módulos implementar."
+      "file": "tableflow-cliente-carta.jpg",
+      "view": "customer",
+      "alt": "Mesa Clara: carta con secciones, filtros y pedido",
+      "caption": "Carta: secciones, filtros y el pedido a un costado."
+    },
+    {
+      "file": "tableflow-cliente-reservar.jpg",
+      "view": "customer",
+      "alt": "Mesa Clara: reservar una mesa eligiendo día, personas y horario",
+      "caption": "Reservar: día, personas y horario en pocos pasos."
+    },
+    {
+      "file": "tableflow-cliente-simulador.jpg",
+      "view": "customer",
+      "alt": "Mesa Clara: simulador de WhatsApp para reservar una mesa",
+      "caption": "WhatsApp (simulado): la reserva conversada, con guion de prueba."
+    },
+    {
+      "file": "tableflow-cliente-regalar.jpg",
+      "view": "customer",
+      "alt": "Mesa Clara: invitar a alguien a comer con una tarjeta de regalo",
+      "caption": "Regalar: una invitación a comer, con tarjeta y mensaje."
+    },
+    {
+      "file": "tableflow-admin-resumen.jpg",
+      "view": "admin",
+      "alt": "Panel de Mesa Clara: resumen del día con reservas, pedidos y alertas",
+      "caption": "Resumen: reservas, pedidos, caja y alertas del día."
+    },
+    {
+      "file": "tableflow-admin-reservas.jpg",
+      "view": "admin",
+      "alt": "Panel de Mesa Clara: reservas del día por horario y canal",
+      "caption": "Reservas: del día, por horario, canal y mesa."
+    },
+    {
+      "file": "tableflow-admin-salon.jpg",
+      "view": "admin",
+      "alt": "Panel de Mesa Clara: plano del salón con mesas libres y ocupadas",
+      "caption": "Salón: el plano de mesas, libres y reservadas."
+    },
+    {
+      "file": "tableflow-admin-pedidos.jpg",
+      "view": "admin",
+      "alt": "Panel de Mesa Clara: lista de pedidos con su estado",
+      "caption": "Pedidos: cada pedido con su estado y total."
+    },
+    {
+      "file": "tableflow-admin-automatizaciones.jpg",
+      "view": "admin",
+      "alt": "Panel de Mesa Clara: automatizaciones de reservas y avisos",
+      "caption": "Automatizaciones: recordatorios y avisos que corren solos."
     }
   ],
   "trailer": {
@@ -97,14 +147,64 @@
       },
       "screens": [
         {
-          "file": "tableflow-cafe.jpg",
-          "alt": "Ritual Café: carta de la cafetería ficticia",
-          "caption": "Ritual Café: la carta de una cafetería, en la demo publicada."
+          "file": "tableflow-cafe-cliente-inicio.jpg",
+          "view": "customer",
+          "alt": "Ritual Café: inicio de la cafetería",
+          "caption": "Inicio: la barra, la vitrina y el camino a la carta."
         },
         {
-          "file": "tableflow-admin.jpg",
-          "alt": "Panel de muestra TableFlow",
-          "caption": "Panel de muestra: la operación se define por módulo."
+          "file": "tableflow-cafe-cliente-carta.jpg",
+          "view": "customer",
+          "alt": "Ritual Café: carta de la cafetería con café de barra",
+          "caption": "Carta: café de barra, métodos y pastelería."
+        },
+        {
+          "file": "tableflow-cafe-cliente-seguimiento.jpg",
+          "view": "customer",
+          "alt": "Ritual Café: seguimiento de un pedido hasta el retiro",
+          "caption": "Seguimiento: el pedido, del envío al retiro en barra."
+        },
+        {
+          "file": "tableflow-cafe-cliente-pasaporte.jpg",
+          "view": "customer",
+          "alt": "Ritual Café: pasaporte de sabores con tarjetas por completar",
+          "caption": "Pasaporte de sabores: tarjetas para explorar y volver."
+        },
+        {
+          "file": "tableflow-cafe-cliente-regalar.jpg",
+          "view": "customer",
+          "alt": "Ritual Café: invitar a alguien a tomar un café",
+          "caption": "Regalar: un café de regalo, con tarjeta y mensaje."
+        },
+        {
+          "file": "tableflow-cafe-admin-cocina.jpg",
+          "view": "admin",
+          "alt": "Panel de Ritual Café: cocina y barra con comandas por estado",
+          "caption": "Cocina y barra: las comandas, de nuevo a listo."
+        },
+        {
+          "file": "tableflow-cafe-admin-resumen.jpg",
+          "view": "admin",
+          "alt": "Panel de Ritual Café: resumen del día con revisión humana y alertas",
+          "caption": "Resumen: ventas del día, revisión y alertas."
+        },
+        {
+          "file": "tableflow-cafe-admin-caja.jpg",
+          "view": "admin",
+          "alt": "Panel de Ritual Café: caja con turno y cuentas abiertas",
+          "caption": "Caja: el turno y las cuentas abiertas."
+        },
+        {
+          "file": "tableflow-cafe-admin-stock.jpg",
+          "view": "admin",
+          "alt": "Panel de Ritual Café: stock de insumos y recetas",
+          "caption": "Stock: insumos, reservas y recetas."
+        },
+        {
+          "file": "tableflow-cafe-admin-automatizaciones.jpg",
+          "view": "admin",
+          "alt": "Panel de Ritual Café: automatizaciones",
+          "caption": "Automatizaciones: avisos y reglas que corren solos."
         }
       ]
     }

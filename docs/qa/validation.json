@@ -3,7 +3,7 @@
     "product": "volta",
     "version": "original",
     "format": "full",
-    "bytes": 83613,
+    "bytes": 90320,
     "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
@@ -20,7 +20,7 @@
     "product": "volta",
     "version": "original",
     "format": "short",
-    "bytes": 21200,
+    "bytes": 20596,
     "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
@@ -38,7 +38,7 @@
     "product": "volta",
     "version": "improved",
     "format": "full",
-    "bytes": 22443,
+    "bytes": 26863,
     "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
@@ -55,7 +55,7 @@
     "product": "volta",
     "version": "improved",
     "format": "short",
-    "bytes": 15210,
+    "bytes": 14629,
     "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
@@ -73,7 +73,7 @@
     "product": "tableflow",
     "version": "original",
     "format": "full",
-    "bytes": 77332,
+    "bytes": 84274,
     "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
@@ -89,7 +89,7 @@
     "product": "tableflow",
     "version": "original",
     "format": "short",
-    "bytes": 21225,
+    "bytes": 20621,
     "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
@@ -106,7 +106,7 @@
     "product": "dentalos",
     "version": "original",
     "format": "full",
-    "bytes": 77483,
+    "bytes": 84408,
     "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
@@ -122,7 +122,7 @@
     "product": "dentalos",
     "version": "original",
     "format": "short",
-    "bytes": 21235,
+    "bytes": 20631,
     "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [

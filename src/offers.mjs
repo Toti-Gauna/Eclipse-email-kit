@@ -40,7 +40,7 @@ export function readiness({brand:b,product:p,prospect:q,offer:o,prices,version},
   if(!o.resources.trailerCommercialVerified)errors.push('Tráiler existente con condiciones comerciales incompatibles: '+o.resources.trailerCommercialNote);
   const t=p.trailer;
   if(format==='full'&&!(t.enabled&&t.state==='ready'&&t.verified&&t.trailerUrl&&t.posterUrl))errors.push('Tráiler obligatorio de campaña sin verificar');
-  if(p.screens.length<2)errors.push('Capturas cliente/admin obligatorias');
+  if(!['customer','admin'].every(v=>p.screens.some(x=>x.view===v)))errors.push('Capturas cliente/admin obligatorias');
   if(p.gifts.length!==16||p.gifts.some(g=>!g.url||!g.verified||!g.evidence)||!o.resources.giftsPageVerified)errors.push('Regalos y página completa sin verificar');
  }
  return errors;

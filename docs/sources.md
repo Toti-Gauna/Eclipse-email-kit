@@ -64,3 +64,8 @@ Prevalece la sección superior aprobada el 16/10/2026. La instrucción de esta t
 La web publicada y `lib/env.ts` muestran `hola@eclipse.example` y un WhatsApp con ceros: no son un contacto comercial usable. No se copiaron al CTA. Faltan remitente/contacto reales, URLs HTTPS autorizadas de los assets y condiciones, y presentación pública para versión breve. No hay capacidad confirmada de asesoría económica. Por eso los ejemplos y pack quedan en borrador y los gates de envío lo bloquean.
 
 No se accedió a sesiones reales de Gmail, Outlook o Edge. No se enviaron emails de prueba ni se contrataron servicios de testing. El trailer no existe en este kit y no es un bloqueo.
+
+## Pesos y capturas (20/10/2026)
+
+- Cotización de referencia 1 USD = ARS 1.500: derivada de la oferta Mejorada de Volta (`data/offers/volta-2026-10-19.json`, ARS 750.000 por USD 500), no de una fuente de mercado. La web de Eclipse usa otra referencia propia (1.450) como valor de respaldo; no se tomó porque el pedido fue usar la de la versión mejorada. Es una referencia comercial, no una cotización oficial.
+- Capturas de demos (`npm run capture:demos`): tomadas de las demos de Volta, TableFlow y DentalOS ejecutadas localmente porque `github.io` no era accesible desde el entorno de trabajo. Datos ficticios, rotuladas «Demo».

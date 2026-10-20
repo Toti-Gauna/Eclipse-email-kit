@@ -1,0 +1,12 @@
+{
+  "base": "USD",
+  "ARS": 1500,
+  "updatedAt": "2026-10-20",
+  "derivedFrom": {
+    "arsReference": 750000,
+    "usd": 500,
+    "offer": "data/offers/volta-2026-10-19.json"
+  },
+  "rounding": "ninguno: los importes en USD del catálogo dan pesos enteros al dólar de referencia",
+  "source": "Dólar de referencia de la versión Mejorada: el precio de referencia del paquete (ARS 750.000, data/offers/volta-2026-10-19.json) sobre los USD 500 de la adaptación equivale a ARS 1.500 por dólar; es el mismo dólar con que el tráiler existente muestra el mantenimiento (ARS 45.000 / USD 30). Es una referencia: el precio es en USD."
+}

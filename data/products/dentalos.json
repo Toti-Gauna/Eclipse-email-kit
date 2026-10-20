@@ -59,14 +59,64 @@
   },
   "screens": [
     {
-      "file": "dentalos.jpg",
-      "alt": "DentalOS: portal del paciente de Clínica Brisa ficticia",
-      "caption": "Clínica Brisa: información del consultorio y acceso a pedir turno."
+      "file": "dentalos-cliente-inicio.jpg",
+      "view": "customer",
+      "alt": "DentalOS: portal del paciente de Clínica Brisa, con el próximo turno",
+      "caption": "Inicio: la información del consultorio y el próximo turno."
     },
     {
-      "file": "dentalos-admin.jpg",
-      "alt": "DentalOS: agenda administrativa con datos sintéticos",
-      "caption": "Agenda de recepción, con datos sintéticos."
+      "file": "dentalos-cliente-reservar.jpg",
+      "view": "customer",
+      "alt": "DentalOS: pedir un turno eligiendo motivo, profesional y horario",
+      "caption": "Pedir turno: motivo, profesional y horario."
+    },
+    {
+      "file": "dentalos-cliente-turnos.jpg",
+      "view": "customer",
+      "alt": "DentalOS: mis turnos con confirmación y cambios",
+      "caption": "Mis turnos: confirmar, cambiar o cancelar."
+    },
+    {
+      "file": "dentalos-cliente-whatsapp.jpg",
+      "view": "customer",
+      "alt": "DentalOS: canal de WhatsApp simulado con recordatorios",
+      "caption": "WhatsApp (simulado): recordatorios y respuestas."
+    },
+    {
+      "file": "dentalos-cliente-aprender.jpg",
+      "view": "customer",
+      "alt": "DentalOS: guía de la primera visita, voluntaria y sin premios",
+      "caption": "Tu primera visita: una guía opcional, sin premios."
+    },
+    {
+      "file": "dentalos-admin-agenda.jpg",
+      "view": "admin",
+      "alt": "Panel de DentalOS: agenda de la clínica por profesional",
+      "caption": "Agenda: el día por profesional, con lo que falta confirmar."
+    },
+    {
+      "file": "dentalos-admin-informes.jpg",
+      "view": "admin",
+      "alt": "Panel de DentalOS: informes calculados de turnos y presupuestos",
+      "caption": "Informes: turnos, ausencias y presupuestos del período."
+    },
+    {
+      "file": "dentalos-admin-ficha.jpg",
+      "view": "admin",
+      "alt": "Panel de DentalOS: ficha administrativa de una persona con su grupo familiar",
+      "caption": "Ficha: datos, grupo familiar y turnos de la persona."
+    },
+    {
+      "file": "dentalos-admin-odontograma.jpg",
+      "view": "admin",
+      "alt": "Panel de DentalOS: odontograma de muestra, sin valor clínico",
+      "caption": "Odontograma: registro administrativo de muestra."
+    },
+    {
+      "file": "dentalos-admin-presupuestos.jpg",
+      "view": "admin",
+      "alt": "Panel de DentalOS: presupuestos y caja ficticia",
+      "caption": "Presupuestos: emitidos, aceptados y saldo."
     }
   ],
   "trailer": {

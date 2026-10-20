@@ -14,6 +14,9 @@ for (const file of ['index.html', 'gallery.css', 'gallery.js', 'personalize.js',
   await fs.copyFile(`previews/${file}`, `${output}/previews/${file}`);
 }
 await fs.cp('assets', `${output}/assets`, {recursive: true});
+for (const file of await fs.readdir('previews')) {
+  if (/^trailer-[a-z0-9-]+\.html$/.test(file)) await fs.copyFile(`previews/${file}`, `${output}/previews/${file}`);
+}
 for (const item of manifest) {
   for (const extension of ['html', 'text', 'preview']) {
     const source = item[extension].replace(/^\.\.\//, '');
