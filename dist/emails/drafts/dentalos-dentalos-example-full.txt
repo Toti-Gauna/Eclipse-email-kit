@@ -205,16 +205,7 @@ validación propios. El contenido clínico queda sujeto a revisión profesional.
 Cómo se paga
 
 Al contado 50 % menos
-Pago único: el descuento ya está aplicado
-ARS 375.000
-USD 250
-Seña 50 %
-En dos pagos, a precio de referencia (ARS 750.000). Para empezar: plan y software a
-medida
-ARS 375.000
-USD 250
-Saldo 50 %
-A la entrega aprobada
+Pago único, sin seña: el descuento ya está aplicado
 ARS 375.000
 USD 250
 Financiación
@@ -239,7 +230,7 @@ USD 120
 
 Hablemos de tu proyecto · PENDIENTE
 
-El proyecto arranca con la seña. Antes, definimos juntos alcance, entregables y
+El proyecto arranca con el pago. Antes, definimos juntos alcance, entregables y
 factibilidad. El precio es por adaptar un producto que ya funciona; las funciones
 nuevas se cotizan aparte.
 
@@ -347,9 +338,9 @@ escrito: alcance, precio y plazos.
 
 Paso 02
 
-Seña, tu cuenta y tu portal
+Pago, tu cuenta y tu portal
 
-Con la seña te creamos tu cuenta de cliente y tu portal: ahí ves el proyecto, sus
+Con el pago te creamos tu cuenta de cliente y tu portal: ahí ves el proyecto, sus
 etapas y lo que necesitamos de vos.
 
 Paso 03
@@ -402,7 +393,7 @@ Los precios son en dólares. Los pesos son una referencia al dólar de 1 USD = A
 1.500; el monto final se confirma por escrito.
 d.
 Pago al contado: 50 % de descuento sobre el precio de referencia (ARS 750.000), en un
-único pago. En dos pagos rige el precio de referencia, con seña del 50 %.
+único pago y sin seña.
 e.
 Financiación: hasta 4 cuotas con recargo, a evaluar y cotizar por escrito. No hay
 importes de cuota, tasa ni total financiado acordados.
@@ -420,7 +411,7 @@ alcance.
 undefined.
 El dominio y su renovación van aparte, salvo que la propuesta los incluya.
 
-Leé las condiciones completas antes de la seña [../../../previews/conditions.html] →
+Leé las condiciones completas antes de pagar [../../../previews/conditions.html] →
 
 09
 Próximo paso
@@ -429,7 +420,7 @@ El próximo paso
 es tuyo.
 
 Respondé este correo o escribinos. En una llamada corta vemos qué querés resolver
-primero y te mandamos alcance, precio y plazos por escrito, antes de cualquier seña.
+primero y te mandamos alcance, precio y plazos por escrito, antes de cualquier pago.
 
 Hablemos de tu proyecto · PENDIENTE
 

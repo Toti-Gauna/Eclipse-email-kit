@@ -66,7 +66,7 @@
     "preheader": "Probá la demo antes de hablar: catálogo, consultas y un club que hace volver.",
     "html": "../dist/emails/drafts/volta-volta-example-full-original.html",
     "text": "../dist/emails/drafts/volta-volta-example-full-original.txt",
-    "bytes": 93860,
+    "bytes": 92485,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -92,7 +92,7 @@
     "preheader": "Probá la demo antes de hablar: catálogo, consultas y un club que hace volver.",
     "html": "../dist/emails/drafts/volta-volta-example-short-original.html",
     "text": "../dist/emails/drafts/volta-volta-example-short-original.txt",
-    "bytes": 21372,
+    "bytes": 21371,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -119,7 +119,7 @@
     "preheader": "Mirá la demo de Mesa Clara: carta, reservas y el panel del salón.",
     "html": "../dist/emails/drafts/tableflow-tableflow-example-full.html",
     "text": "../dist/emails/drafts/tableflow-tableflow-example-full.txt",
-    "bytes": 87814,
+    "bytes": 86439,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -144,7 +144,7 @@
     "preheader": "Mirá la demo de Mesa Clara: carta, reservas y el panel del salón.",
     "html": "../dist/emails/drafts/tableflow-tableflow-example-short.html",
     "text": "../dist/emails/drafts/tableflow-tableflow-example-short.txt",
-    "bytes": 21388,
+    "bytes": 21387,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -170,7 +170,7 @@
     "preheader": "Probá la demo: el paciente pide turno y recepción lo sigue en una sola agenda.",
     "html": "../dist/emails/drafts/dentalos-dentalos-example-full.html",
     "text": "../dist/emails/drafts/dentalos-dentalos-example-full.txt",
-    "bytes": 87948,
+    "bytes": 86573,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -195,7 +195,7 @@
     "preheader": "Probá la demo: el paciente pide turno y recepción lo sigue en una sola agenda.",
     "html": "../dist/emails/drafts/dentalos-dentalos-example-short.html",
     "text": "../dist/emails/drafts/dentalos-dentalos-example-short.txt",
-    "bytes": 21398,
+    "bytes": 21397,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",

@@ -3,7 +3,7 @@
     "product": "volta",
     "version": "original",
     "format": "full",
-    "bytes": 93860,
+    "bytes": 92485,
     "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
@@ -20,7 +20,7 @@
     "product": "volta",
     "version": "original",
     "format": "short",
-    "bytes": 21363,
+    "bytes": 21362,
     "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
@@ -73,7 +73,7 @@
     "product": "tableflow",
     "version": "original",
     "format": "full",
-    "bytes": 87814,
+    "bytes": 86439,
     "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
@@ -89,7 +89,7 @@
     "product": "tableflow",
     "version": "original",
     "format": "short",
-    "bytes": 21388,
+    "bytes": 21387,
     "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
@@ -106,7 +106,7 @@
     "product": "dentalos",
     "version": "original",
     "format": "full",
-    "bytes": 87948,
+    "bytes": 86573,
     "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
@@ -122,7 +122,7 @@
     "product": "dentalos",
     "version": "original",
     "format": "short",
-    "bytes": 21398,
+    "bytes": 21397,
     "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
