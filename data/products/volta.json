@@ -118,6 +118,48 @@
       "view": "admin",
       "alt": "Panel de Volta: calendario de campañas comerciales",
       "caption": "Campañas: el calendario comercial y la próxima fecha."
+    },
+    {
+      "file": "volta-club-niveles.jpg",
+      "view": "customer",
+      "alt": "Volta: tabla de niveles del Club, de Novato (bronce) a Bestia (platino)",
+      "caption": "Niveles: cuatro medallas que se suben con lo comprado en los últimos 12 meses."
+    },
+    {
+      "file": "volta-club-misiones.jpg",
+      "view": "customer",
+      "alt": "Volta: misiones de entrenamiento y de compra con su premio",
+      "caption": "Misiones: de entrenamiento y de compra, cada una con su premio."
+    },
+    {
+      "file": "volta-regalo-giftcard.jpg",
+      "view": "customer",
+      "alt": "Volta: armado de una gift card con monto a elección",
+      "caption": "Gift card: la persona elige qué quiere y el saldo se descuenta al comprar."
+    },
+    {
+      "file": "volta-regalo-bolsa.jpg",
+      "view": "customer",
+      "alt": "Volta: pantalla de regalo con una bolsa de boxeo para golpear",
+      "caption": "El regalo se abre a golpes contra una bolsa de boxeo."
+    },
+    {
+      "file": "volta-regalo-tarjeta.jpg",
+      "view": "customer",
+      "alt": "Volta: tarjeta de atleta con el producto regalado y el mensaje",
+      "caption": "La tarjeta de atleta: producto, cómo tomarlo y el mensaje de quien regala."
+    },
+    {
+      "file": "volta-admin-misiones.jpg",
+      "view": "admin",
+      "alt": "Volta: panel de misiones y premios",
+      "caption": "Misiones y premios: activás, editás y simulás desde el panel."
+    },
+    {
+      "file": "volta-club-juegos.jpg",
+      "view": "customer",
+      "alt": "Volta: ruleta de cupones y juego Shaker Rush con su ranking semanal",
+      "caption": "Ruleta y Shaker Rush: un giro con premio seguro y un juego de 45 segundos con ranking semanal."
     }
   ],
   "trailer": {
@@ -293,5 +335,104 @@
   "featuredGifts": 6,
   "giftsPageUrl": "https://toti-gauna.github.io/Eclipse-email-kit/previews/regalos-volta.html",
   "presentationUrl": "",
-  "presentationVerified": false
+  "presentationVerified": false,
+  "chapters": [
+    {
+      "id": "tienda",
+      "tag": "Vende",
+      "title": "Una tienda que *se entiende* de un vistazo.",
+      "text": "El cliente compara sabores y tamaños en una sola ficha, arma su stack o elige un pack por objetivo, y llega a la consulta sabiendo qué quiere.",
+      "bullets": [],
+      "screens": [
+        "volta-cliente-inicio.jpg",
+        "volta-cliente-ficha.jpg",
+        "volta-cliente-packs.jpg"
+      ],
+      "links": [
+        {
+          "url": "https://toti-gauna.github.io/supplements-ecommerce/",
+          "label": "Explorar la tienda",
+          "verified": true,
+          "evidence": "Páginas del build estático de supplements-ecommerce (rutas del Club y de Regalos); abiertas en Chromium el 20/10/2026"
+        }
+      ]
+    },
+    {
+      "id": "fidelizacion",
+      "tag": "Fideliza",
+      "title": "Un club que *hace volver*.",
+      "text": "El sistema de fidelización de Volta, con reglas que definís vos. Tus clientes suben de nivel comprando, cumplen misiones, giran la ruleta y juegan por un cupón.",
+      "bullets": [
+        "Cuatro niveles, de bronce a platino, con beneficios que crecen.",
+        "Misiones de entrenamiento y de compra, con premio al completarlas.",
+        "Ruleta y Shaker Rush: un motivo para volver a mirar la tienda cada día.",
+        "Desde el panel activás, editás y simulás misiones y premios."
+      ],
+      "screens": [
+        "volta-cliente-club.jpg",
+        "volta-club-niveles.jpg",
+        "volta-club-misiones.jpg",
+        "volta-club-juegos.jpg",
+        "volta-admin-misiones.jpg"
+      ],
+      "links": [
+        {
+          "url": "https://toti-gauna.github.io/supplements-ecommerce/club/",
+          "label": "Ver el Club",
+          "verified": true,
+          "evidence": "Páginas del build estático de supplements-ecommerce (rutas del Club y de Regalos); abiertas en Chromium el 20/10/2026"
+        },
+        {
+          "url": "https://toti-gauna.github.io/supplements-ecommerce/club/juego/",
+          "label": "Jugar Shaker Rush",
+          "verified": true,
+          "evidence": "Páginas del build estático de supplements-ecommerce (rutas del Club y de Regalos); abiertas en Chromium el 20/10/2026"
+        },
+        {
+          "url": "https://toti-gauna.github.io/supplements-ecommerce/admin-demo/misiones/",
+          "label": "Ver misiones en el panel",
+          "verified": true,
+          "evidence": "Páginas del build estático de supplements-ecommerce (rutas del Club y de Regalos); abiertas en Chromium el 20/10/2026"
+        }
+      ],
+      "note": "Premios y operación de campañas se acuerdan aparte."
+    },
+    {
+      "id": "regalos",
+      "tag": "Regala",
+      "title": "Cada regalo, *una apertura*.",
+      "text": "Quien recibe un regalo no ve un recibo: lo abre. Le pega a una bolsa de boxeo y aparece una tarjeta con el producto, cómo tomarlo y el mensaje de quien lo mandó. Se regala un producto, un stack o una gift card.",
+      "bullets": [],
+      "screens": [
+        "volta-cliente-regalar.jpg",
+        "volta-regalo-giftcard.jpg",
+        "volta-regalo-bolsa.jpg",
+        "volta-regalo-tarjeta.jpg",
+        "volta-admin-regalos.jpg"
+      ],
+      "links": [],
+      "gifts": true,
+      "note": "Personas y regalos ficticios, sin compra ni beneficio real."
+    },
+    {
+      "id": "panel",
+      "tag": "Controla",
+      "title": "Tu operación, *a la vista*.",
+      "text": "Ventas, pedidos, stock con lotes y vencimientos, y el calendario comercial, en un solo panel.",
+      "bullets": [],
+      "screens": [
+        "volta-admin-inicio.jpg",
+        "volta-admin-pedidos.jpg",
+        "volta-admin-stock.jpg"
+      ],
+      "links": [
+        {
+          "url": "https://toti-gauna.github.io/supplements-ecommerce/admin-demo/",
+          "label": "Explorar el panel",
+          "verified": true,
+          "evidence": "Páginas del build estático de supplements-ecommerce (rutas del Club y de Regalos); abiertas en Chromium el 20/10/2026"
+        }
+      ]
+    }
+  ]
 }

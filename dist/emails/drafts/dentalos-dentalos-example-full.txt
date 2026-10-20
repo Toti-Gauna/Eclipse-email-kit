@@ -94,19 +94,19 @@ Demo
 
 Agenda: el día por profesional, con lo que falta confirmar.
 
-Fig. 07 · Demo
+Fig. 07 · Dueño · Demo
 
 Informes: turnos, ausencias y presupuestos del período.
 
-Fig. 08 · Demo
+Fig. 08 · Dueño · Demo
 
 Ficha: datos, grupo familiar y turnos de la persona.
 
-Fig. 09 · Demo
+Fig. 09 · Dueño · Demo
 
 Odontograma: registro administrativo de muestra.
 
-Fig. 10 · Demo
+Fig. 10 · Dueño · Demo
 
 Presupuestos: emitidos, aceptados y saldo.
 

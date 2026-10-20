@@ -37,39 +37,70 @@ Tienda adaptada a tu marca
 Marketing y fidelización · capacitación en el sistema e IA · evaluación de
 automatizaciones y recuperación de inversión.
 
-Comprá fácil. Volvé por más.
+01 · Vende
+
+Una tienda que se entiende de un vistazo.
+
+El cliente compara sabores y tamaños en una sola ficha, arma su stack o elige un pack
+por objetivo, y llega a la consulta sabiendo qué quiere.
+
+Inicio: el producto estrella y el camino a cada categoría.
 
 Ficha: precio por servicio, sabores y tamaños en una sola vista.
 
 Packs por objetivo: hipertrofia, fuerza y definición.
 
+Explorar la tienda [https://toti-gauna.github.io/supplements-ecommerce/]
+
+02 · Fideliza
+
+Un club que hace volver.
+
+El sistema de fidelización de Volta, con reglas que definís vos. Tus clientes suben de
+nivel comprando, cumplen misiones, giran la ruleta y juegan por un cupón.
+
+ * Cuatro niveles, de bronce a platino, con beneficios que crecen.
+ * Misiones de entrenamiento y de compra, con premio al completarlas.
+ * Ruleta y Shaker Rush: un motivo para volver a mirar la tienda cada día.
+ * Desde el panel activás, editás y simulás misiones y premios.
+
 Club: misiones y niveles para que tu cliente vuelva.
+
+Niveles: cuatro medallas que se suben con lo comprado en los últimos 12 meses.
+
+Misiones: de entrenamiento y de compra, cada una con su premio.
+
+Ruleta y Shaker Rush: un giro con premio seguro y un juego de 45 segundos con ranking
+semanal.
+
+Misiones y premios: activás, editás y simulás desde el panel.
+
+Ver el Club [https://toti-gauna.github.io/supplements-ecommerce/club/]
+
+Jugar Shaker Rush [https://toti-gauna.github.io/supplements-ecommerce/club/juego/]
+
+Ver misiones en el panel
+[https://toti-gauna.github.io/supplements-ecommerce/admin-demo/misiones/]
+
+Premios y operación de campañas se acuerdan aparte.
+
+03 · Regala
+
+Cada regalo, una apertura.
+
+Quien recibe un regalo no ve un recibo: lo abre. Le pega a una bolsa de boxeo y
+aparece una tarjeta con el producto, cómo tomarlo y el mensaje de quien lo mandó. Se
+regala un producto, un stack o una gift card.
 
 Regalar: producto, sabor y tarjeta con mensaje.
 
-Explorar la tienda [https://toti-gauna.github.io/supplements-ecommerce/]
+Gift card: la persona elige qué quiere y el saldo se descuenta al comprar.
 
-Tu operación, a la vista.
+El regalo se abre a golpes contra una bolsa de boxeo.
 
-Pedidos: filtrá por etapa, cliente o fecha.
-
-Productos y stock: lotes, vencimientos y reposición.
+La tarjeta de atleta: producto, cómo tomarlo y el mensaje de quien regala.
 
 Regalos y gift cards: saldo, canjes y vencimientos.
-
-Campañas: el calendario comercial y la próxima fecha.
-
-Explorar el panel [https://toti-gauna.github.io/supplements-ecommerce/admin-demo/]
-
-Costos y márgenes.
-
-Ver costos y margen
-[https://toti-gauna.github.io/supplements-ecommerce/admin-demo/costos/]
-
-Demo con datos ficticios, sin pagos ni pedidos reales; panel abierto. Margen de
-producto sin impuestos ni comisiones.
-
-Regalá una experiencia.
 
 Regalo Volta
 [https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-VE1M-AR7X] ·
@@ -85,7 +116,30 @@ del Padre
 
 Ver todos los regalos de Volta [../../../previews/regalos-volta.html]
 
-Ejemplos ficticios; mecánicas, premios y operación a acordar.
+Personas y regalos ficticios, sin compra ni beneficio real.
+
+04 · Controla
+
+Tu operación, a la vista.
+
+Ventas, pedidos, stock con lotes y vencimientos, y el calendario comercial, en un solo
+panel.
+
+Inicio: ventas, ticket y pedidos del día de un vistazo.
+
+Pedidos: filtrá por etapa, cliente o fecha.
+
+Productos y stock: lotes, vencimientos y reposición.
+
+Explorar el panel [https://toti-gauna.github.io/supplements-ecommerce/admin-demo/]
+
+Costos y márgenes.
+
+Ver costos y margen
+[https://toti-gauna.github.io/supplements-ecommerce/admin-demo/costos/]
+
+Demo con datos ficticios, sin pagos ni pedidos reales; panel abierto. Margen de
+producto sin impuestos ni comisiones.
 
 04 /
 
