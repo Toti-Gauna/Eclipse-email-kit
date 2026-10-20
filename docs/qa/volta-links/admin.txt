@@ -1,0 +1,176 @@
+Saltar al contenido
+VOLTA
+PANEL · DEMO
+Más secciones abajo
+HOY
+MOSTRADOR
+PEDIDOS
+10
+PARA ATENDER
+STOCK
+30
+PARA ATENDER
+COMPRAS
+3
+PARA ATENDER
+CLIENTES
+PROMOS
+CAMPAÑAS
+AJUSTES
+V
+Volta
+Datos ficticios · sin login
+IR A LA TIENDA
+VER LA TIENDA EN MODO DUEÑO
+FIJAR EL MENÚ ABIERTO
+
+PANEL DE DEMOSTRACIÓN · DATOS FICTICIOS · SIN LOGIN A PROPÓSITO: NO ES SEGURO NI SIRVE COMO ACCESO REAL.
+
+PANEL
+HOY
+Buscar o ir a…
+⌘K
+VER TIENDA
+REINICIAR DEMO
+
+LUNES, 5 DE OCTUBRE · PANEL DEMO
+
+HOY EN TU TIENDA
+
+Buenas tardes. Tenés 7 cosas para hoy. Arrancá por la primera de la lista.
+
+VENDER EN EL MOSTRADOR
+Marcador de hoy
+VENDIDO HOY
+$
+0 pedidos · 7 días: $ 318.390
+POR COBRAR
+$
+2 comprobantes por revisar · 2 sin pagar
+PARA ARMAR
+1 atrasado
+SALE HOY
+Cupo 1/2 · próximo mar 6 oct
+STOCK EN RIESGO
+8 sin stock · 22 bajas
+PARA HACER
+
+POR URGENCIA · 13 COSAS
+
+ATRASADO
+· 1
+01
+PEDIDO
+VOL-000115 está atrasado
+
+Agustina Molina · cadete · tenía que salir el vie 2 oct · en control de lote
+
+TERMINAR DE ARMAR
+PARA HOY
+· 6
+02
+$
+Comprobante de Sofía Ruiz
+
+VOL-000124 · QR · retira hoy. Mirá tu cuenta antes de aprobar.
+
+APROBAR
+03
+$
+Comprobante de Diego Álvarez
+
+VOL-000123 · transferencia · cadete, sale el mié 14 oct. Mirá tu cuenta antes de aprobar.
+
+APROBAR
+04
+PEDIDO
+VOL-000120 sale hoy con el cadete
+
+Camila Torres · Alem 2700, Mar del Plata (7600) · listo y con el lote controlado
+
+MARCAR ENVIADO
+05
+Pedí a 4 proveedores
+
+8 variantes sin stock · $ 8.928.200 al costo. Laboratorio Costa (muestra) reparte el mar 6 oct: pedile hoy.
+
+ARMAR LOS PEDIDOS
+06
+Avisales a 5 clientes que se les termina el pote
+
+Paula Castro (Ionic Whey 100%, se le terminó hace 15 días) y 4 personas más. El mensaje ya está escrito.
+
+AVISARLES
+07
+HOY
+Tomás Herrera cumple años hoy
+
+Mandale el regalo de cumpleaños: una gift card de $ 10.000 de la casa, con el mensaje de WhatsApp ya escrito.
+
+MANDARLE EL REGALO
+ESTA SEMANA
+· 4
+08
+Armá 7 pedidos de la semana
+
+El primero sale el mié 7 oct (VOL-000114, correo). 4 sin empezar.
+
+IR A PARA ARMAR
+09
+REGALO
+Armá el regalo para Juanma
+
+Ionic Whey 100% · Chocolate · 5 lb (2,27 kg) · de Pato · pedido VOL-000119
+
+VER EL REGALO
+10
+DÍAS
+Florencia Medina cumple años en 3 días
+
+Mandale el regalo de cumpleaños: una gift card de $ 10.000 de la casa, con el mensaje de WhatsApp ya escrito.
+
+MANDARLE EL REGALO
+11
+DÍAS
+Liquidá el lote VL-2604-B
+
+Barra proteica 20 g · Maní · Caja x 12 · vence en 26 días · 3 u. Propuesta: −30 % ($ 20.300) para que salga antes. También lo podés sumar a un combo, mandar un cupón o meter en el drop.
+
+LIQUIDAR −30 %
+MÁS ADELANTE
+· 2
+12
+DÍAS
+Prepará Halloween: empieza en 14 días
+
+3 de 4 listos. Monster pump.
+
+CUPÓN MONSTER20 ACTIVO
+(LISTO)
+5 PRODUCTOS EN OFERTA CON STOCK
+(LISTO)
+DESCUENTO REAL
+(LISTO)
+PIEZAS PARA INSTAGRAM
+(PENDIENTE)
+PREPARAR HALLOWEEN
+13
+5 lotes vencen en menos de 60 días
+
+El primero: Alfajor proteico · Chocolate blanco · Caja x 6 (BS-2603-A, en 56 días). Sumalos a un combo o liquidalos a tiempo.
+
+VER LOS LOTES
+CÓMO VIENE LA SEMANA
+VENTAS POR DÍA
+VENTAS DE MUESTRA POR DÍA (PEDIDOS PAGADOS O POSTERIORES)
+mar 29
+mié 30
+jue 1
+vie 2
+sáb 3
+dom 4
+lun 5
+
+Tocá una barra para ver los pedidos de ese día.
+
+Ver como tabla

@@ -1,9 +1,10 @@
 [
   {
     "product": "volta",
+    "version": "original",
     "format": "full",
-    "bytes": 83519,
-    "checks": "schema, assets, estructura, trailer opcional, tamaño",
+    "bytes": 83613,
+    "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
       "Prospecto ficticio",
@@ -11,14 +12,16 @@
       "Contacto real pendiente",
       "Condiciones accesibles por HTTPS pendientes",
       "Assets HTTPS pendientes de publicación autorizada",
-      "Asesoría económica sin responsable/capacidad confirmados"
+      "Asesoría económica sin responsable/capacidad confirmados",
+      "Original: referencia anterior, no habilitada para la campaña Volta vigente"
     ]
   },
   {
     "product": "volta",
+    "version": "original",
     "format": "short",
-    "bytes": 21106,
-    "checks": "schema, assets, estructura, trailer opcional, tamaño",
+    "bytes": 21200,
+    "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
       "Prospecto ficticio",
@@ -27,14 +30,51 @@
       "Condiciones accesibles por HTTPS pendientes",
       "Assets HTTPS pendientes de publicación autorizada",
       "Presentación completa HTTPS pendiente",
-      "Asesoría económica sin responsable/capacidad confirmados"
+      "Asesoría económica sin responsable/capacidad confirmados",
+      "Original: referencia anterior, no habilitada para la campaña Volta vigente"
+    ]
+  },
+  {
+    "product": "volta",
+    "version": "improved",
+    "format": "full",
+    "bytes": 54276,
+    "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
+    "sendReady": false,
+    "blockers": [
+      "Prospecto ficticio",
+      "Remitente real sin confirmar",
+      "Contacto real pendiente",
+      "Condiciones accesibles por HTTPS pendientes",
+      "Assets HTTPS pendientes de publicación autorizada",
+      "Investigación verificada pendiente: observación, fuente/fecha y oportunidad",
+      "Tráiler existente con condiciones comerciales incompatibles: El MP4 existente muestra a los 62 s equivalencias USD, 100 mensajes de WhatsApp y cuatro cuotas de ARS 225.000; a los 67 s, mantenimiento ARS 45.000 / USD 30, cupo de terceros USD 5 y 2 h mensuales. Estas condiciones no corresponden a esta campaña."
+    ]
+  },
+  {
+    "product": "volta",
+    "version": "improved",
+    "format": "short",
+    "bytes": 27570,
+    "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
+    "sendReady": false,
+    "blockers": [
+      "Prospecto ficticio",
+      "Remitente real sin confirmar",
+      "Contacto real pendiente",
+      "Condiciones accesibles por HTTPS pendientes",
+      "Assets HTTPS pendientes de publicación autorizada",
+      "Presentación completa HTTPS pendiente",
+      "Investigación verificada pendiente: observación, fuente/fecha y oportunidad",
+      "Tráiler existente con condiciones comerciales incompatibles: El MP4 existente muestra a los 62 s equivalencias USD, 100 mensajes de WhatsApp y cuatro cuotas de ARS 225.000; a los 67 s, mantenimiento ARS 45.000 / USD 30, cupo de terceros USD 5 y 2 h mensuales. Estas condiciones no corresponden a esta campaña."
     ]
   },
   {
     "product": "tableflow",
+    "version": "original",
     "format": "full",
-    "bytes": 77238,
-    "checks": "schema, assets, estructura, trailer opcional, tamaño",
+    "bytes": 77332,
+    "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
       "Prospecto ficticio",
@@ -47,9 +87,10 @@
   },
   {
     "product": "tableflow",
+    "version": "original",
     "format": "short",
-    "bytes": 21131,
-    "checks": "schema, assets, estructura, trailer opcional, tamaño",
+    "bytes": 21225,
+    "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
       "Prospecto ficticio",
@@ -63,9 +104,10 @@
   },
   {
     "product": "dentalos",
+    "version": "original",
     "format": "full",
-    "bytes": 77389,
-    "checks": "schema, assets, estructura, trailer opcional, tamaño",
+    "bytes": 77483,
+    "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
       "Prospecto ficticio",
@@ -78,9 +120,10 @@
   },
   {
     "product": "dentalos",
+    "version": "original",
     "format": "short",
-    "bytes": 21141,
-    "checks": "schema, assets, estructura, trailer opcional, tamaño",
+    "bytes": 21235,
+    "checks": "schema, assets, estructura, política de tráiler por oferta, tamaño",
     "sendReady": false,
     "blockers": [
       "Prospecto ficticio",

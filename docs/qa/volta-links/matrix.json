@@ -1,0 +1,482 @@
+[
+  {
+    "id": "admin",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/admin-demo/",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-19T22:44:08.683Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/admin-demo/",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "orders": true,
+      "preparation": true,
+      "action": "Vista y listado de pedidos de muestra; sin aprobar pagos ni modificar pedidos"
+    }
+  },
+  {
+    "id": "all-gifts",
+    "url": "https://toti-gauna.github.io/Eclipse-email-kit/previews/regalos-volta.html",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-19T22:44:44.588Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/Eclipse-email-kit/previews/regalos-volta.html",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "links": 16,
+      "exactDestinations": true,
+      "action": "Listado y 16 destinos comparados con JSON; cada destino se abrió por separado"
+    }
+  },
+  {
+    "id": "trailer-page",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/trailer/t1/",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-19T22:44:47.178Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/trailer/t1/",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "pageWorks": true,
+      "commercialCompatible": false,
+      "action": "Página reproducible; texto accesible con USD, 100 mensajes y cuotas no autorizadas"
+    }
+  },
+  {
+    "id": "trailer-poster",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/trailer/t1-poster.jpg",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-19T22:45:23.482Z",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/trailer/t1-poster.jpg",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "width": 1920,
+      "height": 1080,
+      "action": "JPEG decodificado e inspeccionado visualmente: cliente/admin, texto No es solo software"
+    }
+  },
+  {
+    "id": "customer",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-20T13:03:16.889Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "catalog": true,
+      "product": "Ionic Whey 100%",
+      "variant": "Vainilla",
+      "variants": [
+        {
+          "name": "_R_55qnpfiumbrdb_",
+          "value": "on"
+        },
+        {
+          "name": "_R_55qnpfiumbrdb_",
+          "value": "on"
+        },
+        {
+          "name": "_R_55qnpfiumbrdb_",
+          "value": "on"
+        },
+        {
+          "name": "_R_55qnpfiumbrdb_",
+          "value": "on"
+        },
+        {
+          "name": "_R_nlqnpfiumbrdb_",
+          "value": "on"
+        },
+        {
+          "name": "_R_nlqnpfiumbrdb_",
+          "value": "on"
+        },
+        {
+          "name": "_R_nlqnpfiumbrdb_",
+          "value": "on"
+        },
+        {
+          "name": "_R_nlqnpfiumbrdb_",
+          "value": "on"
+        },
+        {
+          "name": "_R_17lqnpfiumbrdb_",
+          "value": "on"
+        },
+        {
+          "name": "_R_17lqnpfiumbrdb_",
+          "value": "on"
+        }
+      ],
+      "action": "Cambio de sabor en ficha, sin comprar ni consultar"
+    }
+  },
+  {
+    "id": "stack",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/crear/",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-20T13:03:27.925Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/crear/",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "objective": "Fuerza",
+      "selection": "TU ESTANTE · 3 DE 4",
+      "addedToDemoCart": true,
+      "action": "Selección y carrito local. Sin checkout ni mensajes."
+    }
+  },
+  {
+    "id": "trailer-mp4",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/trailer/t1-email.mp4",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-20T13:04:04.938Z",
+    "status": 200,
+    "contentType": "video/mp4",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/trailer/t1-email.mp4",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "duration": 75.466667,
+      "width": 1280,
+      "height": 720,
+      "currentTime": 0.712841,
+      "readyState": 4,
+      "commercialCompatible": false,
+      "action": "Metadata y reproducción. Frame 67 s: mantenimiento ARS 45.000/USD 30, cupo USD 5 y 2 h; contradice campaña."
+    }
+  },
+  {
+    "id": "REGALO-VE1M-AR7X",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-VE1M-AR7X",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-20T13:04:48.215Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-VE1M-AR7X",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "recipient": "Juli",
+      "from": "Caro",
+      "fixtureItem": "Ionic Whey 100% · chocolate",
+      "entryMatches": true,
+      "itemMatches": true,
+      "opened": true,
+      "action": "Entrada personalizada y apertura de ejemplo; sin canjear, pagar ni enviar"
+    }
+  },
+  {
+    "id": "REGALO-GC0S-0F1D",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-GC0S-0F1D",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-20T13:04:48.400Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-GC0S-0F1D",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "recipient": "Agus",
+      "from": "Gaby",
+      "fixtureItem": "Gift card de $ 60.000",
+      "entryMatches": true,
+      "itemMatches": true,
+      "opened": true,
+      "action": "Entrada personalizada y apertura de ejemplo; sin canjear, pagar ni enviar"
+    }
+  },
+  {
+    "id": "REGALO-MADR-E26B",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-MADR-E26B",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-20T13:04:48.639Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-MADR-E26B",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "recipient": "Mamá",
+      "from": "Tomás",
+      "fixtureItem": "Omega 3 1000 mg",
+      "entryMatches": true,
+      "itemMatches": true,
+      "opened": true,
+      "action": "Entrada personalizada y apertura de ejemplo; sin canjear, pagar ni enviar"
+    }
+  },
+  {
+    "id": "REGALO-CYB3-R725",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-CYB3-R725",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-20T13:05:10.404Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-CYB3-R725",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "recipient": "Leo",
+      "from": "Agus",
+      "fixtureItem": "Creatina Brava 100% pura",
+      "entryMatches": true,
+      "itemMatches": true,
+      "opened": true,
+      "action": "Entrada personalizada y apertura de ejemplo; sin canjear, pagar ni enviar"
+    }
+  },
+  {
+    "id": "REGALO-HA11-0WEP",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-HA11-0WEP",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-20T13:05:10.308Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-HA11-0WEP",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "recipient": "Fran",
+      "from": "Mili",
+      "fixtureItem": "Overvolt pre-entreno · frutos rojos",
+      "entryMatches": true,
+      "itemMatches": true,
+      "opened": true,
+      "action": "Entrada personalizada y apertura de ejemplo; sin canjear, pagar ni enviar"
+    }
+  },
+  {
+    "id": "REGALO-PADR-E26D",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-PADR-E26D",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-20T13:05:10.296Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-PADR-E26D",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "recipient": "Papá",
+      "from": "Cami",
+      "fixtureItem": "Creatina en gomitas · naranja",
+      "entryMatches": true,
+      "itemMatches": true,
+      "opened": true,
+      "action": "Entrada personalizada y apertura de ejemplo; sin canjear, pagar ni enviar"
+    }
+  },
+  {
+    "id": "REGALO-NAV1-DADP",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-NAV1-DADP",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-20T13:05:10.240Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-NAV1-DADP",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "recipient": "Papá",
+      "from": "Sofi y Benja",
+      "fixtureItem": "Creatina monohidrato micronizada",
+      "entryMatches": true,
+      "itemMatches": true,
+      "opened": true,
+      "action": "Entrada personalizada y apertura de ejemplo; sin canjear, pagar ni enviar"
+    }
+  },
+  {
+    "id": "REGALO-AN02-027S",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-AN02-027S",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-20T13:05:25.504Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-AN02-027S",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "recipient": "Mati",
+      "from": "Flor",
+      "fixtureItem": "Shaker Volta 700 ml",
+      "entryMatches": true,
+      "itemMatches": true,
+      "opened": true,
+      "action": "Entrada personalizada y apertura de ejemplo; sin canjear, pagar ni enviar"
+    }
+  },
+  {
+    "id": "REGALO-GYM0-D1AN",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-GYM0-D1AN",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-20T13:05:26.030Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-GYM0-D1AN",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "recipient": "Nacho",
+      "from": "Ro",
+      "fixtureItem": "Proteína vegana arveja + arroz",
+      "entryMatches": true,
+      "itemMatches": true,
+      "opened": true,
+      "action": "Entrada personalizada y apertura de ejemplo; sin canjear, pagar ni enviar"
+    }
+  },
+  {
+    "id": "REGALO-AM0R-014M",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-AM0R-014M",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-20T13:05:25.600Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-AM0R-014M",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "recipient": "Gonza",
+      "from": "Lu",
+      "fixtureItem": "Barra proteica 20 g · caja x 12",
+      "entryMatches": true,
+      "itemMatches": true,
+      "opened": true,
+      "action": "Entrada personalizada y apertura de ejemplo; sin canjear, pagar ni enviar"
+    }
+  },
+  {
+    "id": "REGALO-B1AC-KFRW",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-B1AC-KFRW",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-20T13:05:25.490Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-B1AC-KFRW",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "recipient": "Vale",
+      "from": "Vale",
+      "fixtureItem": "Isolate Zero · chocolate",
+      "entryMatches": true,
+      "itemMatches": true,
+      "opened": true,
+      "action": "Entrada personalizada y apertura de ejemplo; sin canjear, pagar ni enviar"
+    }
+  },
+  {
+    "id": "REGALO-AM1G-0S2S",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-AM1G-0S2S",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-20T13:05:37.288Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-AM1G-0S2S",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "recipient": "Juanma",
+      "from": "Pato",
+      "fixtureItem": "Pump Flow sin estimulantes · sandía",
+      "entryMatches": true,
+      "itemMatches": true,
+      "opened": true,
+      "action": "Entrada personalizada y apertura de ejemplo; sin canjear, pagar ni enviar"
+    }
+  },
+  {
+    "id": "REGALO-VERA-N0SZ",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-VERA-N0SZ",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-20T13:05:37.329Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-VERA-N0SZ",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "recipient": "Caro",
+      "from": "Juli",
+      "fixtureItem": "Electro Volt sobres · blue razz",
+      "entryMatches": true,
+      "itemMatches": true,
+      "opened": true,
+      "action": "Entrada personalizada y apertura de ejemplo; sin canjear, pagar ni enviar"
+    }
+  },
+  {
+    "id": "REGALO-GC0M-4RCG",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-GC0M-4RCG",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-20T13:05:37.377Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-GC0M-4RCG",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "recipient": "Sofía",
+      "from": "Marcos",
+      "fixtureItem": "Gift card de $ 25.000 · ya usada en parte",
+      "entryMatches": true,
+      "itemMatches": true,
+      "opened": true,
+      "action": "Entrada personalizada y apertura de ejemplo; sin canjear, pagar ni enviar"
+    }
+  },
+  {
+    "id": "REGALO-H0TS-A1EX",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-H0TS-A1EX",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-20T13:05:37.240Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-H0TS-A1EX",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "recipient": "Pau",
+      "from": "Euge",
+      "fixtureItem": "Mass Gainer 3 kg · dulce de leche",
+      "entryMatches": true,
+      "itemMatches": true,
+      "opened": true,
+      "action": "Entrada personalizada y apertura de ejemplo; sin canjear, pagar ni enviar"
+    }
+  },
+  {
+    "id": "REGALO-SAB0-R01D",
+    "url": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-SAB0-R01D",
+    "environment": "Cloud Linux · Chromium · proxy HTTPS",
+    "date": "2026-10-20T13:06:15.305Z",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-SAB0-R01D",
+    "redirected": false,
+    "functional": "passed",
+    "details": {
+      "recipient": "Fran",
+      "from": "Mili",
+      "fixtureItem": "Overvolt pre-entreno · locker con código",
+      "entryMatches": true,
+      "itemMatches": true,
+      "opened": true,
+      "action": "Entrada personalizada y apertura de ejemplo; sin canjear, pagar ni enviar"
+    }
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "subject": "Volta: tu catálogo online, con tu marca",
+  "preheader": "Probá la demo antes de hablar: catálogo, consultas y un club que hace volver.",
+  "status": "draft",
+  "errors": [
+    "Prospecto ficticio",
+    "Remitente real sin confirmar",
+    "Contacto real pendiente",
+    "Condiciones accesibles por HTTPS pendientes",
+    "Assets HTTPS pendientes de publicación autorizada",
+    "Presentación completa HTTPS pendiente",
+    "Asesoría económica sin responsable/capacidad confirmados",
+    "Original: referencia anterior, no habilitada para la campaña Volta vigente"
+  ],
+  "bytes": 21209,
+  "priceVersion": "2026-10-16.aprobado",
+  "offerId": "base-campaign",
+  "version": "original",
+  "currency": "USD",
+  "calculation": {
+    "base": 500,
+    "total": 500,
+    "deposit": 250,
+    "balance": 250,
+    "plans": [
+      {
+        "id": "essential",
+        "name": "Esencial",
+        "monthly": 30,
+        "thirdPartyBudget": 5,
+        "scope": "Mantenimiento de tu producto y configuración priorizada.",
+        "promo": 0
+      },
+      {
+        "id": "connected",
+        "name": "Conectado",
+        "monthly": 75,
+        "thirdPartyBudget": 15,
+        "scope": "Una integración estándar, sujeta a factibilidad.",
+        "promo": 45
+      },
+      {
+        "id": "ai",
+        "name": "Automatización/IA",
+        "monthly": 150,
+        "thirdPartyBudget": 40,
+        "scope": "Hasta dos flujos estándar totales; uno puede usar IA.",
+        "promo": 120
+      }
+    ],
+    "economic": true,
+    "included": [
+      "growth"
+    ]
+  },
+  "conditionsFile": "conditions.html"
+}

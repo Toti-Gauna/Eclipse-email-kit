@@ -1,398 +1,270 @@
-Asunto: Volta: tu catálogo online, con tu marca
-Preheader: Probá la demo antes de hablar: catálogo, consultas y un club que hace volver.
+Asunto: Tienda Horizonte: una idea para potenciar tu tienda de suplementos
+Preheader: Conocé Volta y evaluemos una mejora concreta en una asesoría gratuita de 15 minutos.
 
 ECLIPSE
-Propuesta · Volta
+Eclipse. Potenciamos tus ventas y hacemos que tus clientes vuelvan.
 
 01
-Comercio · tienda online
+Tu negocio, distinto del resto.
 
-Que elegir
-sea fácil.
+Tu negocio, distinto del resto.
 
-Hola, equipo de Tienda Horizonte.
-
-Pensamos en tiendas como la tuya y armamos una propuesta concreta: un catálogo que se
-entiende de un vistazo, consultas que llegan con todo el contexto y un club que hace
+Presentá mejor tus productos, facilitá la compra y dales a tus clientes motivos para
 volver.
 
-Muestra  Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
+Hola, equipo de Tienda Horizonte:
+
+Soy Ignacio, de Eclipse, de acá de Mar del Plata. Quería mostrarles una idea para
+presentar una tienda de suplementos y facilitar la compra. Esta es una propuesta
+sectorial; todavía no investigamos tu negocio.
+
+BORRADOR · apertura sectorial sin investigación verificada. El nombre es un dato de
+preview; no acredita un destinatario real.
 
 02
-El trailer
+Conocé Volta en acción.
 
-Volta, en 60 segundos.
+Conocé Volta en acción.
 
-Sesenta segundos de motion graphics, con música, que recorren todo Volta: lo que vive
-tu cliente, lo que ve tu equipo y cómo se conecta cada parte. Pensado para el celular
-y para la compu.
+Mirá un recorrido de la experiencia antes de explorar la demo.
 
-TRAILER · 60 S
-MOTION GRAPHICS · CON MÚSICA
+https://toti-gauna.github.io/supplements-ecommerce/trailer/t1-email.mp4
 
-Trailer pendiente de incorporar · el póster es una vista previa estática.
+▶ Ver el tráiler  
+[https://toti-gauna.github.io/supplements-ecommerce/trailer/t1-email.mp4]
 
-Ver cómo funciona · enlace disponible al incorporar el trailer.
+Duración del archivo: 75,47 segundos.
+
+BORRADOR · recurso pendiente de compatibilidad comercial. El MP4 existente muestra a
+los 62 s equivalencias USD, 100 mensajes de WhatsApp y cuatro cuotas de ARS 225.000; a
+los 67 s, mantenimiento ARS 45.000 / USD 30, cupo de terceros USD 5 y 2 h mensuales.
+Estas condiciones no corresponden a esta campaña.
 
 03
 La solución
 
-Un producto que ya funciona,
-con tu marca.
+La solución
 
-  Volta
-Tienda de suplementos
+En Eclipse combinamos una tienda adaptada a tu negocio con asesoría inicial de
+marketing digital y herramientas de fidelización.
 
-En una tienda de suplementos, la venta se decide entre sabores, tamaños y dudas. Volta
-ordena ese momento: fichas completas para comparar, un camino directo a la consulta y
-un club con misiones que trae a tus clientes de vuelta.
+También revisamos qué tareas repetitivas conviene automatizar, como algunos
+seguimientos por WhatsApp, y capacitamos a vos y a tu equipo para aprovechar el
+sistema y usar inteligencia artificial: preparar mensajes, presentar mejor los
+productos y agilizar tareas del día a día.
 
-Fig. 01 — Vista del cliente
-Demo
-
-Catálogo de la demo: categorías y fichas para comparar antes de consultar.
-
-Qué resuelve
-
-01
-
-Fichas que responden
-
-Sabores, tamaños y variantes en una sola ficha. El cliente llega a la consulta
-sabiendo qué quiere.
-
-02
-
-Pedidos a la vista
-
-Un panel para seguir pedidos y preparación de un vistazo. La operación conectada se
-define según alcance.
-
-03
-
-Un motivo para volver
-
-Club, misiones y regalos con reglas claras: tu tienda también fideliza.
-
-Fig. 02 — Vista del dueño
-Demo
-
-Panel del dueño: pedidos y preparación, con datos ficticios.
-
-El recorrido
-
-PASO 1  El cliente elige y consulta
-PASO 2  Tu equipo responde y prepara
-PASO 3  El club lo trae de vuelta
-
-Además del software
-
-No te dejamos
-solo con la herramienta.
-
-Una herramienta rinde cuando hay una estrategia detrás. Por eso la propuesta viene con
-asesoría.
-
-01
-
-Growth marketing
-
-Incluida en tu propuesta
-
-Ordenamos tu propuesta y tus mensajes, y definimos la primera acción para conseguir
-clientes, con una métrica para medirla.
-
-02
-
-Retención de clientes
-
-Incluida en tu propuesta
-
-Diseñamos cómo usar la gamificación de Volta, que ya viene incluida, para que tus
-clientes vuelvan más seguido.
-
-03
-
-Finanzas
-
-Pieza extra · USD 150 · sujeta a validación
-
-Costos, márgenes y escenarios con tus datos, para decidir con números. Sin
-asesoramiento contable, tributario ni de inversiones.
-
-Probalo vos
-
-Vista del cliente  ↗ [https://toti-gauna.github.io/supplements-ecommerce/]
-
-Vista del dueño  ↗ [https://toti-gauna.github.io/supplements-ecommerce/admin-demo/]
-
-Datos ficticios · sin registro
-
-Demo  Volta funciona con datos ficticios: no cobra ni crea pedidos reales, y el panel
-está abierto sin login. Lo que ves no equivale al paquete contratado.
-
-Regalos de la demo · 16
-
-Un regalo también
-es una experiencia.
-
-En Volta, regalar se abre como un evento: por ocasión, con sabor a elección o como
-gift card. Probá algunos:
-
-Regalo Volta  ↗
-[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-VE1M-AR7X]Elegís
-el sabor  ↗
-[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-SAB0-R01D]Gift
-card  ↗
-[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-GC0S-0F1D]Día de
-la Madre  ↗
-[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-MADR-E26B]Navidad  ↗
-[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-NAV1-DADP]Día del
-Padre  ↗
-[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-PADR-E26D]
-
-Ver todos los regalos de Volta  → [../../../previews/regalos-volta.html]
-
-Personas y regalos ficticios, sin compra ni beneficio real. Premios, costos y
-operación de campañas se acuerdan aparte.
-
-04
-Precio
-
-Cuánto cuesta
-y cómo se paga.
-
-Precios en dólares, sin letra chica. El número final te lo confirmamos por escrito,
-con el alcance acordado.
-
-A1  OFERTA
-
-Adaptación de producto
-
-Un plan y un software a la medida de Tienda Horizonte, sobre Volta: tu marca, tu
-contenido y tu configuración.
-
-Desde · implementación
-
-USD 500
-
-Incluido en los USD 500
-
-Asesoría inicial de growth marketing y retención de clientes.
-
-Una sesión para ordenar tu propuesta, tus mensajes y cómo hacer que tus clientes
-vuelvan, con una métrica para medirlo.
+La propuesta incluye una instancia inicial de asesoría y capacitación, con alcance
+acordado por escrito. Evaluar automatizaciones no implica que su desarrollo esté
+incluido. Nuevas integraciones, gestión continua de campañas, contenido periódico y
+ampliaciones se cotizan aparte.
 
 Qué incluye
 
-Tu marca y tu contenido sobre Volta
-Catálogo con hasta 25 productos que nos pasás
-Consulta desde cada ficha, atendida por tu equipo
-Club y misiones estándar, con tus reglas
+Tienda adaptada a tu marca y al alcance acordado.
 
-Cobro online, pedidos guardados y administración conectada se cotizan aparte. Premios
-y operación de campañas, también.
+Asesoría inicial de marketing digital y una recomendación de fidelización.
 
-Cómo se paga
+Evaluación de tareas repetitivas que convenga automatizar.
 
-Seña 50 %
-Para empezar: plan y software a medida
-USD 250
-Saldo 50 %
-A la entrega aprobada
-USD 250
+Capacitación inicial para el dueño y su equipo sobre el sistema y usos cotidianos de
+IA.
 
-Y por sumarte, tu plan mensual baja · por mes, meses 1 a 3
+Evaluación de recuperación de inversión con los números del negocio.
 
-Esencial
-Bonificado · después USD 30/mes
-USD 0
-Conectado
-USD 30 menos por mes · después USD 75/mes
-USD 45
-Automatización/IA
-USD 30 menos por mes · después USD 150/mes
-USD 120
+Dos meses iniciales de mantenimiento bonificados.
 
-Hablemos de tu proyecto · PENDIENTE
+Una marca/sede, hasta 25 productos aportados, variantes y mecánicas estándar
+acordadas. Cobro online, backend, pedidos guardados, automatizaciones y administración
+conectada se cotizan aparte. Premios y operación de campañas también.
 
-El proyecto arranca con la seña. Antes, definimos juntos alcance, entregables y
-factibilidad. El precio es por adaptar un producto que ya funciona; las funciones
-nuevas se cotizan aparte.
+La experiencia de tus clientes.
+
+Fig. 01 — La experiencia de tus clientes.
+Demo
+
+Explorá el catálogo, elegí presentaciones y reuní productos con Armá tu Stack antes de
+consultar.
+
+Abrir la experiencia del cliente  ↗
+[https://toti-gauna.github.io/supplements-ecommerce/]
+
+La vista del dueño y su equipo.
+
+Fig. 02 — La vista del dueño y su equipo.
+Demo
+
+Explorá pedidos y preparación con datos de muestra. El panel es una demostración: la
+operación conectada se define según el alcance contratado.
+
+Abrir el panel de demostración  ↗
+[https://toti-gauna.github.io/supplements-ecommerce/admin-demo/]
+
+Datos ficticios · sin pagos ni pedidos reales · panel abierto sin login.
+
+Un regalo también puede ser una experiencia.
+
+Probá los ejemplos de regalos de Volta: distintas formas de presentar un obsequio y
+dejar que la persona explore su experiencia.
+
+Regalo Volta  ↗
+[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-VE1M-AR7X]
+
+Elegís el sabor  ↗
+[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-SAB0-R01D]
+
+Gift card  ↗
+[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-GC0S-0F1D]
+
+Día de la Madre  ↗
+[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-MADR-E26B]
+
+Navidad  ↗
+[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-NAV1-DADP]
+
+Día del Padre  ↗
+[https://toti-gauna.github.io/supplements-ecommerce/regalo/?c=REGALO-PADR-E26D]
+
+Ver todos los regalos de Volta  ↗ [../../../previews/regalos-volta.html]
+
+Ejemplos ficticios, sin compras ni beneficios reales. Qué mecánicas se adaptan, los
+premios y la operación se acuerdan por escrito.
+
+04
+Cuánto cuesta y cómo se paga.
+
+Cuánto cuesta y cómo se paga.
+
+Precio de referencia del paquete: ARS 750.000.
+
+ARS 375.000
+
+Precio al contado: ARS 375.000.
+
+50% de descuento respecto del precio de referencia.
+
+Dos meses iniciales de mantenimiento bonificados. Desde el tercer mes: ARS 50.000
+mensuales.
+
+Podemos evaluar hasta cuatro cuotas con recargo. Antes de contratar, dejamos por
+escrito el valor de cada cuota, el total financiado, los vencimientos y los costos
+adicionales.
 
 05
-Piezas extra
+¿Qué tendría que generar para recuperar la inversión?
 
-Para ir
-más lejos.
+¿Qué tendría que generar para recuperar la inversión?
 
-Lo que te recomendamos sumar, cuando quieras. Sobre esta propuesta cada pieza va a
-precio de complemento, más bajo que por separado, y se paga una sola vez.
+Lo estimamos con tus números: cuánto te deja cada pedido después de pagar la
+mercadería y los costos de venderlo, y cuántos pedidos adicionales harían falta para
+cubrir la implementación y los costos del período.
 
-WhatsApp estándar (sin IA)
-Un flujo de aviso o seguimiento. Sin agente IA ni envíos masivos. Su operación entra
-en el plan Conectado.
-RECOMENDADO · OPCIONAL
-+ USD 100
-Chatbot IA (WhatsApp o web)
-Un canal, un caso de uso, tus documentos y pase a una persona. Su operación entra en
-el plan Automatización/IA.
-RECOMENDADO · OPCIONAL
-+ USD 250
-Asesoría de gestión económica
-Costos, márgenes y escenarios con tus datos, una vez. Sin asesoramiento contable,
-tributario ni de inversiones. Gestión económica sujeta a validación.
-RECOMENDADO · OPCIONAL
-+ USD 150
-Landing premium adicional
-Una landing compatible para presentar tu propuesta. Solo si no está incluida en el
-alcance.
-RECOMENDADO · OPCIONAL
-+ USD 200
+Ejemplo hipotético: si cada pedido adicional deja ARS 15.000, una implementación de
+ARS 375.000 equivale a 25 pedidos adicionales para cubrir su costo inicial. El
+mantenimiento y otros costos se suman según el período.
 
-BORRADOR · Asesoría económica pendiente de responsable y capacidad. Esta oferta no se
-puede exportar para envío.
+Es un umbral de referencia, no un pronóstico ni una garantía de recuperación.
+
+La contribución descuenta descuentos, comisiones y costos variables; los pedidos son
+adicionales respecto de la base habitual. Desde el mes 3 se suma mantenimiento y los
+demás costos del período. Si se financia, se usa el total financiado acordado. Una
+contribución nula o negativa no permite cubrir la inversión; estimar tiempo requiere
+un supuesto explícito de pedidos adicionales por mes.
 
 06
-Mantenimiento
+Para ir más lejos.
 
-Un plan mensual.
-Uno solo.
+Para ir más lejos.
 
-Hosting, mantenimiento y mejoras en un solo pago mensual. Elegís el nivel según lo que
-construimos; no se paga por canal.
+Las ampliaciones se cotizan según alcance y factibilidad. Antes de contratar, te
+indicamos qué ya está incluido y qué trabajo sería adicional.
 
-Beneficio por la adaptación
+Definimos qué mensaje tendría sentido enviar, cuándo y a clientes que acepten
+recibirlo. La integración y su operación se evalúan antes de cotizar; no incluye por
+defecto chatbot, WhatsApp API ni mensajes ilimitados.
 
-Esencial gratis 3 meses. Los demás, USD 30 menos por mes.
+Landing adicional, chatbot IA, integraciones y módulos operativos: a evaluar, no
+instalados ni incluidos por defecto.
 
-Desde la publicación y durante 3 meses, descontamos el valor de Esencial de cualquier
-plan. Desde el mes 4, el precio normal.
-
-Plan
-Esencial  Elegido
-
-Mantenimiento de tu producto y configuración priorizada.
-
-USD 0/mes · meses 1–3
-USD 30/mes · desde el mes 4
-
-Terceros hasta USD 5/mes, dentro del precio
-
-Conectado
-
-Una integración estándar, sujeta a factibilidad.
-
-USD 45/mes · meses 1–3
-USD 75/mes · desde el mes 4
-
-Terceros hasta USD 15/mes, dentro del precio
-
-Automatización/IA
-
-Hasta dos flujos estándar totales; uno puede usar IA.
-
-USD 120/mes · meses 1–3
-USD 150/mes · desde el mes 4
-
-Terceros hasta USD 40/mes, dentro del precio
-
-Los planes son alternativas: elegís uno, no se suman.
+A cotizar según alcance y factibilidad
 
 07
-Cómo seguimos
+Mantenimiento
 
-Después del sí,
-todo a la vista.
+Mantenimiento
 
-No te mandamos un archivo y desaparecemos. Así trabajamos desde el primer día:
+Mantenimiento del alcance implementado y ajustes menores acordados. No incluye
+desarrollo ilimitado, nuevas integraciones ni gestión permanente de marketing.
 
-Paso 01
+Meses 1–2: bonificados. Desde el mes 3: ARS 50.000 por mes.
 
-Hablamos y definimos el alcance
+El inicio del período bonificado y el alcance preciso del mantenimiento quedan
+establecidos en la propuesta antes de contratar.
 
-Una llamada para entender qué querés resolver primero. Te mandamos la propuesta por
-escrito: alcance, precio y plazos.
+Inicio a acordar por escrito.
 
-Paso 02
-
-Seña, tu cuenta y tu portal
-
-Con la seña te creamos tu cuenta de cliente y tu portal: ahí ves el proyecto, sus
-etapas y lo que necesitamos de vos.
-
-Paso 03
-
-Construcción, a la vista
-
-Adaptamos Volta a tu negocio. Seguís cada avance en el portal: preparación,
-construcción, revisión y entrega.
-
-Paso 04
-
-Entrega y capacitación
-
-Lo publicamos, lo dejamos andando y te enseñamos a usarlo, a vos y a tu equipo.
-
-Paso 05
-
-Mantenimiento y mejoras
-
-Tu plan mensual mantiene todo funcionando y suma mejoras priorizadas cada mes.
-
-Eclipse
-
-Una consultora de inteligencia artificial para negocios de todos los rubros.
-
-Salud, comercio, gastronomía, fitness, inmobiliarias y educación. Volta es uno de
-nuestros productos; hay más, y cada uno se adapta a tu negocio.
-
-Ver cómo es tu portal  ↗ [https://toti-gauna.github.io/Eclipse-Web/es/portal/]
-
-Ver más productos de Eclipse  ↗
-[https://toti-gauna.github.io/Eclipse-Web/es/#ejemplos]
-
-El portal del enlace es una vista de demostración con datos ficticios.
+Dominio, servicios de terceros, mensajería y consumos aplicables se detallan por
+separado según la solución; no se agregan cargos sin acordarlos.
 
 08
-Condiciones
+Cómo seguimos
 
-Condiciones,
-a la vista.
+Cómo seguimos
 
-a.
-Todos los planes incluyen hasta 2 h humanas por mes en total (no se acumulan) para
-mantenimiento, configuración y mejoras priorizadas.
-b.
-Lo de terceros (alojamiento, datos y consumos compatibles) ya está dentro del precio.
-Te avisamos al 80 % y no hay recargos automáticos.
-c.
-Si el cupo no alcanza, acordamos cómo ampliarlo y qué automatización se pausa. Tu
-producto y tus datos siguen disponibles.
-d.
-Proveedor y factibilidad se validan por cuenta, antes de empezar.
-e.
-Migración desde Excel o PDF: USD 100–300, por única vez, después de revisar una
-muestra.
-f.
-Módulos operativos fuera de la adaptación: desde USD 750, según alcance.
-g.
-El dominio y su renovación van aparte, salvo que la propuesta los incluya.
+Asesoría inicial → propuesta escrita con alcance y condiciones → modalidad de pago
+acordada → adaptación y revisión → capacitación → mantenimiento.
 
-Leé las condiciones completas antes de la seña [../../../previews/conditions.html] →
+El portal accesible es una demostración con datos ficticios. La cuenta y el
+seguimiento productivos se definen en la propuesta.
+
+Ver cómo es tu portal  → [https://toti-gauna.github.io/Eclipse-Web/es/portal/]
+
+Ver más productos de Eclipse  →
+[https://toti-gauna.github.io/Eclipse-Web/es/#ejemplos]
 
 09
-Próximo paso
+Condiciones, a la vista.
 
-El próximo paso
-es tuyo.
+Condiciones, a la vista.
 
-Respondé este correo o escribinos. En una llamada corta vemos qué querés resolver
-primero y te mandamos alcance, precio y plazos por escrito, antes de cualquier seña.
+Una marca/sede, hasta 25 productos aportados, variantes y mecánicas estándar
+acordadas. Cobro online, backend, pedidos guardados, automatizaciones y administración
+conectada se cotizan aparte. Premios y operación de campañas también.
 
-Hablemos de tu proyecto · PENDIENTE
+La propuesta incluye una instancia inicial de asesoría y capacitación, con alcance
+acordado por escrito. Evaluar automatizaciones no implica que su desarrollo esté
+incluido. Nuevas integraciones, gestión continua de campañas, contenido periódico y
+ampliaciones se cotizan aparte.
 
-Eclipse · remitente pendiente de confirmar
+Dominio, servicios de terceros, mensajería y consumos aplicables se detallan por
+separado según la solución; no se agregan cargos sin acordarlos.
+
+La propuesta escrita define implementación, capacitación, mantenimiento, inicio de
+bonificación y modalidad de pago antes de contratar. No se garantiza recuperación ni
+ventas.
+
+Leer condiciones de esta campaña  →
+[../../../previews/conditions-volta-2026-10-19.html]
+
+10
+Tu primera asesoría gratuita
+
+Tu primera asesoría gratuita
+
+Te ofrecemos una primera asesoría gratuita de 15 minutos. Revisamos cómo trabajan hoy,
+te llevás una recomendación inicial y te mostramos qué podría servirle de Volta a tu
+negocio.
+
+También podemos estimar, con tus números, cuántas ventas adicionales necesitarías para
+recuperar la inversión.
+
+Quiero mi asesoría gratuita · PENDIENTE
+
+15 minutos · sin obligación de contratar.
+
+Ignacio · Eclipse
+Mar del Plata
+
+BORRADOR · contacto y remitente pendientes de confirmar.
 
 ECLIPSE
 

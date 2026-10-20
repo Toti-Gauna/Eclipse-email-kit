@@ -1,0 +1,20 @@
+[
+  {
+    "command": "node scripts/build.mjs --product volta --format full --mode send",
+    "exitCode": 1,
+    "blocked": true,
+    "output": "file:///workspace/Eclipse-email-kit/scripts/build.mjs:10\n for(const format of formats){const errors=readiness(c,format);if(mode==='send'&&errors.length)throw Error(`Exportación bloqueada (${product}/${format}):\\n- ${errors.join('\\n- ')}`);\n                                                                                                     ^\n\nError: Exportación bloqueada (volta/full):\n- Prospecto ficticio\n- Remitente real sin confirmar\n- Contacto real pendiente\n- Condiciones accesibles por HTTPS pendientes\n- Assets HTTPS pendientes de publicación autorizada\n- Investigación verificada pendiente: observación, fuente/fecha y oportunidad\n- Tráiler existente con condiciones comerciales incompatibles: El MP4 existente muestra a los 62 s equivalencias USD, 100 mensajes de WhatsApp y cuatro cuotas de ARS 225.000; a los 67 s, mantenimiento ARS 45.000 / USD 30, cupo de terceros USD 5 y 2 h mensuales. Estas condiciones no corresponden a esta campaña.\n    at file:///workspace/Eclipse-email-kit/scripts/build.mjs:10:102\n\nNode.js v24.19.0\n"
+  },
+  {
+    "command": "node scripts/build.mjs --product volta --format short --mode send",
+    "exitCode": 1,
+    "blocked": true,
+    "output": "file:///workspace/Eclipse-email-kit/scripts/build.mjs:10\n for(const format of formats){const errors=readiness(c,format);if(mode==='send'&&errors.length)throw Error(`Exportación bloqueada (${product}/${format}):\\n- ${errors.join('\\n- ')}`);\n                                                                                                     ^\n\nError: Exportación bloqueada (volta/short):\n- Prospecto ficticio\n- Remitente real sin confirmar\n- Contacto real pendiente\n- Condiciones accesibles por HTTPS pendientes\n- Assets HTTPS pendientes de publicación autorizada\n- Presentación completa HTTPS pendiente\n- Investigación verificada pendiente: observación, fuente/fecha y oportunidad\n- Tráiler existente con condiciones comerciales incompatibles: El MP4 existente muestra a los 62 s equivalencias USD, 100 mensajes de WhatsApp y cuatro cuotas de ARS 225.000; a los 67 s, mantenimiento ARS 45.000 / USD 30, cupo de terceros USD 5 y 2 h mensuales. Estas condiciones no corresponden a esta campaña.\n    at file:///workspace/Eclipse-email-kit/scripts/build.mjs:10:102\n\nNode.js v24.19.0\n"
+  },
+  {
+    "command": "node scripts/build.mjs --product volta --version original --mode send",
+    "exitCode": 1,
+    "blocked": true,
+    "output": "file:///workspace/Eclipse-email-kit/scripts/build.mjs:10\n for(const format of formats){const errors=readiness(c,format);if(mode==='send'&&errors.length)throw Error(`Exportación bloqueada (${product}/${format}):\\n- ${errors.join('\\n- ')}`);\n                                                                                                     ^\n\nError: Exportación bloqueada (volta/full):\n- Prospecto ficticio\n- Remitente real sin confirmar\n- Contacto real pendiente\n- Condiciones accesibles por HTTPS pendientes\n- Assets HTTPS pendientes de publicación autorizada\n- Asesoría económica sin responsable/capacidad confirmados\n- Original: referencia anterior, no habilitada para la campaña Volta vigente\n    at file:///workspace/Eclipse-email-kit/scripts/build.mjs:10:102\n\nNode.js v24.19.0\n"
+  }
+]

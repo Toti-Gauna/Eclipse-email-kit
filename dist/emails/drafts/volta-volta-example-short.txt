@@ -1,71 +1,128 @@
-Asunto: Volta: tu catálogo online, con tu marca
-Preheader: Probá la demo antes de hablar: catálogo, consultas y un club que hace volver.
+Asunto: Tienda Horizonte: una idea para potenciar tu tienda de suplementos
+Preheader: Conocé Volta y evaluemos una mejora concreta en una asesoría gratuita de 15 minutos.
 
 ECLIPSE
-Primer contacto · Volta
+Eclipse. Potenciamos tus ventas y hacemos que tus clientes vuelvan.
 
 01
-Comercio · tienda online
+Tu negocio, distinto del resto.
 
-Que elegir
-sea fácil.
+Tu negocio, distinto del resto.
 
-Hola, equipo de Tienda Horizonte.
-
-Pensamos en tiendas como la tuya y armamos una propuesta concreta: un catálogo que se
-entiende de un vistazo, consultas que llegan con todo el contexto y un club que hace
+Presentá mejor tus productos, facilitá la compra y dales a tus clientes motivos para
 volver.
 
-Muestra  Ejemplo ficticio · apertura sectorial, sin investigación del negocio.
+Hola, equipo de Tienda Horizonte:
+
+Soy Ignacio, de Eclipse, de acá de Mar del Plata. Quería mostrarles una idea para
+presentar una tienda de suplementos y facilitar la compra. Esta es una propuesta
+sectorial; todavía no investigamos tu negocio.
+
+BORRADOR · apertura sectorial sin investigación verificada. El nombre es un dato de
+preview; no acredita un destinatario real.
 
 02
-El trailer
+Conocé Volta en acción.
 
-Volta, en 60 segundos.
+Conocé Volta en acción.
 
-Sesenta segundos de motion graphics, con música, que recorren todo Volta: lo que vive
-tu cliente, lo que ve tu equipo y cómo se conecta cada parte. Pensado para el celular
-y para la compu.
+Mirá un recorrido de la experiencia antes de explorar la demo.
 
-TRAILER · 60 S
-MOTION GRAPHICS · CON MÚSICA
+https://toti-gauna.github.io/supplements-ecommerce/trailer/t1-email.mp4
 
-Trailer pendiente de incorporar · el póster es una vista previa estática.
+▶ Ver el tráiler  
+[https://toti-gauna.github.io/supplements-ecommerce/trailer/t1-email.mp4]
 
-Ver cómo funciona · enlace disponible al incorporar el trailer.
+Duración del archivo: 75,47 segundos.
+
+BORRADOR · recurso pendiente de compatibilidad comercial. El MP4 existente muestra a
+los 62 s equivalencias USD, 100 mensajes de WhatsApp y cuatro cuotas de ARS 225.000; a
+los 67 s, mantenimiento ARS 45.000 / USD 30, cupo de terceros USD 5 y 2 h mensuales.
+Estas condiciones no corresponden a esta campaña.
 
 03
-En corto
+La propuesta, en breve.
 
-La propuesta,
-en tres líneas.
+La propuesta, en breve.
 
-La demo
-Volta, con datos ficticios
-ABRIR ↗ [https://toti-gauna.github.io/supplements-ecommerce/]
-Adaptación de producto
-Incluye asesoría inicial de growth y retención
-desde USD 500
-Plan mensual
-Esencial gratis 3 meses; los demás, más baratos
-desde USD 30/mes
+En Eclipse combinamos una tienda adaptada a tu negocio con asesoría inicial de
+marketing digital y herramientas de fidelización.
+
+Precio de referencia del paquete: ARS 750.000.
+
+Precio al contado: ARS 375.000.
+
+50% de descuento respecto del precio de referencia.
+
+Dos meses iniciales de mantenimiento bonificados. Desde el tercer mes: ARS 50.000
+mensuales.
+
+Podemos evaluar hasta cuatro cuotas con recargo. Antes de contratar, dejamos por
+escrito el valor de cada cuota, el total financiado, los vencimientos y los costos
+adicionales.
+
+El inicio del período bonificado y el alcance preciso del mantenimiento quedan
+establecidos en la propuesta antes de contratar.
+
+La propuesta incluye una instancia inicial de asesoría y capacitación, con alcance
+acordado por escrito. Evaluar automatizaciones no implica que su desarrollo esté
+incluido. Nuevas integraciones, gestión continua de campañas, contenido periódico y
+ampliaciones se cotizan aparte.
 
 Ver la propuesta completa  → [volta-volta-example-full.html]
 
-Alcance, precio, plan mensual y condiciones, en una sola página.
+Leer condiciones de esta campaña  →
+[../../../previews/conditions-volta-2026-10-19.html]
+
+Abrir la experiencia del cliente  →
+[https://toti-gauna.github.io/supplements-ecommerce/]
+
+Abrir el panel de demostración  →
+[https://toti-gauna.github.io/supplements-ecommerce/admin-demo/]
+
+Ver todos los regalos de Volta  → [../../../previews/regalos-volta.html]
 
 04
-Próximo paso
+¿Qué tendría que generar para recuperar la inversión?
 
-El próximo paso
-es tuyo.
+¿Qué tendría que generar para recuperar la inversión?
 
-Respondé este correo o escribinos. En una llamada corta vemos qué querés resolver
-primero y te mandamos alcance, precio y plazos por escrito, antes de cualquier seña.
+Lo estimamos con tus números: cuánto te deja cada pedido después de pagar la
+mercadería y los costos de venderlo, y cuántos pedidos adicionales harían falta para
+cubrir la implementación y los costos del período.
 
-Hablemos de tu proyecto · PENDIENTE
+Ejemplo hipotético: si cada pedido adicional deja ARS 15.000, una implementación de
+ARS 375.000 equivale a 25 pedidos adicionales para cubrir su costo inicial. El
+mantenimiento y otros costos se suman según el período.
 
-Eclipse · remitente pendiente de confirmar
+Es un umbral de referencia, no un pronóstico ni una garantía de recuperación.
+
+La contribución descuenta descuentos, comisiones y costos variables; los pedidos son
+adicionales respecto de la base habitual. Desde el mes 3 se suma mantenimiento y los
+demás costos del período. Si se financia, se usa el total financiado acordado. Una
+contribución nula o negativa no permite cubrir la inversión; estimar tiempo requiere
+un supuesto explícito de pedidos adicionales por mes.
+
+05
+Tu primera asesoría gratuita
+
+Tu primera asesoría gratuita
+
+Te ofrecemos una primera asesoría gratuita de 15 minutos. Revisamos cómo trabajan hoy,
+te llevás una recomendación inicial y te mostramos qué podría servirle de Volta a tu
+negocio.
+
+También podemos estimar, con tus números, cuántas ventas adicionales necesitarías para
+recuperar la inversión.
+
+Quiero mi asesoría gratuita · PENDIENTE
+
+15 minutos · sin obligación de contratar.
+
+Ignacio · Eclipse
+Mar del Plata
+
+BORRADOR · contacto y remitente pendientes de confirmar.
 
 ECLIPSE
 

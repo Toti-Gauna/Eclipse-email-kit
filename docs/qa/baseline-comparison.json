@@ -1,0 +1,44 @@
+[
+  {
+    "product": "volta",
+    "format": "full",
+    "semanticEqual": true,
+    "normalizedLink": null,
+    "baseline": "419be26ef5eb78c5fb890a0f9896536b34a8a45e"
+  },
+  {
+    "product": "volta",
+    "format": "short",
+    "semanticEqual": true,
+    "normalizedLink": "Original breve enlaza Original completa",
+    "baseline": "419be26ef5eb78c5fb890a0f9896536b34a8a45e"
+  },
+  {
+    "product": "tableflow",
+    "format": "full",
+    "semanticEqual": true,
+    "normalizedLink": null,
+    "baseline": "419be26ef5eb78c5fb890a0f9896536b34a8a45e"
+  },
+  {
+    "product": "tableflow",
+    "format": "short",
+    "semanticEqual": true,
+    "normalizedLink": null,
+    "baseline": "419be26ef5eb78c5fb890a0f9896536b34a8a45e"
+  },
+  {
+    "product": "dentalos",
+    "format": "full",
+    "semanticEqual": true,
+    "normalizedLink": null,
+    "baseline": "419be26ef5eb78c5fb890a0f9896536b34a8a45e"
+  },
+  {
+    "product": "dentalos",
+    "format": "short",
+    "semanticEqual": true,
+    "normalizedLink": null,
+    "baseline": "419be26ef5eb78c5fb890a0f9896536b34a8a45e"
+  }
+]

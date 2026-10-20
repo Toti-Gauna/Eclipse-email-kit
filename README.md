@@ -1,5 +1,29 @@
 # Eclipse Email Kit
 
+## Campaña Volta · actualización local 19–20/10/2026
+
+La galería separa **Original** (referencia anterior, no exportable para esta campaña) y **Mejorada**, con el selector de productos y Completa/Breve independientes. “Nombre del negocio” personaliza `businessName` en memoria: no lo guarda ni lo agrega a URLs. HTML/texto copiados y descargados son exactamente los del preview; siguen siendo borradores ficticios.
+
+`data/offers/volta-2026-10-19.json` es la oferta efectiva predeterminada solo para Volta: ARS 750.000 de referencia, ARS 375.000 contado, 50% de descuento, meses 1–2 bonificados y ARS 50.000/mes desde mes 3. Inicio a acordar por escrito; hasta cuatro cuotas con recargo **a evaluar**, sin importes calculados. TableFlow, DentalOS, Eclipse genérico y la referencia Original conservan sus condiciones USD. La política siguiente sobre tráiler opcional corresponde a esas versiones anteriores, no a la campaña actual.
+
+**Estado: revisable localmente, no listo para envío.** Tráiler, cliente, admin, 16 regalos y página completa comprobados. El MP4 existente dura 75,466667 s y reproduce condiciones incompatibles (WhatsApp incluido, cuotas, USD, mantenimiento ARS 45.000): se conserva con advertencia y bloqueo comercial. No se creó ni reeditó video. Remitente/contacto, investigación real, assets/condiciones HTTPS autorizadas siguen pendientes. La breve también requiere presentación completa pública verificada.
+
+La campaña tiene condiciones propias: `previews/conditions-volta-2026-10-19.html`. No usa la página USD compartida. La falta de inicio contractual o de tasas de financiación no impide por sí sola un primer contacto honesto; no habilita contratación ni una cotización financiada.
+
+```bash
+cd /workspace/Eclipse-email-kit
+npm run build
+npm run dev
+# http://127.0.0.1:4173/previews/?model=volta&version=improved
+npm run generate -- --product volta --format full
+npm run generate -- --product volta --format short
+npm run generate -- --product volta --version original
+node scripts/qa-campaign.mjs
+```
+
+Evidencia y pendientes: [entrega de campaña](docs/qa/CAMPAIGN-2026-10-20.md). La implementación se preparó localmente. El 20/10/2026 Ignacio autorizó después abrir PR, integrar en main y publicar la galería en GitHub Pages. La publicación no habilita el envío ni resuelve los pendientes comerciales; Volta no se modifica.
+
+
 Kit comercial local con la identidad visual de la web de Eclipse (dirección de arte «Efemérides»: eclipse del hero, marcas de sección en mono, serif display, libros de precios y amanecer al cierre), tres productos y datos reutilizables. Incluye HTML de email con estilos críticos inline, texto plano, galería estática, capturas y condiciones. Estado: **borradores revisados, no listos para envío** por falta de remitente/contacto real y URLs autorizadas de assets/condiciones. Los ejemplos de prospectos son ficticios.
 
 ## Galería publicada y despliegue
@@ -12,7 +36,7 @@ El artefacto no incluye configuraciones, prospectos, fuentes originales de Notio
 
 ## Abrir y compilar
 
-Node 24 o posterior y npm. Desde `/workspace/eclipse-email-kit`:
+Node 24 o posterior y npm. Desde la raíz real del repositorio (`/workspace/Eclipse-email-kit` en esta ejecución):
 
 ```bash
 npm ci
@@ -32,7 +56,7 @@ npm run validate
 npm test
 ```
 
-`npm run build` regenera las seis piezas iniciales y el manifiesto de galería. Cada producto tiene `full` y `short`; la breve enlaza al HTML completo en preview. Las variantes adicionales se generan por CLI. La compilación local no publica ni envía correos; el deploy de la galería se realiza mediante el workflow de Pages. No hay analytics ni trackers.
+`npm run build` regenera ocho piezas: Original/Mejorada de Volta y las dos de cada otra demo y el manifiesto de galería. Cada producto tiene `full` y `short`; la breve enlaza al HTML completo en preview. Las variantes adicionales se generan por CLI. La compilación local no publica ni envía correos; el deploy de la galería se realiza mediante el workflow de Pages. No hay analytics ni trackers.
 
 ## Preparar un prospecto
 
@@ -50,7 +74,7 @@ Antes de habilitarla, completá en `data/brand.json` el remitente confirmado, co
 npm run generate -- --product volta --prospect private-mi-prospecto --mode send --format full
 ```
 
-La salida aparece en `dist/emails/ready/` **solo si pasa los gates**: datos, prospecto no ficticio, remitente, contacto, demos, condiciones, assets, oferta, placeholders, URLs HTTPS y acceso HTTP a cada recurso. Usa el proxy del entorno cuando existe. Ese directorio se ignora en git. No se envía nada. La falta de trailer no bloquea esta salida. Si el pack o una asesoría económica están seleccionados/recomendados, requiere responsable, alcance y capacidad confirmados en `economicAdvisor`.
+La salida aparece en `dist/emails/ready/` **solo si pasa los gates**: datos, prospecto no ficticio, remitente, contacto, demos, condiciones, assets, oferta, placeholders, URLs HTTPS y acceso HTTP a cada recurso. Usa el proxy del entorno cuando existe. Ese directorio se ignora en git. No se envía nada. La falta de trailer no bloquea las demos anteriores; el full de la campaña Volta exige recursos verificados y compatibilidad comercial. Si el pack o una asesoría económica están seleccionados/recomendados, requiere responsable, alcance y capacidad confirmados en `economicAdvisor`.
 
 Una URL que devuelve 200 no demuestra una función productiva: `verified` y `evidence` documentan la revisión humana del destino. Revalidá antes de cada lote. El comando no confirma permisos del proveedor de email, SPF/DKIM ni consentimiento de destinatarios; tampoco inventa una dirección postal o un sistema de baja. El cierre ofrece responder “No recibir más” para gestión manual.
 
