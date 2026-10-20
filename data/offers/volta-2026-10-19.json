@@ -1,0 +1,45 @@
+{
+  "id": "volta-2026-10-19",
+  "type": "campaign",
+  "productId": "volta",
+  "priceVersion": "volta.2026-10-19.ars",
+  "source": "Instrucción expresa de Ignacio del 19/10/2026 · revisión comercial 20/10/2026",
+  "currency": "ARS",
+  "reference": 750000,
+  "cash": 375000,
+  "maintenance": {
+    "freeMonths": 2,
+    "monthly": 50000,
+    "start": null
+  },
+  "financing": {
+    "maxInstallments": 4,
+    "state": "to-evaluate"
+  },
+  "selectedExtras": [],
+  "includedExtras": [
+    "growth"
+  ],
+  "recommendedExtras": [],
+  "conditions": {
+    "url": "",
+    "verified": false
+  },
+  "resources": {
+    "trailer": {
+      "enabled": true,
+      "state": "ready",
+      "trailerUrl": "https://toti-gauna.github.io/supplements-ecommerce/trailer/t1-email.mp4",
+      "posterUrl": "https://toti-gauna.github.io/supplements-ecommerce/trailer/t1-poster.jpg",
+      "durationSeconds": 75.466667,
+      "verified": true
+    },
+    "evidence": "docs/qa/volta-links/matrix.json · 19–20/10/2026 · Chromium con proxy HTTPS: cliente/presentaciones, Stack/carrito demo, pedidos admin y 16 regalos con persona, apertura e ítem comprobados. Sin comprar, canjear ni enviar mensajes.",
+    "customerVerified": true,
+    "adminVerified": true,
+    "giftsVerified": true,
+    "giftsPageVerified": true,
+    "trailerCommercialVerified": false,
+    "trailerCommercialNote": "El MP4 existente muestra a los 62 s equivalencias USD, 100 mensajes de WhatsApp y cuatro cuotas de ARS 225.000; a los 67 s, mantenimiento ARS 45.000 / USD 30, cupo de terceros USD 5 y 2 h mensuales. Estas condiciones no corresponden a esta campaña."
+  }
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "version": "original",
+    "format": "full",
+    "namePreserved": true,
+    "copyHtmlExact": true,
+    "copyTextExact": true,
+    "downloadHtmlExact": true,
+    "downloadTextExact": true
+  },
+  {
+    "version": "original",
+    "format": "short",
+    "namePreserved": true,
+    "copyHtmlExact": true,
+    "copyTextExact": true,
+    "downloadHtmlExact": true,
+    "downloadTextExact": true
+  },
+  {
+    "version": "improved",
+    "format": "full",
+    "namePreserved": true,
+    "copyHtmlExact": true,
+    "copyTextExact": true,
+    "downloadHtmlExact": true,
+    "downloadTextExact": true
+  },
+  {
+    "version": "improved",
+    "format": "short",
+    "namePreserved": true,
+    "copyHtmlExact": true,
+    "copyTextExact": true,
+    "downloadHtmlExact": true,
+    "downloadTextExact": true
+  },
+  {
+    "width": 320,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "overflow": false
+  },
+  {
+    "width": 640,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "overflow": false
+  },
+  {
+    "keyboardTabs": true,
+    "emptyDraft": true,
+    "injectionEscaped": true,
+    "productIsolation": true,
+    "noNamePersistence": true
+  }
+]

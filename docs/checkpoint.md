@@ -40,3 +40,12 @@ Ajuste posterior: a la mitad del email (entre la solución y el precio) el fondo
 
 Indicaciones de Ignacio: los USD 500 de la adaptación incluyen una asesoría inicial de growth marketing y retención de clientes (`includedExtras: ["growth"]` en `base-campaign.json`; ya no se recomienda «ambas asesorías», solo gestión económica, para no cobrar growth dos veces). El descuento en los demás planes por pagar la adaptación es la bonificación existente (el valor de Esencial, USD 30/mes, descontado de cualquier plan durante 3 meses): se muestra plan por plan en la tarjeta del precio y en el mantenimiento; no se inventó un monto nuevo. Volta muestra 6 de sus 16 regalos de muestra (fixture `gifts.ts` del repo supplements-ecommerce @ 653c05a; solo 2 se abrieron en vivo, el resto no se pudo abrir porque el proxy bloquea GitHub Pages) y un botón a la pantalla con todos (`previews/regalos-volta.html`). Nueva sección «Cómo seguimos»: llamada y alcance, seña con cuenta y portal de cliente, construcción con avances en el portal, entrega y mantenimiento, con botones al portal de la web (hoy en modo demostración) y a más productos de Eclipse. Wording general revisado.
 
+
+
+## 20/10/2026 · actualización local de campaña Volta
+
+Base local limpia en main, HEAD 419be26ef5eb78c5fb890a0f9896536b34a8a45e. Implementada oferta exclusiva ARS, Original/Mejorada, businessName editable en memoria, condiciones independientes y gates de recursos/compatibilidad. Volta solo leído, HEAD 0ae34ddeef588ff866762b0b96ad1995595b638b, working tree limpio. No hubo commit, push, deploy, publicación ni mensajes. El video existente se conectó sin reeditar; su contenido comercial incompatible bloquea la exportación. Informe: [CAMPAIGN-2026-10-20.md](qa/CAMPAIGN-2026-10-20.md).
+
+## 20/10/2026 · autorización posterior de publicación
+
+Ignacio pidió subir a main mediante PR y desplegar GitHub Pages. Se reutiliza el workflow existente; el artefacto público contiene ocho borradores ficticios y la galería, sin prospectos privados. Los gates de exportación y el bloqueo comercial del video siguen vigentes. El informe de entrega local anterior describe el estado antes de esta autorización.

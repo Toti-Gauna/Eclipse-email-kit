@@ -1,6 +1,6 @@
 {
-  "subject": "Volta: tu catálogo online, con tu marca",
-  "preheader": "Probá la demo antes de hablar: catálogo, consultas y un club que hace volver.",
+  "subject": "Tienda Horizonte: una idea para potenciar tu tienda de suplementos",
+  "preheader": "Conocé Volta y evaluemos una mejora concreta en una asesoría gratuita de 15 minutos.",
   "status": "draft",
   "errors": [
     "Prospecto ficticio",
@@ -8,8 +8,35 @@
     "Contacto real pendiente",
     "Condiciones accesibles por HTTPS pendientes",
     "Assets HTTPS pendientes de publicación autorizada",
-    "Asesoría económica sin responsable/capacidad confirmados"
+    "Investigación verificada pendiente: observación, fuente/fecha y oportunidad",
+    "Tráiler existente con condiciones comerciales incompatibles: El MP4 existente muestra a los 62 s equivalencias USD, 100 mensajes de WhatsApp y cuatro cuotas de ARS 225.000; a los 67 s, mantenimiento ARS 45.000 / USD 30, cupo de terceros USD 5 y 2 h mensuales. Estas condiciones no corresponden a esta campaña."
   ],
-  "bytes": 83491,
-  "priceVersion": "2026-10-16.aprobado"
+  "bytes": 54276,
+  "priceVersion": "volta.2026-10-19.ars",
+  "offerId": "volta-2026-10-19",
+  "version": "improved",
+  "currency": "ARS",
+  "calculation": {
+    "currency": "ARS",
+    "base": 375000,
+    "total": 375000,
+    "reference": 750000,
+    "discountPercent": 50,
+    "deposit": null,
+    "balance": null,
+    "financedTotal": null,
+    "installments": null,
+    "extrasTotal": null,
+    "plans": [],
+    "maintenance": {
+      "freeMonths": 2,
+      "monthly": 50000,
+      "start": null
+    },
+    "economic": false,
+    "included": [
+      "growth"
+    ]
+  },
+  "conditionsFile": "conditions-volta-2026-10-19.html"
 }
