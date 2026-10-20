@@ -18,7 +18,8 @@ export function calculateOffer(o,p){
  const base=o.type==='pack'?p.pack:p.adaptation;
  const total=base+selected.reduce((s,k)=>s+p.extras[k].price,0);
  const credit=o.promotion.enabled?p.plans.find(x=>x.id===o.promotion.creditPlan).monthly:0;
- return {base,total,deposit:total*p.depositRatio,balance:total*(1-p.depositRatio),plans:p.plans.map(x=>({...x,promo:Math.max(0,x.monthly-credit)})),economic:o.type==='pack'||[...selected,...recommended,...o.includedExtras].some(x=>['economics','both'].includes(x)),included:o.includedExtras};
+ const cash=total*(1-p.cashDiscountPct/100);
+ return {base,total,cash,cashDiscountPct:p.cashDiscountPct,financing:p.financing,deposit:total*p.depositRatio,balance:total*(1-p.depositRatio),plans:p.plans.map(x=>({...x,promo:Math.max(0,x.monthly-credit)})),economic:o.type==='pack'||[...selected,...recommended,...o.includedExtras].some(x=>['economics','both'].includes(x)),included:o.includedExtras};
 }
 export function readiness({brand:b,product:p,prospect:q,offer:o,prices,version},format='full'){
  const calc=calculateOffer(o,prices),errors=[];

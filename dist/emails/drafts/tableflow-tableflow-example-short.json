@@ -11,7 +11,7 @@
     "Presentación completa HTTPS pendiente",
     "Asesoría económica sin responsable/capacidad confirmados"
   ],
-  "bytes": 20621,
+  "bytes": 21388,
   "priceVersion": "2026-10-16.aprobado",
   "offerId": "base-campaign",
   "version": "original",
@@ -19,6 +19,13 @@
   "calculation": {
     "base": 500,
     "total": 500,
+    "cash": 250,
+    "cashDiscountPct": 50,
+    "financing": {
+      "maxInstallments": 4,
+      "state": "to-evaluate",
+      "note": "Hasta 4 cuotas con recargo: a evaluar y cotizar por escrito. Sin importes de cuota, tasa ni total financiado acordados."
+    },
     "deposit": 250,
     "balance": 250,
     "plans": [

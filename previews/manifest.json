@@ -13,7 +13,7 @@
     "preheader": "Conocé Volta y evaluemos una mejora concreta en una asesoría gratuita de 15 minutos.",
     "html": "../dist/emails/drafts/volta-volta-example-full.html",
     "text": "../dist/emails/drafts/volta-volta-example-full.txt",
-    "bytes": 26863,
+    "bytes": 27205,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -39,7 +39,7 @@
     "preheader": "Conocé Volta y evaluemos una mejora concreta en una asesoría gratuita de 15 minutos.",
     "html": "../dist/emails/drafts/volta-volta-example-short.html",
     "text": "../dist/emails/drafts/volta-volta-example-short.txt",
-    "bytes": 14967,
+    "bytes": 15309,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -66,7 +66,7 @@
     "preheader": "Probá la demo antes de hablar: catálogo, consultas y un club que hace volver.",
     "html": "../dist/emails/drafts/volta-volta-example-full-original.html",
     "text": "../dist/emails/drafts/volta-volta-example-full-original.txt",
-    "bytes": 90320,
+    "bytes": 93860,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -92,7 +92,7 @@
     "preheader": "Probá la demo antes de hablar: catálogo, consultas y un club que hace volver.",
     "html": "../dist/emails/drafts/volta-volta-example-short-original.html",
     "text": "../dist/emails/drafts/volta-volta-example-short-original.txt",
-    "bytes": 20605,
+    "bytes": 21372,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -119,7 +119,7 @@
     "preheader": "Mirá la demo de Mesa Clara: carta, reservas y el panel del salón.",
     "html": "../dist/emails/drafts/tableflow-tableflow-example-full.html",
     "text": "../dist/emails/drafts/tableflow-tableflow-example-full.txt",
-    "bytes": 84274,
+    "bytes": 87814,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -144,7 +144,7 @@
     "preheader": "Mirá la demo de Mesa Clara: carta, reservas y el panel del salón.",
     "html": "../dist/emails/drafts/tableflow-tableflow-example-short.html",
     "text": "../dist/emails/drafts/tableflow-tableflow-example-short.txt",
-    "bytes": 20621,
+    "bytes": 21388,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -170,7 +170,7 @@
     "preheader": "Probá la demo: el paciente pide turno y recepción lo sigue en una sola agenda.",
     "html": "../dist/emails/drafts/dentalos-dentalos-example-full.html",
     "text": "../dist/emails/drafts/dentalos-dentalos-example-full.txt",
-    "bytes": 84408,
+    "bytes": 87948,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -195,7 +195,7 @@
     "preheader": "Probá la demo: el paciente pide turno y recepción lo sigue en una sola agenda.",
     "html": "../dist/emails/drafts/dentalos-dentalos-example-short.html",
     "text": "../dist/emails/drafts/dentalos-dentalos-example-short.txt",
-    "bytes": 20631,
+    "bytes": 21398,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
