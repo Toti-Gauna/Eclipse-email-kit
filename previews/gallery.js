@@ -8,11 +8,11 @@ let current,html='',plain='',revision=0,blobs=[];
 $('business-name').value=manifest.find(m=>m.id===selected)?.businessName||'';
 function urlState(){const u=new URL(location.href);u.search='';u.searchParams.set('model',selected);if(selected==='volta')u.searchParams.set('version',version);if(format==='short')u.searchParams.set('format',format);if(width!=='desktop')u.searchParams.set('width',width);if(document.body.classList.contains('clean'))u.searchParams.set('clean','1');history.replaceState(null,'',u)}
 function close(){$('models').close();$('toggle').focus()}
-$('toggle').onclick=()=>$('models').showModal();$('close').onclick=close;$('models').addEventListener('close',()=>$('toggle').focus());
+$('toggle').onclick=()=>$('models').showModal();$('close').onclick=close;$('models').addEventListener('close',()=>{if(document.activeElement===document.body||$('models').contains(document.activeElement))$('toggle').focus()});
 $('models').addEventListener('click',e=>{if(e.target===$('models')){const r=$('models').getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)close()}});
 for(const btn of document.querySelectorAll('[data-product]'))btn.onclick=()=>{selected=btn.dataset.product;save('eclipse-email-model',selected);update()};
 $('length').onchange=()=>{format=$('length').value;update()};
-$('business-name').addEventListener('input',()=>update());
+for(const id of ['business-name','contact-email','contact-phone'])$(id).addEventListener('input',()=>update());
 const tabs=[...document.querySelectorAll('[data-version]')];
 for(const tab of tabs){tab.onclick=()=>{version=tab.dataset.version;update()};tab.onkeydown=e=>{if(!['ArrowLeft','ArrowRight','Home','End'].includes(e.key))return;e.preventDefault();const i=e.key==='Home'?0:e.key==='End'?tabs.length-1:(tabs.indexOf(tab)+(e.key==='ArrowRight'?1:-1)+tabs.length)%tabs.length;tabs[i].focus();tabs[i].click()}}
 for(const btn of document.querySelectorAll('[data-width]'))btn.onclick=()=>{width=btn.dataset.width;size();urlState()};
@@ -24,7 +24,8 @@ const cache=new Map();async function payload(url){if(!cache.has(url))cache.set(u
 async function update(){const n=++revision;busy(true);const item=manifest.find(m=>m.id===selected&&m.format===format&&(m.version||'original')===(selected==='volta'?version:'original'));if(!item)return;
  try{
  const data=await payload(item.preview);if(n!==revision)return;
- const output=personalizeDraft(data,$('business-name').value,new URL(item.html,location.href).href);
+ const output=personalizeDraft(data,$('business-name').value,new URL(item.html,location.href).href,{email:$('contact-email').value,phone:$('contact-phone').value});
+ $('contact-status').textContent=output.contactErrors.join(' ');
  html=output.html;plain=output.text;current=item;
  const old=blobs;blobs=[URL.createObjectURL(new Blob([html],{type:'text/html;charset=utf-8'})),URL.createObjectURL(new Blob([plain],{type:'text/plain;charset=utf-8'}))];
  $('email').src=blobs[0];$('email').dataset.selection=`${selected}-${format}-${item.version}`;
@@ -46,3 +47,5 @@ $('copy').onclick=()=>copy(html,'HTML');$('copy-text').onclick=()=>copy(plain,'T
 function clean(on){if($('models').open)$('models').close();document.body.classList.toggle('clean',on);$('restore').hidden=!on;urlState();resize()}
 $('clean').onclick=()=>clean(true);$('restore').onclick=()=>clean(false);if(params.get('clean')==='1')clean(true);await update();
 $('models').addEventListener('keydown',e=>{if(e.key!=='Tab')return;const items=[...$('models').querySelectorAll('button,a[href],select')].filter(x=>!x.disabled&&x.getClientRects().length);const first=items[0],last=items.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}});
+
+$('copy-trailer').onclick=()=>copy('https://toti-gauna.github.io/supplements-ecommerce/trailer/t1-email.mp4','Enlace del tráiler');

@@ -2,3 +2,5 @@
 
 .clean .restore{opacity:0}.clean .restore:focus-visible,.clean .restore:hover{opacity:1}
 .version-controls{padding:20px 0}.version-controls [role=tablist]{display:flex;gap:8px}.version-controls [role=tab][aria-selected=true]{background:#f5b942;color:#111114;border-color:#f5b942}.version-controls input{display:block;width:100%;min-height:44px;background:#1a1a24;color:#f4efe6;border:1px solid #78623d;border-radius:10px;padding:10px 12px;font:inherit}.version-controls .fine{margin:10px 0 18px}input:focus-visible,[role=tabpanel]:focus-visible{outline:2px solid #f5b942;outline-offset:4px}[hidden]{display:none!important}[aria-disabled=true]{pointer-events:none;opacity:.5}button:disabled{opacity:.5}@media(max-width:480px){.version-controls{padding:16px 20px}}
+
+.version-controls input{box-sizing:border-box;width:100%;padding:12px;margin:8px 0 16px;border:1px solid #777;border-radius:6px;background:#111219;color:#faf8f2;font:inherit}.version-controls label{display:block}.version-controls details a{color:#f6bb43}.devtools{padding:12px 18px;font-size:12px}
