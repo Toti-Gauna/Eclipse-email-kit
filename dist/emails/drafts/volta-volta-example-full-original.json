@@ -11,7 +11,7 @@
     "Asesoría económica sin responsable/capacidad confirmados",
     "Original: referencia anterior, no habilitada para la campaña Volta vigente"
   ],
-  "bytes": 90320,
+  "bytes": 93860,
   "priceVersion": "2026-10-16.aprobado",
   "offerId": "base-campaign",
   "version": "original",
@@ -19,6 +19,13 @@
   "calculation": {
     "base": 500,
     "total": 500,
+    "cash": 250,
+    "cashDiscountPct": 50,
+    "financing": {
+      "maxInstallments": 4,
+      "state": "to-evaluate",
+      "note": "Hasta 4 cuotas con recargo: a evaluar y cotizar por escrito. Sin importes de cuota, tasa ni total financiado acordados."
+    },
     "deposit": 250,
     "balance": 250,
     "plans": [
