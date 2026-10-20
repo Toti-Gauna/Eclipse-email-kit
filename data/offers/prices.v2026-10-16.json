@@ -6,6 +6,8 @@
   "adaptation": 500,
   "pack": 700,
   "depositRatio": 0.5,
+  "cashDiscountPct": 50,
+  "financing": {"maxInstallments": 4, "state": "to-evaluate", "note": "Hasta 4 cuotas con recargo: a evaluar y cotizar por escrito. Sin importes de cuota, tasa ni total financiado acordados."},
   "extras": {
     "landing": {
       "name": "Landing premium adicional",

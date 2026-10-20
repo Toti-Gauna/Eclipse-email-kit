@@ -178,11 +178,13 @@ Adaptación de producto
 Un plan y un software a la medida de Consultorio del Parque, sobre DentalOS: tu marca,
 tu contenido y tu configuración.
 
-Desde · implementación · en pesos
+Al contado · pago único · en pesos
 
-ARS 750.000
+ARS 375.000
 
-USD 500 · dólar de referencia: 1 USD = ARS 1.500
+USD 250 · 50 % de descuento aplicado sobre la referencia de ARS 750.000 (USD 500)
+
+Dólar de referencia: 1 USD = ARS 1.500
 
 Incluido en los ARS 750.000
 
@@ -202,14 +204,14 @@ validación propios. El contenido clínico queda sujeto a revisión profesional.
 
 Cómo se paga
 
-Seña 50 %
-Para empezar: plan y software a medida
+Al contado 50 % menos
+Pago único, sin seña: el descuento ya está aplicado
 ARS 375.000
 USD 250
-Saldo 50 %
-A la entrega aprobada
-ARS 375.000
-USD 250
+Financiación
+Con recargo: a evaluar y cotizar por escrito. Todavía no hay importes de cuota ni tasa
+acordados.
+hasta 4 cuotas
 
 Y por sumarte, tu plan mensual baja · por mes, meses 1 a 3
 
@@ -228,7 +230,7 @@ USD 120
 
 Hablemos de tu proyecto · PENDIENTE
 
-El proyecto arranca con la seña. Antes, definimos juntos alcance, entregables y
+El proyecto arranca con el pago. Antes, definimos juntos alcance, entregables y
 factibilidad. El precio es por adaptar un producto que ya funciona; las funciones
 nuevas se cotizan aparte.
 
@@ -336,9 +338,9 @@ escrito: alcance, precio y plazos.
 
 Paso 02
 
-Seña, tu cuenta y tu portal
+Pago, tu cuenta y tu portal
 
-Con la seña te creamos tu cuenta de cliente y tu portal: ahí ves el proyecto, sus
+Con el pago te creamos tu cuenta de cliente y tu portal: ahí ves el proyecto, sus
 etapas y lo que necesitamos de vos.
 
 Paso 03
@@ -390,20 +392,26 @@ c.
 Los precios son en dólares. Los pesos son una referencia al dólar de 1 USD = ARS
 1.500; el monto final se confirma por escrito.
 d.
+Pago al contado: 50 % de descuento sobre el precio de referencia (ARS 750.000), en un
+único pago y sin seña.
+e.
+Financiación: hasta 4 cuotas con recargo, a evaluar y cotizar por escrito. No hay
+importes de cuota, tasa ni total financiado acordados.
+f.
 Si el cupo no alcanza, acordamos cómo ampliarlo y qué automatización se pausa. Tu
 producto y tus datos siguen disponibles.
-e.
+g.
 Proveedor y factibilidad se validan por cuenta, antes de empezar.
-f.
+h.
 Migración desde Excel o PDF: ARS 150.000 a 450.000 (USD 100–300), por única vez,
 después de revisar una muestra.
-g.
+undefined.
 Módulos operativos fuera de la adaptación: desde ARS 1.125.000 (USD 750), según
 alcance.
-h.
+undefined.
 El dominio y su renovación van aparte, salvo que la propuesta los incluya.
 
-Leé las condiciones completas antes de la seña [../../../previews/conditions.html] →
+Leé las condiciones completas antes de pagar [../../../previews/conditions.html] →
 
 09
 Próximo paso
@@ -412,7 +420,7 @@ El próximo paso
 es tuyo.
 
 Respondé este correo o escribinos. En una llamada corta vemos qué querés resolver
-primero y te mandamos alcance, precio y plazos por escrito, antes de cualquier seña.
+primero y te mandamos alcance, precio y plazos por escrito, antes de cualquier pago.
 
 Hablemos de tu proyecto · PENDIENTE
 
@@ -423,7 +431,7 @@ ECLIPSE
 Consultora de inteligencia artificial para negocios. Desarrollo, IA y automatización
 para los que no pueden esperar.
 
-Conocé Eclipse [https://toti-gauna.github.io/Eclipse-Web/es/] ↗
+Ver Eclipse  ↗ [https://toti-gauna.github.io/Eclipse-Web/es/]
 
 Los negocios que ves en las demos son ficticios. Si preferís no recibir más
 propuestas, respondé «No recibir más».
