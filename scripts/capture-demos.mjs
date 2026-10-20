@@ -4,22 +4,31 @@
 // was written cannot reach GitHub Pages):
 //   node scripts/capture-demos.mjs [--only volta,tableflow,dentalos] \
 //     [--volta http://127.0.0.1:3400/supplements-ecommerce] [--tableflow http://127.0.0.1:5201] \
-//     [--dentalos http://127.0.0.1:5202]
+//     [--dentalos http://127.0.0.1:5202] [--screens volta-club-niveles,volta-regalo-tarjeta]
 // Writes assets/<product>-<view>-<slug>.jpg (1120 px wide) and prints the list for the data files.
 import {chromium} from 'playwright';import sharp from 'sharp';import fs from 'node:fs/promises';
 const args=process.argv.slice(2),opt=(k,d)=>{const i=args.indexOf('--'+k);return i<0?d:args[i+1]};
 const base={volta:opt('volta','https://toti-gauna.github.io/supplements-ecommerce'),tableflow:opt('tableflow','https://toti-gauna.github.io/Tableflow'),dentalos:opt('dentalos','https://toti-gauna.github.io/DentalOS')};
-const only=opt('only','volta,tableflow,dentalos').split(',');
+const only=opt('only','volta,tableflow,dentalos').split(','),wanted=opt('screens')?.split(',');
 const proxy=process.env.HTTPS_PROXY&&only.map(k=>base[k]).some(u=>!/127\.0\.0\.1|localhost/.test(u))?{server:process.env.HTTPS_PROXY}:undefined;
 const browser=await chromium.launch({proxy});const done=[];
 const settle=async p=>{await p.evaluate(()=>document.fonts.ready);await p.waitForTimeout(700)};
-async function shot(p,name){await p.mouse.move(900,640);await settle(p);const buf=await p.screenshot();await sharp(buf).resize(1120).jpeg({quality:80,mozjpeg:true}).toFile(`assets/${name}.jpg`);done.push(name);console.log(name)}
+async function shot(p,name,clip){if(wanted&&!wanted.includes(name))return;await p.mouse.move(900,640);await settle(p);const buf=await p.screenshot(clip?{clip}:{});await sharp(buf).resize(1120).jpeg({quality:80,mozjpeg:true}).toFile(`assets/${name}.jpg`);done.push(name);console.log(name)}
 async function open(width=1440,height=1000){const ctx=await browser.newContext({viewport:{width,height},reducedMotion:'reduce'});return {ctx,page:await ctx.newPage()}}
 
 // ---- Volta: static export, one URL per screen --------------------------------------------------
+// Besides the shop and the panel, the Club (levels, missions, wheel, Shaker Rush) and the gifts
+// (picker, gift card, the bag the receiver punches, the card that comes out) each get their own
+// screens: they are what the email sells as loyalty and gifting.
 async function volta(){
  const {ctx,page:p}=await open();const go=async path=>{await p.goto(base.volta+path,{waitUntil:'networkidle'}).catch(()=>{});await p.waitForTimeout(2200);for(const l of ['Ahora no','Explorar sin elegir']){const b=p.getByRole('button',{name:l,exact:true});if(await b.isVisible().catch(()=>false))await b.click()}};
- for(const [name,path] of [['volta-cliente-inicio','/'],['volta-cliente-ficha','/p/ionic-whey/'],['volta-cliente-packs','/packs/'],['volta-cliente-club','/club/'],['volta-cliente-regalar','/regalar/'],['volta-admin-inicio','/admin-demo/'],['volta-admin-pedidos','/admin-demo/pedidos/'],['volta-admin-stock','/admin-demo/productos/'],['volta-admin-regalos','/admin-demo/regalos/'],['volta-admin-campanas','/admin-demo/campanas/']]){await go(path);await shot(p,name)}
+ const to=async(re,up=120)=>{const y=await p.getByRole('heading',{name:re}).first().evaluate(e=>e.getBoundingClientRect().top+scrollY);await p.evaluate(([y,u])=>scrollTo(0,y-u),[y,up]);await p.waitForTimeout(400)};
+ for(const [name,path] of [['volta-cliente-inicio','/'],['volta-cliente-ficha','/p/ionic-whey/'],['volta-cliente-packs','/packs/'],['volta-cliente-club','/club/'],['volta-cliente-regalar','/regalar/'],['volta-admin-inicio','/admin-demo/'],['volta-admin-pedidos','/admin-demo/pedidos/'],['volta-admin-stock','/admin-demo/productos/'],['volta-admin-regalos','/admin-demo/regalos/'],['volta-admin-campanas','/admin-demo/campanas/'],['volta-admin-misiones','/admin-demo/misiones/']]){await go(path);await shot(p,name)}
+ await go('/club/');
+ for(const [name,re,up] of [['volta-club-niveles',/niveles/i,120],['volta-club-misiones',/misiones/i,120],['volta-club-juegos',/barra y gir/i,235]]){await to(re,up);await shot(p,name)}
+ await go('/regalar/');await p.getByRole('tab',{name:/gift card/i}).click();await p.waitForTimeout(900);await p.evaluate(()=>scrollTo(0,430));await shot(p,'volta-regalo-giftcard',{x:0,y:0,width:1440,height:640});
+ await go('/regalo/?c=REGALO-VE1M-AR7X');await shot(p,'volta-regalo-bolsa');
+ await p.getByRole('button',{name:'Abrirlo de una vez'}).click();await p.waitForTimeout(3500);await shot(p,'volta-regalo-tarjeta');
  await ctx.close();
 }
 

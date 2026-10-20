@@ -94,19 +94,19 @@ Demo
 
 Resumen: reservas, pedidos, caja y alertas del día.
 
-Fig. 07 · Demo
+Fig. 07 · Dueño · Demo
 
 Reservas: del día, por horario, canal y mesa.
 
-Fig. 08 · Demo
+Fig. 08 · Dueño · Demo
 
 Salón: el plano de mesas, libres y reservadas.
 
-Fig. 09 · Demo
+Fig. 09 · Dueño · Demo
 
 Pedidos: cada pedido con su estado y total.
 
-Fig. 10 · Demo
+Fig. 10 · Dueño · Demo
 
 Automatizaciones: recordatorios y avisos que corren solos.
 

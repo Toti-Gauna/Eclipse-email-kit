@@ -13,7 +13,7 @@
     "preheader": "Conocé Volta y evaluemos una mejora concreta en una asesoría gratuita de 15 minutos.",
     "html": "../dist/emails/drafts/volta-volta-example-full.html",
     "text": "../dist/emails/drafts/volta-volta-example-full.txt",
-    "bytes": 27205,
+    "bytes": 35343,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -66,7 +66,7 @@
     "preheader": "Probá la demo antes de hablar: catálogo, consultas y un club que hace volver.",
     "html": "../dist/emails/drafts/volta-volta-example-full-original.html",
     "text": "../dist/emails/drafts/volta-volta-example-full-original.txt",
-    "bytes": 92485,
+    "bytes": 94830,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -119,7 +119,7 @@
     "preheader": "Mirá la demo de Mesa Clara: carta, reservas y el panel del salón.",
     "html": "../dist/emails/drafts/tableflow-tableflow-example-full.html",
     "text": "../dist/emails/drafts/tableflow-tableflow-example-full.txt",
-    "bytes": 86439,
+    "bytes": 84079,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
@@ -170,7 +170,7 @@
     "preheader": "Probá la demo: el paciente pide turno y recepción lo sigue en una sola agenda.",
     "html": "../dist/emails/drafts/dentalos-dentalos-example-full.html",
     "text": "../dist/emails/drafts/dentalos-dentalos-example-full.txt",
-    "bytes": 86573,
+    "bytes": 84213,
     "status": "draft",
     "errors": [
       "Prospecto ficticio",
